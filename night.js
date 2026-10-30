@@ -18,6 +18,46 @@
     return { lane: lane, z: z === undefined ? Math.random() : z, v: 0.10 + Math.random() * 0.16 };
   }
   for (var i = 0; i < 64; i++) cars.push(spawn());
+  // occasional semi pulling away from the viewer down the road
+  var semi = null, semiWait = 2.5;
+  function newSemi() { return { z: 0.8, lane: Math.random() < 0.5 ? 0.32 : 0.62, v: 0.07 + Math.random() * 0.025 }; }
+  function drawSemi(dt) {
+    if (!semi) { if (!still) semiWait -= dt; if (semiWait <= 0 || still) { semi = newSemi(); if (still) semi.z = 0.7; } else return; }
+    if (!still) semi.z -= semi.v * dt;
+    if (semi.z < 0.06) { semi = null; semiWait = 6 + Math.random() * 6; return; }
+    var b = proj(semi.lane, semi.z), w = W * 0.95 * b.s * 0.45 * 0.62, h = w * 1.45;
+    if (w < 1.5) return;
+    var x = b.x - w / 2, y = b.y - h - w * 0.12;
+    ctx.globalCompositeOperation = 'source-over';
+    // shadow on road
+    ctx.fillStyle = 'rgba(0,0,0,.45)'; ctx.beginPath(); ctx.ellipse(b.x, b.y, w * 0.62, w * 0.08, 0, 0, 6.283); ctx.fill();
+    // wheels
+    ctx.fillStyle = '#050504'; ctx.fillRect(x + w * 0.04, y + h, w * 0.26, w * 0.12); ctx.fillRect(x + w * 0.70, y + h, w * 0.26, w * 0.12);
+    // trailer box (rear doors)
+    var tg = ctx.createLinearGradient(x, y, x + w, y);
+    tg.addColorStop(0, '#2b2e24'); tg.addColorStop(0.5, '#3a3e31'); tg.addColorStop(1, '#25281f');
+    ctx.fillStyle = tg; ctx.fillRect(x, y, w, h);
+    ctx.strokeStyle = 'rgba(214,212,198,.55)'; ctx.lineWidth = Math.max(0.6, w * 0.02); ctx.strokeRect(x, y, w, h);
+    ctx.beginPath(); ctx.moveTo(b.x, y + h * 0.04); ctx.lineTo(b.x, y + h * 0.96); ctx.stroke();       // door seam
+    ctx.strokeStyle = 'rgba(214,212,198,.25)';
+    for (var k = 1; k < 4; k++) { var bx = x + w * (k / 4); ctx.beginPath(); ctx.moveTo(bx - w * 0.06, y + h * 0.05); ctx.lineTo(bx - w * 0.06, y + h * 0.95); ctx.stroke(); } // lock rods
+    // Callahan green stripe
+    ctx.fillStyle = 'rgba(61,151,61,.85)'; ctx.fillRect(x, y + h * 0.84, w, h * 0.035);
+    // bumper + mud flaps
+    ctx.fillStyle = '#0b0b08'; ctx.fillRect(x + w * 0.02, y + h + w * 0.01, w * 0.96, w * 0.05);
+    ctx.fillRect(x + w * 0.06, y + h - w * 0.02, w * 0.12, w * 0.16); ctx.fillRect(x + w * 0.82, y + h - w * 0.02, w * 0.12, w * 0.16);
+    // lights (glow)
+    ctx.globalCompositeOperation = 'lighter';
+    function lamp(lx, ly, r, col, a) { var gg = ctx.createRadialGradient(lx, ly, 0, lx, ly, r); gg.addColorStop(0, 'rgba(' + col + ',' + a + ')'); gg.addColorStop(1, 'rgba(' + col + ',0)'); ctx.fillStyle = gg; ctx.beginPath(); ctx.arc(lx, ly, r, 0, 6.283); ctx.fill(); }
+    var r = Math.max(2, w * 0.10), brake = (Math.sin(performance.now() / 900) > 0.92) ? 1 : 0.75;
+    lamp(x + w * 0.09, y + h * 0.9, r * 1.8, '235,60,45', brake); lamp(x + w * 0.91, y + h * 0.9, r * 1.8, '235,60,45', brake);
+    lamp(x + w * 0.09, y + h * 0.9, r * 0.5, '255,200,190', 0.9); lamp(x + w * 0.91, y + h * 0.9, r * 0.5, '255,200,190', 0.9);
+    for (var m = 0; m < 5; m++) lamp(x + w * (0.2 + m * 0.15), y + h * 0.03, r * 0.7, '255,170,40', 0.8);   // amber clearance lights
+    lamp(x + w * 0.02, y + h * 0.03, r * 0.8, '235,60,45', 0.8); lamp(x + w * 0.98, y + h * 0.03, r * 0.8, '235,60,45', 0.8);
+    // headlight wash ahead of the truck on the road
+    lamp(b.x, b.y - w * 0.05, w * 0.9, '245,243,236', 0.06);
+    ctx.globalCompositeOperation = 'source-over';
+  }
   function proj(lane, z) { // z: 0 far .. 1 near
     var p = Math.pow(z, 2.2);
     var roadHalf = W * 0.95 * p;
@@ -67,6 +107,7 @@
       ctx.beginPath(); ctx.arc(a.x, a.y, 2 + a.s * 12, 0, 6.283); ctx.fill();
     });
     ctx.globalCompositeOperation = 'source-over';
+    drawSemi(dt);
     if (!still) requestAnimationFrame(draw);
   }
   size(); window.addEventListener('resize', size);
