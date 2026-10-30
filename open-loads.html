@@ -6,12 +6,12 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
-<meta name="theme-color" content="#0E1316">
+<meta name="theme-color" content="#17170F">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Callahan Transportation">
 <title>Loads Available · Callahan Transportation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700;800&display=swap">
 <style>
 .sharebar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 14px 16px; text-align: center }
 .sharebar p { margin: 0; color: var(--muted); font-size: 15px }
@@ -89,7 +89,8 @@ dd { margin: 0; min-width: 0 }
 footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 25%, transparent); padding-top: 18px }
 </style>
 <link rel="stylesheet" href="anim.css?v=3">
-<link rel="stylesheet" href="modern.css?v=4">
+<link rel="stylesheet" href="modern.css?v=5">
+<link rel="stylesheet" href="brand.css?v=1">
 </head>
 <body>
 
@@ -104,6 +105,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
       <a class="nl" href="loads-we-moved.html">Loads we moved</a>
       <a class="nl" href="check-in.html">Driver check-in</a>
       <a class="nl" href="my-story.html">Meet Dana</a>
+      <a class="nl" href="https://www.callahantrans.com" target="_blank" rel="noopener">callahantrans.com ↗</a>
       </div>
     </details>
   </nav>
@@ -133,14 +135,114 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
   <p class="note"><a href="index.html" style="color:var(--gold);font-weight:700">About Callahan Transportation and your broker, Dana →</a></p>
   <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
   <footer>Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
+  <p class="broker-line">Callahan Transportation, Inc. is a licensed freight broker · MC# 225579 · DOT# 2214746 · <a href="https://www.callahantrans.com" target="_blank" rel="noopener">callahantrans.com</a></p>
 </div>
 
 <script type="application/json" id="data">
-{"updated": "Thu, Oct 29", "loads": [
-  {"from": "Blytheville, AR", "to": "Pryor, OK", "when": "Fri 10/30, 12:00 PM", "equip": "Flatbed", "freight": "Steel sheets", "weight": "45,000 lb", "notes": "Fully tarped · full PPE required", "tag": "Tarped"},
-  {"from": "Blytheville, AR", "to": "Salina, KS", "when": "Mon 11/2, 10:00 AM", "equip": "Flatbed", "freight": "Steel sheets", "weight": "43,000 lb", "notes": "Fully tarped · full PPE required", "tag": "Tarped"},
-  {"from": "Blytheville, AR", "to": "Dallas, TX", "when": "Tue 11/3, 10:00 AM", "equip": "Flatbed", "freight": "Steel sheets", "weight": "39,000 lb", "notes": "Fully tarped · full PPE required", "tag": "Tarped"}
-]}
+{
+ "updated": "Fri, Oct 30 · 10:25 AM",
+ "loads": [
+  {
+   "load": "125035",
+   "from": "Osceola, AR",
+   "to": "Madison, IL",
+   "when": "Fri 10/30",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel",
+   "weight": "Call for weight",
+   "notes": "245 miles · delivers Mon 11/2",
+   "tag": "Today"
+  },
+  {
+   "load": "125038",
+   "from": "Pleasant Hill, MO",
+   "to": "Overland Park, KS",
+   "when": "Mon 11/2",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber & building materials",
+   "weight": "Call for weight",
+   "notes": "36 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
+   "load": "125039",
+   "from": "Pleasant Hill, MO",
+   "to": "Kansas City, MO",
+   "when": "Mon 11/2",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber & building materials",
+   "weight": "Call for weight",
+   "notes": "34 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
+   "load": "125036",
+   "from": "Blytheville, AR",
+   "to": "Topeka, KS",
+   "when": "Tue 11/3",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel",
+   "weight": "Call for weight",
+   "notes": "475 miles · tarped · delivers Wed 11/4",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125013",
+   "from": "Blytheville, AR",
+   "to": "Dallas, TX",
+   "when": "Tue 11/3",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel sheets",
+   "weight": "39,000 lb",
+   "notes": "440 miles · fully tarped · full PPE · delivers Wed 11/4",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125042",
+   "from": "Wichita, KS",
+   "to": "Kansas City, MO",
+   "when": "Thu 11/5",
+   "equip": "Power only",
+   "freight": "Steel",
+   "weight": "Call for weight",
+   "notes": "212 miles · same-day delivery",
+   "tag": "Power only"
+  },
+  {
+   "load": "125043",
+   "from": "West Des Moines, IA",
+   "to": "Kansas City, MO",
+   "when": "Thu 11/5",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Building materials",
+   "weight": "Call for weight",
+   "notes": "187 miles · same-day delivery",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "124876",
+   "from": "Osceola, AR",
+   "to": "Wichita, KS",
+   "when": "Call for date",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel",
+   "weight": "Call for weight",
+   "notes": "615 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "50",
+   "from": "Topeka, KS",
+   "to": "Ankeny, IA",
+   "when": "Call for date",
+   "equip": "Stepdeck 53'",
+   "freight": "Oversize culvert pipe",
+   "weight": "Call for weight",
+   "notes": "265 miles · oversize/wide",
+   "tag": "Oversize"
+  }
+ ]
+}
 </script>
 <script>
 (function () {

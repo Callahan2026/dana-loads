@@ -27,21 +27,21 @@
     var dt = Math.min(0.05, (t - last) / 1000 || 0.016); last = t;
     // sky
     var g = ctx.createLinearGradient(0, 0, 0, H);
-    g.addColorStop(0, '#04070c'); g.addColorStop(0.30, '#0b1a2a'); g.addColorStop(0.37, '#0f3a44'); g.addColorStop(0.38, '#060a0c'); g.addColorStop(1, '#030506');
+    g.addColorStop(0, '#0b0b07'); g.addColorStop(0.30, '#16180f'); g.addColorStop(0.37, '#24361f'); g.addColorStop(0.38, '#0b0b07'); g.addColorStop(1, '#060604');
     ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
     // horizon glow (city)
     var hg = ctx.createRadialGradient(vx, vy, 0, vx, vy, W * 0.55);
-    hg.addColorStop(0, 'rgba(70,220,200,.5)'); hg.addColorStop(0.35, 'rgba(59,143,224,.2)'); hg.addColorStop(1, 'rgba(0,0,0,0)');
+    hg.addColorStop(0, 'rgba(120,200,110,.45)'); hg.addColorStop(0.35, 'rgba(61,151,61,.18)'); hg.addColorStop(1, 'rgba(0,0,0,0)');
     ctx.fillStyle = hg; ctx.fillRect(0, 0, W, H);
     // stars
-    ctx.fillStyle = 'rgba(220,240,255,.65)';
+    ctx.fillStyle = 'rgba(245,243,236,.6)';
     for (var s = 0; s < 40; s++) { var sx = (s * 97 % W), sy = (s * 53 % (vy * 0.9)); ctx.fillRect(sx, sy, 1, 1); }
     // road edges
-    ctx.strokeStyle = 'rgba(120,220,210,.3)'; ctx.lineWidth = 1.5;
+    ctx.strokeStyle = 'rgba(214,212,198,.25)'; ctx.lineWidth = 1.5;
     [-2.4, -0.02, 0.02, 2.4].forEach(function (L) { var a = proj(L, 0.02), b = proj(L, 1.2); ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke(); });
     // center dashes (gold) moving toward viewer
     if (!still) dash = (dash + dt * 0.55) % 0.1;
-    ctx.strokeStyle = 'rgba(46,196,182,.95)';
+    ctx.strokeStyle = 'rgba(245,243,236,.85)';
     for (var d = 0; d < 1.2; d += 0.1) {
       var z1 = d + dash, z2 = z1 + 0.04; if (z1 > 1.2) continue;
       var p1 = proj(0, z1), p2 = proj(0, Math.min(z2, 1.2));
@@ -55,7 +55,7 @@
       if (car.z > 1.25 || car.z < 0.02) { cars[i] = spawn(toward ? 0.03 : 1.2); return; }
       var tail = toward ? -0.2 : 0.2;
       var a = proj(car.lane, car.z), b = proj(car.lane, Math.max(0.01, car.z + tail));
-      var col = toward ? '225,245,255' : '255,92,110';
+      var col = toward ? '245,243,236' : '230,90,70';
       var lg = ctx.createLinearGradient(a.x, a.y, b.x, b.y);
       lg.addColorStop(0, 'rgba(' + col + ',.95)'); lg.addColorStop(1, 'rgba(' + col + ',0)');
       ctx.strokeStyle = lg; ctx.lineCap = 'round';

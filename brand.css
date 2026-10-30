@@ -1,0 +1,28 @@
+/* Match callahantrans.com: near-black, cream, Callahan green, Fraunces + Inter */
+:root {
+  --ground: #17170F; --panel: #1F1F16; --panel-2: #2B2B22; --line: rgba(245,243,236,.10);
+  --gold: #3D973D; --teal: #3D973D; --blue: #3D973D; --leaf: #5FB35F; --callahan-green: #3D973D;
+  --ink: #F5F3EC; --muted: #D6D4C6; --paper: #F5F3EC;
+}
+body { background: radial-gradient(70% 40% at 85% -5%, rgba(61,151,61,.14), transparent 70%), var(--ground) !important }
+h1, .wall-title, .alerts-title, .step, .lk-1 { font-family: "Fraunces", Georgia, serif !important; font-weight: 600 !important; letter-spacing: -.01em !important }
+.lk-1 { letter-spacing: .06em !important }
+.hero-photo h1 { background: none !important; -webkit-background-clip: border-box !important; background-clip: border-box !important; color: var(--ink) !important }
+.hero-photo h1 em { font-style: italic; color: #8FD08F }
+.company, .lt-kicker, .updated { color: #8FD08F !important }
+.cta a.primary { background: #3D973D !important; color: #fff !important; box-shadow: 0 8px 24px rgba(61,151,61,.35) !important }
+.cta a.ghost { border-color: rgba(245,243,236,.25) !important }
+.sitenav a.nl[aria-current="page"], .cat-tab[aria-selected="true"], .chip, .call a:not(.alt), .alert-btn, .book-btn, .sharebtn, .btn-loaded { background: #3D973D !important; color: #fff !important }
+.btn-delivered { background: #F5F3EC !important; color: #17170F !important }
+.cal-item { border-top-color: #3D973D !important }
+.approve { border-left-color: #3D973D !important }
+.lk-text { border-image: linear-gradient(180deg, #3D973D, #F5F3EC) 1 !important }
+.lk-2 { color: #8FD08F !important; filter: none !important }
+.badge .ring { background: conic-gradient(from 0deg, #3D973D, #F5F3EC, #3D973D 55%, #17170F 70%, #3D973D) !important; filter: drop-shadow(0 0 14px rgba(61,151,61,.5)) !important }
+.badge .ring::after { background: #17170F !important }
+.fx-night { background: #0c0c08 !important }
+.hero-photo { border-color: rgba(61,151,61,.3) !important; box-shadow: 0 0 80px rgba(61,151,61,.12) !important }
+.hero-photo::before { background: linear-gradient(90deg, rgba(14,14,9,.88) 0%, rgba(14,14,9,.55) 45%, rgba(14,14,9,0) 75%), linear-gradient(180deg, rgba(14,14,9,0) 60%, rgba(14,14,9,.7) 100%) !important }
+@media (max-width: 600px) { .hero-photo::before { background: linear-gradient(180deg, rgba(14,14,9,.1) 0%, rgba(14,14,9,.6) 40%, rgba(14,14,9,.94) 100%) !important } }
+.broker-line { font-size: 12px; color: var(--muted); opacity: .8; margin: 0 }
+.broker-line a { color: #8FD08F }

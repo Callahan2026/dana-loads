@@ -7,11 +7,11 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
-<meta name="theme-color" content="#0E1316">
+<meta name="theme-color" content="#17170F">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Callahan Transportation">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700;800&display=swap">
 <style>
 .sharebar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 14px 16px; text-align: center }
 .sharebar p { margin: 0; color: var(--muted); font-size: 15px }
@@ -155,7 +155,8 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 @media (prefers-reduced-motion: reduce) { .pol { transition: none } }
 </style>
 <link rel="stylesheet" href="anim.css?v=3">
-<link rel="stylesheet" href="modern.css?v=4">
+<link rel="stylesheet" href="modern.css?v=5">
+<link rel="stylesheet" href="brand.css?v=1">
 <style>html,body{margin:0}</style>
 </head>
 <body>
@@ -171,6 +172,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
       <a class="nl" href="loads-we-moved.html">Loads we moved</a>
       <a class="nl" href="check-in.html">Driver check-in</a>
       <a class="nl" href="my-story.html">Meet Dana</a>
+      <a class="nl" href="https://www.callahantrans.com" target="_blank" rel="noopener">callahantrans.com ↗</a>
       </div>
     </details>
   </nav>
@@ -178,9 +180,9 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
     <div class="fx-night" aria-hidden="true"></div>
     <div class="in">
       <div class="lockup" role="img" aria-label="Callahan Transportation, Inc."><div class="badge"><span class="ring"></span><span class="disc"><img src="callahan-mark-orig.png?v=4" alt=""></span><span class="lane"></span></div><div class="lk-text"><span class="lk-1">CALLAHAN</span><span class="lk-2">TRANSPORTATION, INC.</span></div></div>
-      <div class="company">Freight brokerage · Kansas City, MO</div>
-      <h1>Freight that moves.<br>People who answer.</h1>
-      <p class="lede">Callahan Transportation moves vans, reefers, flatbeds, stepdecks, oversize and hot shots across the Midwest and beyond, with a Kansas City team that stays on every load until it’s delivered.</p>
+      <div class="company">Kansas City, Missouri · Serving 48 states, Canada &amp; Mexico</div>
+      <h1>We’re with you<br><em>for the long haul.</em></h1>
+      <p class="lede">Since 1990, Callahan Transportation has matched freight with the right truck from a network of 10,000+ contracted carriers: flatbed, stepdeck, van, reefer, oversize and hot shot. Real people in Kansas City stay on every load until it’s delivered.</p>
       <div class="cta"><a class="primary" href="open-loads.html">See available loads</a><a class="ghost" href="check-in.html">Driver check-in</a></div>
     </div>
   </header>
@@ -225,6 +227,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
   <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
   <section class="closer">
     <footer>Every one of these is a driver who answered my call. Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
+  <p class="broker-line">Callahan Transportation, Inc. is a licensed freight broker · MC# 225579 · DOT# 2214746 · <a href="https://www.callahantrans.com" target="_blank" rel="noopener">callahantrans.com</a></p>
   </section>
 </div>
 
@@ -266,6 +269,6 @@ document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click
 </script>
 
 <script src="anim.js?v=3"></script>
-<script src="night.js?v=3"></script>
+<script src="night.js?v=4"></script>
 </body>
 </html>
