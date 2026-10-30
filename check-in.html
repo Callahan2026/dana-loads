@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<meta name="theme-color" content="#1F1813">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Callahan · Dana">
+<title>Driver Check-In</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap">
+<style>
+.sharebar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 14px 16px; text-align: center }
+.sharebar p { margin: 0; color: var(--muted); font-size: 15px }
+.sharebtn { font: 700 15px var(--body); background: var(--gold); color: var(--ground); border: 0; border-radius: 999px; padding: 10px 18px; cursor: pointer }
+.sharebtn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.sitenav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-bottom: 6px }
+.sitenav .brand { font-family: var(--hand); font-weight: 700; font-size: 28px; color: var(--gold); text-decoration: none; margin-right: auto }
+.sitenav .brand { display: flex; flex-direction: column; line-height: 1.05 }
+.sitenav .brand .b1 { font-family: var(--body); font-weight: 700; font-size: 15px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold) }
+.sitenav .brand .b2 { font-family: var(--hand); font-weight: 700; font-size: 28px; color: var(--ink) }
+.sitenav a.nl { font: 700 14px var(--body); color: var(--ink); text-decoration: none; border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: 999px; padding: 8px 14px }
+.sitenav a.nl[aria-current="page"] { background: var(--gold); color: var(--ground); border-color: var(--gold) }
+.sitenav { position: relative; align-items: center; flex-wrap: nowrap }
+.sitenav .brand { min-width: 0 }
+@media (max-width: 420px) { .sitenav .brand .b1 { font-size: 12px; letter-spacing: .1em } .sitenav .brand .b2 { font-size: 24px } }
+.menu { position: relative }
+.menu summary { list-style: none; cursor: pointer; font: 700 14px var(--body); color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: 999px; padding: 8px 14px }
+.menu summary::-webkit-details-marker { display: none }
+.menu summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.menu-list { position: absolute; right: 0; top: calc(100% + 8px); z-index: 20; display: flex; flex-direction: column; gap: 6px; min-width: 200px; background: var(--panel); border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); border-radius: 12px; padding: 10px; box-shadow: 0 18px 40px rgba(0,0,0,.5) }
+.menu-list a.nl { text-align: left }
+.sitenav a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+:root {
+  --ground:#1F1813; --panel:#2A2019; --gold:#E8A54B; --ink:#F8EFE1; --rust:#C4553A; --muted:#C9B79E; --green:#7FB069;
+  --hand:"Caveat", "Segoe Print", "Bradley Hand", cursive;
+  --body:"Nunito Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box }
+body {
+  background: radial-gradient(90% 40% at 85% 0%, color-mix(in srgb, var(--gold) 24%, transparent), transparent 70%),
+              radial-gradient(70% 30% at 0% 100%, color-mix(in srgb, var(--rust) 20%, transparent), transparent 70%),
+              var(--ground);
+  background-attachment: fixed;
+  color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.5;
+  padding: 36px 16px 64px; margin: 0; min-height: 100%;
+}
+.wrap { max-width: 620px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px }
+.company { font-size: 13px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--gold) }
+h1 { font-family: var(--hand); font-weight: 700; font-size: clamp(48px, 12vw, 76px); line-height: .95; margin: 4px 0 0 }
+.lede { margin: 0; color: var(--muted) }
+.card { background: var(--panel); border: 1px solid color-mix(in srgb, var(--gold) 22%, transparent); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 14px }
+.step { font-family: var(--hand); font-size: 32px; line-height: 1; color: var(--gold); margin: 0 }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; font-weight: 700; color: var(--muted) }
+input { font: 17px var(--body); color: var(--ink); background: var(--ground); border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); border-radius: 8px; padding: 12px 14px; width: 100% }
+input:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px }
+.status { display: grid; grid-template-columns: 1fr 1fr; gap: 12px }
+.btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center; text-decoration: none; font: 700 18px var(--body); border-radius: 12px; padding: 18px 12px; border: 0; cursor: pointer }
+.btn small { font-weight: 400; font-size: 13px; opacity: .85 }
+.btn-loaded { background: var(--gold); color: var(--ground) }
+.btn-delivered { background: var(--green); color: var(--ground) }
+.btn-wide { grid-column: 1 / -1; background: transparent; color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent) }
+.btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.btn[aria-disabled="true"] { opacity: .45; pointer-events: none }
+.hint { margin: 0; font-size: 14px; color: var(--muted) }
+.alt { display: flex; gap: 10px; flex-wrap: wrap }
+.alt a { color: var(--gold); font-weight: 700 }
+ol { margin: 0; padding-left: 20px; color: var(--muted); font-size: 15px }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 25%, transparent); padding-top: 16px }
+@media (max-width: 420px) { .row { grid-template-columns: 1fr } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav class="sitenav" aria-label="Site">
+    <a class="brand" href="index.html"><span class="b1">Callahan Transportation</span><span class="b2">Dana Mazor</span></a>
+    <details class="menu">
+      <summary>Menu <span aria-hidden="true">☰</span></summary>
+      <div class="menu-list">
+      <a class="nl" href="index.html">Home</a>
+      <a class="nl" href="open-loads.html">Loads available</a>
+      <a class="nl" href="loads-we-moved.html">Loads we moved</a>
+      <a class="nl" href="check-in.html" aria-current="page">Driver check-in</a>
+      </div>
+    </details>
+  </nav>
+  <header>
+    <div class="company">Callahan Transportation · Kansas City</div>
+    <h1>Driver check-in</h1>
+  </header>
+  <p class="lede">Booked a load with me? Keep me posted right here. Tap a button and your email opens ready to send, so just snap your paperwork, attach it, and hit send. Thank you for keeping me in the loop! — Dana</p>
+
+  <section class="card" aria-labelledby="s1">
+    <h2 class="step" id="s1">1. Your load</h2>
+    <label>Load # or lane (from your rate con)
+      <input id="load" autocomplete="off" placeholder="e.g. Blytheville AR to Pryor OK">
+    </label>
+    <div class="row">
+      <label>Your name<input id="name" autocomplete="name" placeholder="First & last"></label>
+      <label>Your cell<input id="cell" type="tel" autocomplete="tel" placeholder="(555) 555-5555"></label>
+    </div>
+    <label>Company / MC#<input id="mc" autocomplete="organization" placeholder="Carrier name or MC#"></label>
+    <p class="hint">This phone remembers your name, cell and company for next time.</p>
+  </section>
+
+  <section class="card" aria-labelledby="s2">
+    <h2 class="step" id="s2">2. Keep me posted</h2>
+    <div class="status">
+      <a class="btn btn-loaded" id="b-loaded" href="#">Loaded<small>Attach BOL + load photos</small></a>
+      <a class="btn btn-delivered" id="b-delivered" href="#">Delivered<small>Attach signed POD</small></a>
+      <a class="btn btn-wide" id="b-paper" href="#">Send other paperwork<small>Lumper receipts, scale tickets, delays</small></a>
+    </div>
+    <p class="hint" id="need">Fill in your load first and the buttons light up.</p>
+  </section>
+
+  <section class="card" aria-labelledby="s3">
+    <h2 class="step" id="s3">How to attach paperwork</h2>
+    <ol>
+      <li>Tap <strong>Loaded</strong> or <strong>Delivered</strong>. Your email opens addressed to me.</li>
+      <li>Tap the paperclip or photo icon and add pictures of your BOL, POD and load.</li>
+      <li>Hit send. That's it!</li>
+    </ol>
+    <div class="alt">Running into trouble? <a href="tel:+18169940095">Call me: 816-994-0095</a> <a href="tel:+18162917160">Cell: 816-291-7160</a></div>
+  </section>
+
+  <p class="alt"><a href="open-loads.html">Need another load? See what I have open →</a></p>
+  <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
+  <footer>Every update helps me keep your shipper happy and get you paid faster. — Dana, Callahan Transportation</footer>
+</div>
+
+<script>
+(function () {
+  const ids = ['load', 'name', 'cell', 'mc'];
+  const el = Object.fromEntries(ids.map(i => [i, document.getElementById(i)]));
+  const keep = ['name', 'cell', 'mc'];
+  try { keep.forEach(k => { const v = localStorage.getItem('dana-checkin-' + k); if (v) el[k].value = v; }); } catch (e) {}
+  const now = () => new Date().toLocaleString([], { weekday: 'short', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+  const kinds = {
+    loaded:    { btn: 'b-loaded',    tag: 'LOADED',    ask: 'Attached: BOL and load photos.' },
+    delivered: { btn: 'b-delivered', tag: 'DELIVERED', ask: 'Attached: signed POD.' },
+    paper:     { btn: 'b-paper',     tag: 'PAPERWORK', ask: 'Attached: paperwork for this load.\nNotes:' }
+  };
+  function update() {
+    const ok = el.load.value.trim().length > 0;
+    Object.values(kinds).forEach(k => {
+      const b = document.getElementById(k.btn);
+      b.setAttribute('aria-disabled', ok ? 'false' : 'true');
+    });
+    document.getElementById('need').hidden = ok;
+  }
+  Object.entries(kinds).forEach(([key, k]) => {
+    document.getElementById(k.btn).addEventListener('click', ev => {
+      const load = el.load.value.trim();
+      if (!load) { ev.preventDefault(); el.load.focus(); return; }
+      const subj = k.tag + ' - ' + load;
+      const body = k.tag + ' - ' + load + '\nTime: ' + now() +
+        '\nDriver: ' + el.name.value.trim() + '\nCell: ' + el.cell.value.trim() + '\nCompany/MC#: ' + el.mc.value.trim() +
+        '\n\n' + k.ask + '\n';
+      ev.currentTarget.href = 'mailto:dmazor@callahantrans.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+    });
+  });
+  ids.forEach(i => el[i].addEventListener('input', () => {
+    if (keep.includes(i)) { try { localStorage.setItem('dana-checkin-' + i, el[i].value); } catch (e) {} }
+    update();
+  }));
+  update();
+})();
+</script>
+
+<script>
+document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click', async () => {
+  const url = 'https://callahan2026.github.io/dana-loads/';
+  const data = { title: "Dana's Loads · Callahan Transportation", text: 'Need a load? Check out Dana at Callahan Transportation:', url };
+  try { if (navigator.share) { await navigator.share(data); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
+  try { await navigator.clipboard.writeText(url); b.textContent = 'Link copied!'; setTimeout(() => b.textContent = 'Share with a driver', 2500); }
+  catch (e) { prompt('Copy this link:', url); }
+}));
+</script>
+</body>
+</html>

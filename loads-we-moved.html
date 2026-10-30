@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loads We Moved</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<meta name="theme-color" content="#1F1813">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Callahan · Dana">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap">
+<style>
+.sharebar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 14px 16px; text-align: center }
+.sharebar p { margin: 0; color: var(--muted); font-size: 15px }
+.sharebtn { font: 700 15px var(--body); background: var(--gold); color: var(--ground); border: 0; border-radius: 999px; padding: 10px 18px; cursor: pointer }
+.sharebtn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.sitenav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-bottom: 6px }
+.sitenav .brand { font-family: var(--hand); font-weight: 700; font-size: 28px; color: var(--gold); text-decoration: none; margin-right: auto }
+.sitenav .brand { display: flex; flex-direction: column; line-height: 1.05 }
+.sitenav .brand .b1 { font-family: var(--body); font-weight: 700; font-size: 15px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold) }
+.sitenav .brand .b2 { font-family: var(--hand); font-weight: 700; font-size: 28px; color: var(--ink) }
+.sitenav a.nl { font: 700 14px var(--body); color: var(--ink); text-decoration: none; border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: 999px; padding: 8px 14px }
+.sitenav a.nl[aria-current="page"] { background: var(--gold); color: var(--ground); border-color: var(--gold) }
+.sitenav { position: relative; align-items: center; flex-wrap: nowrap }
+.sitenav .brand { min-width: 0 }
+@media (max-width: 420px) { .sitenav .brand .b1 { font-size: 12px; letter-spacing: .1em } .sitenav .brand .b2 { font-size: 24px } }
+.menu { position: relative }
+.menu summary { list-style: none; cursor: pointer; font: 700 14px var(--body); color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: 999px; padding: 8px 14px }
+.menu summary::-webkit-details-marker { display: none }
+.menu summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.menu-list { position: absolute; right: 0; top: calc(100% + 8px); z-index: 20; display: flex; flex-direction: column; gap: 6px; min-width: 200px; background: var(--panel); border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); border-radius: 12px; padding: 10px; box-shadow: 0 18px 40px rgba(0,0,0,.5) }
+.menu-list a.nl { text-align: left }
+.sitenav a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+/* Layout: warm golden-hour wall of polaroids, loose masonry, tap one to see it big */
+:root {
+  --ground:#1F1813; --panel:#2A2019; --gold:#E8A54B; --ink:#F8EFE1; --rust:#C4553A; --muted:#C9B79E; --paper:#F3E6D1; --paper-ink:#2B2018;
+  --hand:"Caveat", "Segoe Print", "Bradley Hand", cursive;
+  --body:"Nunito Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box }
+body {
+  background: radial-gradient(90% 40% at 85% 0%, color-mix(in srgb, var(--gold) 26%, transparent), transparent 70%),
+              radial-gradient(70% 30% at 0% 100%, color-mix(in srgb, var(--rust) 22%, transparent), transparent 70%),
+              var(--ground);
+  background-attachment: fixed;
+  color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px; min-height: 100%;
+}
+.wrap { max-width: 1120px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px }
+header { display: flex; flex-direction: column; gap: 6px }
+.company { font-size: 13px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--gold) }
+h1 { font-family: var(--hand); font-weight: 700; font-size: clamp(54px, 11vw, 96px); line-height: .95; margin: 0; text-wrap: balance }
+.lede { color: var(--muted); max-width: 58ch; margin: 6px 0 0 }
+.count { font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 700 }
+.wall { columns: 3 300px; column-gap: 26px }
+.pol { break-inside: avoid; display: block; width: 100%; margin: 0 0 30px; padding: 12px 12px 0; background: var(--paper); border: 0; border-radius: 4px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.45), 0 0 40px color-mix(in srgb, var(--gold) 14%, transparent);
+  cursor: zoom-in; text-align: left; transform: rotate(var(--tilt, 0deg)); transition: transform .25s ease, box-shadow .25s ease }
+.pol:hover, .pol:focus-visible { transform: rotate(0deg) translateY(-4px); box-shadow: 0 24px 50px rgba(0,0,0,.55), 0 0 60px color-mix(in srgb, var(--gold) 30%, transparent) }
+.pol:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px }
+.pol img { display: block; width: 100%; height: auto; border-radius: 2px; filter: sepia(.18) saturate(1.1) }
+.pol span { display: block; font-family: var(--hand); font-weight: 600; font-size: 30px; color: var(--paper-ink); padding: 8px 4px 12px; line-height: 1.1 }
+.pol small { display: block; font-family: var(--body); font-size: 13px; color: color-mix(in srgb, var(--paper-ink) 65%, var(--paper)); margin-top: 2px; letter-spacing: .02em }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 25%, transparent); padding-top: 18px; max-width: 70ch }
+dialog { border: 0; padding: 0; background: transparent; max-width: min(94vw, 1100px); max-height: 92vh }
+dialog::backdrop { background: color-mix(in srgb, var(--ground) 88%, transparent) }
+dialog figure { margin: 0; background: var(--paper); padding: 14px 14px 6px; border-radius: 4px; display: flex; flex-direction: column; gap: 4px }
+dialog img { display: block; max-width: 100%; max-height: 76vh; width: auto; height: auto; margin: 0 auto }
+dialog figcaption { font-family: var(--hand); font-size: 32px; color: var(--paper-ink); display: flex; justify-content: space-between; align-items: center; gap: 12px }
+dialog button { font: 700 14px var(--body); background: var(--paper-ink); color: var(--paper); border: 0; border-radius: 999px; padding: 8px 16px; cursor: pointer }
+.hero { display: grid; grid-template-columns: minmax(0, 500px) minmax(0, 1fr); gap: 44px; align-items: center }
+.me { position: relative }
+.me .pol { margin: 0; width: 100%; cursor: default }
+.avail { display: flex; flex-direction: column; gap: 14px }
+.avail-head { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap }
+.updated { font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted) }
+.avail-note { margin: 0; color: var(--muted); max-width: 70ch }
+.avail-note .sel { color: var(--ink); user-select: all; white-space: nowrap }
+.avail-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 16px }
+.load { background: var(--panel); border: 1px solid color-mix(in srgb, var(--gold) 22%, transparent); border-radius: 10px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0 }
+.lane { display: flex; flex-direction: column; gap: 2px }
+.lane .city { font-family: var(--hand); font-weight: 700; font-size: 34px; line-height: 1; color: var(--ink) }
+.lane .arrow { color: var(--gold); font-size: 15px; font-weight: 700; letter-spacing: .1em }
+.chip { align-self: flex-start; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ground); background: var(--gold); border-radius: 999px; padding: 4px 12px }
+.load dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; font-size: 15px }
+.load dt { color: var(--muted) }
+.load dd { margin: 0; color: var(--ink); min-width: 0 }
+.day { display: flex; flex-direction: column; gap: 18px }
+.day-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; align-items: start }
+.day-grid img { width: 100%; height: auto; border-radius: 6px; box-shadow: 0 14px 30px rgba(0,0,0,.4) }
+.closer { display: flex; flex-direction: column; gap: 18px }
+.closer img { width: 100%; max-width: 640px; border-radius: 6px; box-shadow: 0 18px 40px rgba(0,0,0,.45) }
+.me .pol:hover { transform: rotate(var(--tilt, 0deg)) }
+.me .pol-small { position: absolute; right: 0; bottom: 0; width: 46% }
+.me .pol span { font-size: 28px }
+.collage { display: grid; grid-template-columns: 1.25fr 1fr; grid-template-rows: 1fr 1fr; gap: 8px; aspect-ratio: 4 / 4.2 }
+.collage img { width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 2px; filter: sepia(.12) saturate(1.08) }
+.collage .c-big { grid-row: 1 / 3 }
+.collage img:last-child { object-position: center 60% }
+.intro { display: flex; flex-direction: column; gap: 8px; min-width: 0 }
+.wall-title { font-family: var(--hand); font-weight: 700; font-size: clamp(40px, 7vw, 60px); margin: 0; color: var(--gold) }
+.loadtab { display: flex; align-items: center; justify-content: space-between; gap: 16px; text-decoration: none; background: var(--gold); color: var(--ground); border-radius: 14px; padding: 14px 22px; box-shadow: 0 14px 34px rgba(0,0,0,.4), 0 0 40px color-mix(in srgb, var(--gold) 30%, transparent); transition: transform .2s ease }
+.loadtab:hover, .loadtab:focus-visible { transform: translateY(-2px) }
+.loadtab:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px }
+.loadtab-2 { background: transparent; color: var(--ink); border: 2px solid var(--gold); box-shadow: none; margin-top: -22px }
+.loadtab-2 .lt-kicker { color: var(--gold) }
+.loadtab-2 .lt-title { font-size: clamp(24px, 4.2vw, 33px) }
+.lt-text { display: flex; flex-direction: column; min-width: 0 }
+.lt-kicker { font-size: 13px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase }
+.lt-title { font-family: var(--hand); font-weight: 700; font-size: clamp(28px, 5vw, 40px); line-height: 1 }
+.lt-go { font-size: 32px; font-weight: 700; line-height: 1 }
+.story { display: flex; flex-direction: column; gap: 14px; max-width: 70ch }
+.story p { margin: 0; color: var(--ink) }
+.tagline { margin: 0; font-size: 19px; font-weight: 700; color: var(--ink) }
+.cal { display: flex; flex-direction: column; gap: 16px }
+.cal > p { margin: 0; max-width: 70ch }
+.cal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 14px }
+.cal-item { background: var(--panel); border: 1px solid color-mix(in srgb, var(--gold) 22%, transparent); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; color: var(--muted); font-size: 15px }
+.cal-big { font-family: var(--hand); font-weight: 700; font-size: 30px; line-height: 1.05; color: var(--gold) }
+.cal-contact { color: var(--muted); font-size: 15px }
+.cal-contact a { color: var(--ink); font-weight: 700 }
+.story-sign { font-family: var(--hand); font-size: 32px; line-height: 1.15; color: var(--gold) }
+.cats { display: flex; flex-direction: column; gap: 14px; max-width: 760px }
+.cat-tabs { display: flex; flex-wrap: wrap; gap: 8px }
+.cat-tab { font: 700 15px var(--body); color: var(--ink); background: transparent; border: 1px solid color-mix(in srgb, var(--gold) 50%, transparent); border-radius: 999px; padding: 9px 16px; cursor: pointer }
+.cat-tab[aria-selected="true"] { background: var(--gold); color: var(--ground); border-color: var(--gold) }
+.cat-tab:focus-visible, .car-btn:focus-visible, .car-track:focus-visible, .slide:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.car { background: var(--paper); border-radius: 6px; padding: 12px; box-shadow: 0 18px 40px rgba(0,0,0,.45), 0 0 40px color-mix(in srgb, var(--gold) 14%, transparent) }
+.car-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; scrollbar-width: none; border-radius: 3px }
+.car-track::-webkit-scrollbar { display: none }
+.slide { flex: 0 0 100%; scroll-snap-align: start; border: 0; padding: 0; margin: 0; background: transparent; cursor: zoom-in; text-align: left }
+.slide img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 2px; filter: sepia(.18) saturate(1.1) }
+.slide .cap { display: block; font-family: var(--hand); font-weight: 600; font-size: 30px; color: var(--paper-ink); padding: 8px 4px 0; line-height: 1.1 }
+.slide .cap small { display: block; font-family: var(--body); font-size: 13px; color: color-mix(in srgb, var(--paper-ink) 65%, var(--paper)) }
+.car-ctrl { display: flex; align-items: center; justify-content: center; gap: 18px; padding-top: 8px }
+.car-btn { font: 700 26px/1 var(--body); width: 44px; height: 44px; border-radius: 999px; border: 0; background: var(--paper-ink); color: var(--paper); cursor: pointer }
+.car-btn[hidden] { display: none }
+.car-count { font: 700 14px var(--body); color: var(--paper-ink); min-width: 48px; text-align: center }
+@media (max-width: 720px) { .hero { grid-template-columns: 1fr; gap: 24px } .me { max-width: 100% } }
+@media (prefers-reduced-motion: reduce) { .pol { transition: none } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="sitenav" aria-label="Site">
+    <a class="brand" href="index.html"><span class="b1">Callahan Transportation</span><span class="b2">Dana Mazor</span></a>
+    <details class="menu">
+      <summary>Menu <span aria-hidden="true">☰</span></summary>
+      <div class="menu-list">
+      <a class="nl" href="index.html">Home</a>
+      <a class="nl" href="open-loads.html">Loads available</a>
+      <a class="nl" href="loads-we-moved.html" aria-current="page">Loads we moved</a>
+      <a class="nl" href="check-in.html">Driver check-in</a>
+      </div>
+    </details>
+  </nav>
+  <header><div class="company">Callahan Transportation · Kansas City</div><h1 class="wall-title" style="font-size:clamp(48px,10vw,76px)">Loads we moved</h1><p class="lede">Real loads my drivers hauled, straight from their “loaded” photos. Pick a type and swipe through. ♥</p></header>
+
+  <main class="cats" id="cats">
+    <div class="cat-tabs" role="tablist" aria-label="Load types" id="cat-tabs"></div>
+    <div class="car">
+      <div class="car-track" id="car-track" tabindex="0" aria-live="polite"></div>
+      <div class="car-ctrl">
+        <button type="button" class="car-btn" id="car-prev" aria-label="Previous photo">‹</button>
+        <span class="car-count" id="car-count"></span>
+        <button type="button" class="car-btn" id="car-next" aria-label="Next photo">›</button>
+      </div>
+    </div>
+  </main>
+  <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
+  <footer>Every one of these is a driver who answered my call. Thank you for keeping freight moving. — Dana &amp; everyone at Callahan Transportation</footer>
+</div>
+
+<dialog id="viewer" aria-label="Photo viewer">
+  <figure>
+    <img id="viewer-img" alt="">
+    <figcaption><span id="viewer-cap"></span><button type="button" id="viewer-close">Close</button></figcaption>
+  </figure>
+</dialog>
+
+<script>
+const CATS = [
+  { name: 'Oversize', photos: [
+    ['culvert-2.webp', 'Oversize culvert', 'Stepdeck, flags out'],
+    ['culvert-1.webp', 'Culvert pipe, strapped down', 'Ready to roll'],
+    ['culvert-4.webp', 'Wide load', 'As wide as a lane'] ] },
+  { name: 'Lumber', photos: [
+    ['lumber-1.webp', 'Lumber, strapped & ready', 'Inside the warehouse'],
+    ['lumber-2.webp', 'Another lumber load', 'Tight straps, first mile'] ] },
+  { name: 'Steel & coils', photos: [
+    ['coil.webp', 'Steel coil, chained down', 'Flatbed, blue-sky day'] ] },
+  { name: 'Building materials', photos: [
+    ['load-hero.webp', 'Pallets at the brick yard', 'Flatbed, strapped'],
+    ['load-field.webp', 'Building materials', 'Flatbed by the field'],
+    ['load-deck.webp', 'Block on the deck', 'Strapped and secure'] ] },
+];
+(function () {
+  let d; try { d = JSON.parse(document.getElementById('avail-data').textContent); } catch (e) { return; }
+  if (!d) return;
+  document.getElementById('avail-updated').textContent = 'Updated ' + d.updated;
+  const list = document.getElementById('avail-list');
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  d.loads.forEach(l => {
+    const a = document.createElement('article'); a.className = 'load';
+    a.innerHTML = '<span class="chip">' + esc(l.tag) + '</span>' +
+      '<div class="lane"><span class="city">' + esc(l.from) + '</span><span class="arrow">TO</span><span class="city">' + esc(l.to) + '</span></div>' +
+      '<dl><dt>Pickup</dt><dd>' + esc(l.when) + '</dd><dt>Trailer</dt><dd>' + esc(l.equip) + '</dd><dt>Freight</dt><dd>' + esc(l.freight) + '</dd><dt>Weight</dt><dd>' + esc(l.weight) + '</dd><dt>Notes</dt><dd>' + esc(l.notes) + '</dd></dl>';
+    list.appendChild(a);
+  });
+})();
+(function () {
+  const tabs = document.getElementById('cat-tabs'), track = document.getElementById('car-track'), count = document.getElementById('car-count');
+  let cur = 0;
+  function openViewer(p) {
+    document.getElementById('viewer-img').src = p[0];
+    document.getElementById('viewer-img').alt = p[1];
+    document.getElementById('viewer-cap').textContent = p[1];
+    document.getElementById('viewer').showModal();
+  }
+  function idx() { return Math.round(track.scrollLeft / Math.max(1, track.clientWidth)); }
+  function upd() { const n = CATS[cur].photos.length; count.textContent = (Math.min(idx(), n - 1) + 1) + ' / ' + n; }
+  function show(i) {
+    cur = i;
+    [...tabs.children].forEach((t, j) => { t.setAttribute('aria-selected', j === i ? 'true' : 'false'); t.tabIndex = j === i ? 0 : -1; });
+    track.innerHTML = '';
+    CATS[i].photos.forEach(p => {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'slide';
+      b.setAttribute('aria-label', 'Open photo: ' + p[1]);
+      b.innerHTML = '<img loading="lazy" src="' + p[0] + '" alt="' + p[1] + '"><span class="cap">' + p[1] + '<small>' + p[2] + '</small></span>';
+      b.addEventListener('click', () => openViewer(p));
+      track.appendChild(b);
+    });
+    track.style.scrollBehavior = 'auto'; track.scrollLeft = 0; track.style.scrollBehavior = ''; upd();
+    const one = CATS[i].photos.length < 2;
+    document.getElementById('car-prev').hidden = one; document.getElementById('car-next').hidden = one;
+  }
+  CATS.forEach((c, i) => {
+    const t = document.createElement('button'); t.type = 'button'; t.className = 'cat-tab'; t.setAttribute('role', 'tab');
+    t.textContent = c.name + ' (' + c.photos.length + ')';
+    t.addEventListener('click', () => show(i));
+    tabs.appendChild(t);
+  });
+  const step = d => track.scrollBy({ left: d * track.clientWidth, behavior: 'smooth' });
+  document.getElementById('car-prev').addEventListener('click', () => step(-1));
+  document.getElementById('car-next').addEventListener('click', () => step(1));
+  track.addEventListener('keydown', e => { if (e.key === 'ArrowRight') step(1); if (e.key === 'ArrowLeft') step(-1); });
+  let to; track.addEventListener('scroll', () => { clearTimeout(to); to = setTimeout(upd, 60); });
+  show(0);
+})();
+const dlg = document.getElementById('viewer');
+document.getElementById('viewer-close').addEventListener('click', () => dlg.close());
+dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+</script>
+
+<script>
+document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click', async () => {
+  const url = 'https://callahan2026.github.io/dana-loads/';
+  const data = { title: "Dana's Loads · Callahan Transportation", text: 'Need a load? Check out Dana at Callahan Transportation:', url };
+  try { if (navigator.share) { await navigator.share(data); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
+  try { await navigator.clipboard.writeText(url); b.textContent = 'Link copied!'; setTimeout(() => b.textContent = 'Share with a driver', 2500); }
+  catch (e) { prompt('Copy this link:', url); }
+}));
+</script>
+</body>
+</html>
