@@ -1,6 +1,6 @@
 # Dana Mazor · Callahan Transportation
 
-Public site: https://callahan2026.github.io/dana-loads/
+Public site: https://loads.callahantrans.com (the old callahan2026.github.io/dana-loads address forwards here)
 
 ## Who updates what (please read before changing anything)
 
