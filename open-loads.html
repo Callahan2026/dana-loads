@@ -247,25 +247,51 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
 <script>
 (function () {
   const list = document.getElementById('list');
-  let d; try { d = JSON.parse(document.getElementById('data').textContent); } catch (e) { d = {loads: []}; }
-  document.getElementById('updated').textContent = d.updated ? 'Updated ' + d.updated : '';
-  if (!d.loads.length) { list.innerHTML = '<p class="empty">All covered for now. Check back tomorrow ♥</p>'; return; }
   const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  d.loads.forEach(l => {
-    const a = document.createElement('article'); a.className = 'load';
-    a.innerHTML = '<div class="card-top"><span class="chip">' + esc(l.tag) + '</span>' + (l.load ? '<span class="loadno">Load #' + esc(l.load) + '</span>' : '') + '</div>' +
-      '<div class="lane"><span class="city">' + esc(l.from) + '</span><span class="arrow">TO</span><span class="city">' + esc(l.to) + '</span></div>' +
-      '<dl><dt>Pickup</dt><dd>' + esc(l.when) + '</dd><dt>Trailer</dt><dd>' + esc(l.equip) + '</dd><dt>Freight</dt><dd>' + esc(l.freight) + '</dd><dt>Weight</dt><dd>' + esc(l.weight) + '</dd><dt>Notes</dt><dd>' + esc(l.notes) + '</dd></dl>';
-    const lane = l.from + ' to ' + l.to;
-    const subj = 'BOOK REQUEST - ' + (l.load ? 'Load #' + l.load + ' - ' : '') + lane + ' (' + l.when + ')';
-    const body = 'Hi Dana,\n\nI\'d like to book this load:\n' + (l.load ? 'Load #' + l.load + '\n' : '') + lane + '\nPickup: ' + l.when + '\nFreight: ' + l.freight + ', ' + l.weight + '\n\nCompany name:\nMC#:\nDriver name & cell:\nTruck/trailer type:\nWhere I\'m empty & when:\n\nThanks!';
-    const act = document.createElement('div'); act.className = 'book';
-    const m = document.createElement('a'); m.className = 'book-btn';
-    m.href = 'mailto:dmazor@callahantrans.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
-    m.textContent = 'Request to book';
-    act.append(m); a.appendChild(act);
-    list.appendChild(a);
-  });
+  let d; try { d = JSON.parse(document.getElementById('data').textContent); } catch (e) { d = {loads: []}; }
+  let covered = [];
+  // pickup like "Fri 10/30": hide once that date has passed (Chicago time)
+  function past(when) {
+    const m = /(\d{1,2})\/(\d{1,2})/.exec(when || ''); if (!m) return false;
+    const now = new Date(new Date().toLocaleString('en-US', {timeZone: 'America/Chicago'}));
+    let y = now.getFullYear(); const mo = +m[1] - 1, da = +m[2];
+    if (mo - now.getMonth() > 6) y--; else if (now.getMonth() - mo > 6) y++;
+    const t = new Date(now); t.setHours(0, 0, 0, 0);
+    return new Date(y, mo, da) < t;
+  }
+  function render() {
+    document.getElementById('updated').textContent = d.updated ? 'Updated ' + d.updated : '';
+    const show = (d.loads || []).filter(l => !covered.includes(String(l.load)) && !past(l.when));
+    list.innerHTML = '';
+    if (!show.length) { list.innerHTML = '<p class="empty">All covered for now. Check back soon ♥</p>'; return; }
+    show.forEach(l => {
+      const a = document.createElement('article'); a.className = 'load in';
+      a.innerHTML = '<div class="card-top"><span class="chip">' + esc(l.tag) + '</span>' + (l.load ? '<span class="loadno">Load #' + esc(l.load) + '</span>' : '') + '</div>' +
+        '<div class="lane"><span class="city">' + esc(l.from) + '</span><span class="arrow">TO</span><span class="city">' + esc(l.to) + '</span></div>' +
+        '<dl><dt>Pickup</dt><dd>' + esc(l.when) + '</dd><dt>Trailer</dt><dd>' + esc(l.equip) + '</dd><dt>Freight</dt><dd>' + esc(l.freight) + '</dd><dt>Weight</dt><dd>' + esc(l.weight) + '</dd><dt>Notes</dt><dd>' + esc(l.notes) + '</dd></dl>';
+      const lane = l.from + ' to ' + l.to;
+      const subj = 'BOOK REQUEST - ' + (l.load ? 'Load #' + l.load + ' - ' : '') + lane + ' (' + l.when + ')';
+      const body = 'Hi Dana,\n\nI\'d like to book this load:\n' + (l.load ? 'Load #' + l.load + '\n' : '') + lane + '\nPickup: ' + l.when + '\nFreight: ' + l.freight + ', ' + l.weight + '\n\nCompany name:\nMC#:\nDriver name & cell:\nTruck/trailer type:\nWhere I\'m empty & when:\n\nThanks!';
+      const act = document.createElement('div'); act.className = 'book';
+      const m = document.createElement('a'); m.className = 'book-btn';
+      m.href = 'mailto:dmazor@callahantrans.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+      m.textContent = 'Request to book';
+      act.append(m); a.appendChild(act);
+      list.appendChild(a);
+    });
+  }
+  async function refresh() {
+    const t = Date.now();
+    try { const r = await fetch('covered.json?t=' + t, {cache: 'no-store'}); if (r.ok) covered = ((await r.json()).covered || []).map(String); } catch (e) {}
+    try {
+      const r = await fetch('open-loads.html?t=' + t, {cache: 'no-store'});
+      if (r.ok) { const doc = new DOMParser().parseFromString(await r.text(), 'text/html'); const el = doc.getElementById('data'); if (el) d = JSON.parse(el.textContent); }
+    } catch (e) {}
+    render();
+  }
+  render(); refresh();
+  setInterval(refresh, 120000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
 })();
 </script>
 
