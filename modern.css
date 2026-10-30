@@ -117,3 +117,11 @@ footer { border-top-color: var(--line) !important; font-size: 13px }
 @keyframes streakback { from { transform: translateX(380%) scaleX(-1) } to { transform: translateX(0) scaleX(-1) } }
 .hero-photo h1 { background: linear-gradient(90deg, #fff 0%, #ffe2b0 45%, #ffb347 100%); -webkit-background-clip: text; background-clip: text; color: transparent !important }
 @media (prefers-reduced-motion: reduce) { .fx .glow, .fx .road3d, .fx .trail { animation: none } .fx .trail { display: none } }
+
+/* Night highway hero */
+.fx-night { position: absolute; inset: 0; z-index: -2; background: #060505 }
+.fx-night canvas { display: block }
+.hero-photo { min-height: 520px; border-color: rgba(255,170,80,.25) !important; box-shadow: 0 0 80px rgba(255,120,40,.12) }
+.hero-photo::before { background: linear-gradient(90deg, rgba(5,4,4,.85) 0%, rgba(5,4,4,.55) 45%, rgba(5,4,4,0) 75%), linear-gradient(180deg, rgba(5,4,4,0) 60%, rgba(5,4,4,.7) 100%) !important }
+@media (max-width: 600px) { .hero-photo::before { background: linear-gradient(180deg, rgba(5,4,4,.1) 0%, rgba(5,4,4,.55) 40%, rgba(5,4,4,.92) 100%) !important } .hero-photo { min-height: 600px } }
+.hero-photo .cta a.primary { box-shadow: 0 0 24px rgba(240,163,58,.55) }
