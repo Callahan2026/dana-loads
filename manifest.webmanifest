@@ -1,6 +1,6 @@
 {
   "name": "Callahan Transportation · Dana Mazor",
-  "short_name": "Callahan · Dana",
+  "short_name": "Callahan",
   "description": "Open loads, booking requests and driver check-in with Dana at Callahan Transportation.",
   "start_url": "index.html",
   "scope": "./",
