@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" href="../icon-192.png">
+<meta name="theme-color" content="#17170F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Callahan Transportation">
+<title>Cait’s Loads · Callahan Transportation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+.sharebar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 14px 16px; text-align: center }
+.sharebar p { margin: 0; color: var(--muted); font-size: 15px }
+.sharebtn { font: 700 15px var(--body); background: var(--gold); color: var(--ground); border: 0; border-radius: 999px; padding: 10px 18px; cursor: pointer }
+.sharebtn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.sitenav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-bottom: 6px }
+.sitenav .brand { font-family: var(--hand); font-weight: 700; font-size: 28px; color: var(--gold); text-decoration: none; margin-right: auto }
+.sitenav .brand { display: flex; flex-direction: column; line-height: 1.05 }
+.sitenav .brand .b1 { font-family: var(--body); font-weight: 700; font-size: 15px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold) }
+.sitenav .brand .b2 { font-family: var(--hand); font-weight: 700; font-size: 28px; color: var(--ink) }
+.sitenav a.nl { font: 700 14px var(--body); color: var(--ink); text-decoration: none; border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: 999px; padding: 8px 14px }
+.sitenav a.nl[aria-current="page"] { background: var(--gold); color: var(--ground); border-color: var(--gold) }
+.sitenav { position: relative; align-items: center; flex-wrap: nowrap }
+.sitenav .brand { min-width: 0 }
+@media (max-width: 420px) { .sitenav .brand .b1 { font-size: 12px; letter-spacing: .1em } .sitenav .brand .b2 { font-size: 24px } }
+.sitenav .brand { flex-direction: row; align-items: center; gap: 10px }
+.sitenav .brand .mark { width: 58px; height: auto; background: var(--paper, #F3E6D1); border-radius: 10px; padding: 5px 6px; box-shadow: 0 0 22px color-mix(in srgb, #E8A54B 35%, transparent) }
+.sitenav .btxt { display: flex; flex-direction: column; line-height: 1.05; min-width: 0 }
+.menu { position: relative; flex: none }
+.menu summary { white-space: nowrap }
+@media (max-width: 420px) { .sitenav .brand .mark { width: 44px } .sitenav .brand .b1 { font-size: 10.5px; letter-spacing: .06em; white-space: nowrap } .sitenav .brand { gap: 8px } }
+.menu summary { list-style: none; cursor: pointer; font: 700 14px var(--body); color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: 999px; padding: 8px 14px }
+.menu summary::-webkit-details-marker { display: none }
+.menu summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.menu-list { position: absolute; right: 0; top: calc(100% + 8px); z-index: 20; display: flex; flex-direction: column; gap: 6px; min-width: 200px; background: var(--panel); border: 1px solid color-mix(in srgb, var(--gold) 35%, transparent); border-radius: 12px; padding: 10px; box-shadow: 0 18px 40px rgba(0,0,0,.5) }
+.menu-list a.nl { text-align: left }
+.sitenav a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+:root {
+  --ground:#1F1813; --panel:#2A2019; --gold:#E8A54B; --ink:#F8EFE1; --rust:#C4553A; --muted:#C9B79E; --paper:#F3E6D1;
+  --hand:"Caveat", "Segoe Print", "Bradley Hand", cursive;
+  --body:"Nunito Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box }
+body {
+  background: radial-gradient(90% 40% at 85% 0%, color-mix(in srgb, var(--gold) 26%, transparent), transparent 70%),
+              radial-gradient(70% 30% at 0% 100%, color-mix(in srgb, var(--rust) 22%, transparent), transparent 70%),
+              var(--ground);
+  background-attachment: fixed;
+  color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.5;
+  padding: 40px 16px 64px; min-height: 100%; margin: 0;
+}
+.wrap { max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 26px }
+.company { font-size: 13px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--gold) }
+h1 { font-family: var(--hand); font-weight: 700; font-size: clamp(50px, 10vw, 84px); line-height: .95; margin: 4px 0 0; text-wrap: balance }
+.updated { font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted) }
+.note { margin: 0; color: var(--muted); max-width: 64ch }
+.call { display: flex; flex-wrap: wrap; gap: 8px }
+.call a { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; text-decoration: none; color: var(--ground); background: var(--gold); border-radius: 999px; padding: 7px 14px }
+.call a.alt { background: transparent; color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent) }
+.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 16px }
+.load { background: var(--panel); border: 1px solid color-mix(in srgb, var(--gold) 22%, transparent); border-radius: 10px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; min-width: 0 }
+.lane { display: flex; flex-direction: column; gap: 2px }
+.city { font-family: var(--hand); font-weight: 700; font-size: 34px; line-height: 1 }
+.arrow { color: var(--gold); font-size: 15px; font-weight: 700; letter-spacing: .1em }
+.chip { align-self: flex-start; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ground); background: var(--gold); border-radius: 999px; padding: 4px 12px }
+dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; font-size: 15px }
+dt { color: var(--muted) }
+dd { margin: 0; min-width: 0 }
+.book { display: flex; gap: 10px; flex-wrap: wrap; margin-top: auto; padding-top: 6px }
+.book a { flex: 1 1 auto; text-align: center; font-weight: 700; font-size: 15px; text-decoration: none; border-radius: 999px; padding: 10px 16px }
+.book-btn { background: var(--gold); color: var(--ground) }
+.book-call { color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent) }
+.book a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.approve { background: var(--panel); border-left: 4px solid var(--gold); border-radius: 8px; padding: 10px 12px; color: var(--ink); font-size: 15px }
+.alerts { background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px }
+.alerts-title { font-family: var(--hand); font-weight: 700; font-size: 36px; line-height: 1; color: var(--gold); margin: 0 }
+.alert-btns { display: flex; flex-wrap: wrap; gap: 12px; align-items: center }
+.alert-btn { font-weight: 700; font-size: 14px; text-decoration: none; color: var(--ground); background: var(--gold); border-radius: 999px; padding: 7px 14px }
+.alert-stop { color: var(--muted); font-size: 14px }
+.alert-btn:focus-visible, .alert-stop:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px }
+.loadno { font-weight: 800; font-size: 14px; letter-spacing: .02em; color: var(--ink); background: var(--panel-2, #1B242A); border: 1px solid var(--line, rgba(190,235,230,.1)); border-radius: 8px; padding: 4px 10px }
+.empty { color: var(--muted); font-family: var(--hand); font-size: 32px }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 25%, transparent); padding-top: 18px }
+</style>
+<link rel="stylesheet" href="../anim.css?v=3">
+<link rel="stylesheet" href="../modern.css?v=5">
+<link rel="stylesheet" href="../brand.css?v=1">
+</head>
+<body>
+
+<div class="wrap">
+  <nav class="sitenav" aria-label="Site">
+    <a class="brand" href="https://www.callahantrans.com"><img class="mark" src="../callahan-mark-orig.png?v=4" alt=""><span class="btxt"><span class="b1">Callahan Transportation</span><span class="b2">Cait Super</span></span></a>
+    <details class="menu">
+      <summary>Menu <span aria-hidden="true">☰</span></summary>
+      <div class="menu-list">
+      <a class="nl" href="./" aria-current="page">Cait’s loads</a>
+      <a class="nl" href="../open-loads.html">Dana’s loads</a>
+      <a class="nl" href="../pam/">Pam’s loads</a>
+      <a class="nl" href="../loads-we-moved.html">Loads we moved</a>
+      <a class="nl" href="https://www.callahantrans.com" target="_blank" rel="noopener">callahantrans.com ↗</a>
+      </div>
+    </details>
+  </nav>
+  <header>
+    <div class="company">Callahan Transportation · Cait Super, broker</div>
+    <h1>Loads available</h1>
+    <span class="updated" id="updated"></span>
+  </header>
+  <p class="note">Got a truck for one of these? Call or send me an email. First come, first served, so call to confirm it’s still open.</p>
+  <div class="call">
+    <a href="tel:+18162918337">Cell: 816-291-8337</a>
+    <a class="alt" href="tel:+18169429307">Office: 816-942-9307</a>
+    <a class="alt" href="mailto:csuper@callahantrans.com">csuper@callahantrans.com</a>
+  </div>
+  <p class="note approve">Tap <strong>Request to book</strong> and your request goes straight to my inbox with the load number. I’ll email you back to <strong>approve or deny</strong> it, usually fast!</p>
+  <div class="list" id="list"></div>
+  <section class="alerts" aria-labelledby="alerts-title">
+    <h2 class="alerts-title" id="alerts-title">Want new-load alerts?</h2>
+    <p class="note">Sign up and I’ll email you when I post new loads. Tell me your trailer and lanes so I only send what fits you. You can stop anytime.</p>
+    <div class="alert-btns">
+      <a class="alert-btn" id="alert-join" href="#">Sign me up for alerts</a>
+      <a class="alert-stop" id="alert-stop" href="#">Stop my alerts</a>
+    </div>
+  </section>
+  <p class="note"><a href="https://www.callahantrans.com" style="color:var(--gold);font-weight:700">About Callahan Transportation →</a></p>
+  <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
+  <footer>Thank you for keeping freight moving. — Callahan Transportation · Cait Super, freight broker</footer>
+  <p class="broker-line">Callahan Transportation, Inc. is a licensed freight broker · MC# 225579 · DOT# 2214746 · <a href="https://www.callahantrans.com" target="_blank" rel="noopener">callahantrans.com</a></p>
+</div>
+
+<script type="application/json" id="data">
+{
+ "updated": "",
+ "loads": []
+}
+</script>
+<script>
+(function () {
+  const list = document.getElementById('list');
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  let d; try { d = JSON.parse(document.getElementById('data').textContent); } catch (e) { d = {loads: []}; }
+  let covered = [];
+  // pickup like "Fri 10/30": hide once that date has passed (Chicago time)
+  function past(when) {
+    const m = /(\d{1,2})\/(\d{1,2})/.exec(when || ''); if (!m) return false;
+    const now = new Date(new Date().toLocaleString('en-US', {timeZone: 'America/Chicago'}));
+    let y = now.getFullYear(); const mo = +m[1] - 1, da = +m[2];
+    if (mo - now.getMonth() > 6) y--; else if (now.getMonth() - mo > 6) y++;
+    const t = new Date(now); t.setHours(0, 0, 0, 0);
+    return new Date(y, mo, da) < t;
+  }
+  function render() {
+    document.getElementById('updated').textContent = d.updated ? 'Updated ' + d.updated : '';
+    const show = (d.loads || []).filter(l => !covered.includes(String(l.load)) && !past(l.when));
+    list.innerHTML = '';
+    if (!show.length) { list.innerHTML = '<p class="empty" style="font-size:20px;max-width:none">No open loads posted right now. Call or email me, I may have something new.</p>'; return; }
+    show.forEach(l => {
+      const a = document.createElement('article'); a.className = 'load in';
+      a.innerHTML = '<div class="card-top"><span class="chip">' + esc(l.tag) + '</span>' + (l.load ? '<span class="loadno">Load #' + esc(l.load) + '</span>' : '') + '</div>' +
+        '<div class="lane"><span class="city">' + esc(l.from) + '</span><span class="arrow">TO</span><span class="city">' + esc(l.to) + '</span></div>' +
+        '<dl><dt>Pickup</dt><dd>' + esc(l.when) + '</dd><dt>Trailer</dt><dd>' + esc(l.equip) + '</dd><dt>Freight</dt><dd>' + esc(l.freight) + '</dd><dt>Weight</dt><dd>' + esc(l.weight) + '</dd><dt>Notes</dt><dd>' + esc(l.notes) + '</dd></dl>';
+      const lane = l.from + ' to ' + l.to;
+      const subj = 'BOOK REQUEST - ' + (l.load ? 'Load #' + l.load + ' - ' : '') + lane + ' (' + l.when + ')';
+      const body = 'Hi Cait,\n\nI\'d like to book this load:\n' + (l.load ? 'Load #' + l.load + '\n' : '') + lane + '\nPickup: ' + l.when + '\nFreight: ' + l.freight + ', ' + l.weight + '\n\nCompany name:\nMC#:\nDriver name & cell:\nTruck/trailer type:\nWhere I\'m empty & when:\n\nThanks!';
+      const act = document.createElement('div'); act.className = 'book';
+      const m = document.createElement('a'); m.className = 'book-btn';
+      m.href = 'mailto:csuper@callahantrans.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+      m.textContent = 'Request to book';
+      act.append(m); a.appendChild(act);
+      list.appendChild(a);
+    });
+  }
+  async function refresh() {
+    const t = Date.now();
+    let c1 = null, c2 = null;
+    try { const r = await fetch('covered.json?t=' + t, {cache: 'no-store'}); if (r.ok) c1 = ((await r.json()).covered || []).map(String); } catch (e) {}
+    try { const r = await fetch('https://api.github.com/repos/Callahan2026/dana-loads/contents/cait/covered?ref=main&t=' + t, {cache: 'no-store'}); if (r.ok) c2 = (await r.json()).map(f => f.name.replace(/\.[a-z]+$/i, '')).filter(n => /^\d+$/.test(n)); } catch (e) {}
+    if (c1 || c2) covered = (c1 || []).concat(c2 || covered.filter(n => !(c1 || []).includes(n)));
+    try {
+      const r = await fetch('index.html?t=' + t, {cache: 'no-store'});
+      if (r.ok) { const doc = new DOMParser().parseFromString(await r.text(), 'text/html'); const el = doc.getElementById('data'); if (el) d = JSON.parse(el.textContent); }
+    } catch (e) {}
+    render();
+  }
+  render(); refresh();
+  setInterval(refresh, 120000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
+})();
+</script>
+
+<script>
+document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click', async () => {
+  const url = 'https://loads.callahantrans.com/cait/';
+  const data = { title: "Cait's Loads · Callahan Transportation", text: 'Need a load? Check out Cait at Callahan Transportation:', url };
+  try { if (navigator.share) { await navigator.share(data); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
+  try { await navigator.clipboard.writeText(url); b.textContent = 'Link copied!'; setTimeout(() => b.textContent = 'Share with a driver', 2500); }
+  catch (e) { prompt('Copy this link:', url); }
+}));
+</script>
+<script>
+(function () {
+  const to = 'csuper@callahantrans.com';
+  const mk = (s, b) => 'mailto:' + to + '?subject=' + encodeURIComponent(s) + '&body=' + encodeURIComponent(b);
+  document.getElementById('alert-join').href = mk('LOAD ALERTS - Sign me up',
+    'Hi Cait,\n\nPlease send me your new loads!\n\nName:\nCompany / MC#:\nBest email for alerts:\nCell:\nTrailer type (van, reefer, flatbed, stepdeck, hot shot, oversize):\nHome base / lanes I like:\n\nThanks!');
+  document.getElementById('alert-stop').href = mk('LOAD ALERTS - Stop', 'Hi Cait,\n\nPlease take me off your load alerts.\n\nName:\nEmail:\n\nThanks!');
+})();
+</script>
+<script src="../anim.js?v=3"></script>
+</body>
+</html>
