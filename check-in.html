@@ -79,6 +79,7 @@ ol { margin: 0; padding-left: 20px; color: var(--muted); font-size: 15px }
 footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 25%, transparent); padding-top: 16px }
 @media (max-width: 420px) { .row { grid-template-columns: 1fr } }
 </style>
+<link rel="stylesheet" href="anim.css">
 </head>
 <body>
 
@@ -137,6 +138,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
 
   <p class="alt"><a href="open-loads.html">Need another load? See what I have open →</a></p>
   <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
+  <div class="roadstrip" aria-hidden="true"><img class="rig" src="truck.svg" alt=""></div>
   <footer>Every update helps me keep your shipper happy and get you paid faster. — Callahan Transportation · Dana Mazor, freight broker</footer>
 </div>
 
@@ -188,5 +190,6 @@ document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click
   catch (e) { prompt('Copy this link:', url); }
 }));
 </script>
+<script src="anim.js"></script>
 </body>
 </html>

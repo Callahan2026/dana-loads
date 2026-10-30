@@ -154,6 +154,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 @media (max-width: 720px) { .hero { grid-template-columns: 1fr; gap: 24px } .me { max-width: 100% } }
 @media (prefers-reduced-motion: reduce) { .pol { transition: none } }
 </style>
+<link rel="stylesheet" href="anim.css">
 <style>html,body{margin:0}</style>
 </head>
 <body>
@@ -180,6 +181,12 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
       <p class="lede">Callahan Transportation keeps freight moving across the Midwest and beyond: vans, reefers, flatbeds, stepdecks, oversize and hot shots. We’re a Kansas City brokerage where real people answer the phone, treat carriers right and stay on every load until it’s delivered.</p>
     </div>
   </header>
+  <div class="highway" aria-hidden="true">
+    <div class="sun"></div><div class="hills"></div><div class="road"></div>
+    <img class="rig back" src="truck.svg" alt="">
+    <img class="rig" src="truck.svg" alt="">
+    <span class="tag">Keeping freight moving</span>
+  </div>
   <section class="cal" aria-labelledby="cal-title">
     <h2 class="wall-title" id="cal-title">About Callahan</h2>
     <p>Callahan Transportation is a Kansas City freight brokerage built on keeping freight moving and treating carriers right. When you haul a Callahan load, you’ve got a whole office of real people behind it, and if your broker is on another line, someone here will pick up and take care of you.</p>
@@ -213,6 +220,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
     </a>
   </section>
   <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
+  <div class="roadstrip" aria-hidden="true"><img class="rig" src="truck.svg" alt=""></div>
   <section class="closer">
     <footer>Every one of these is a driver who answered my call. Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
   </section>
@@ -255,5 +263,6 @@ document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click
 }));
 </script>
 
+<script src="anim.js"></script>
 </body>
 </html>

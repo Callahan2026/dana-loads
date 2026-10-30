@@ -149,6 +149,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 @media (max-width: 720px) { .hero { grid-template-columns: 1fr; gap: 24px } .me { max-width: 100% } }
 @media (prefers-reduced-motion: reduce) { .pol { transition: none } }
 </style>
+<link rel="stylesheet" href="anim.css">
 </head>
 <body>
 <div class="wrap">
@@ -179,6 +180,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
     </div>
   </main>
   <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
+  <div class="roadstrip" aria-hidden="true"><img class="rig" src="truck.svg" alt=""></div>
   <footer>Every one of these is a driver who answered my call. Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
 </div>
 
@@ -272,5 +274,6 @@ document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click
   catch (e) { prompt('Copy this link:', url); }
 }));
 </script>
+<script src="anim.js"></script>
 </body>
 </html>

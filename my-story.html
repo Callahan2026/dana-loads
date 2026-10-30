@@ -150,6 +150,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 @media (max-width: 720px) { .hero { grid-template-columns: 1fr; gap: 24px } .me { max-width: 100% } }
 @media (prefers-reduced-motion: reduce) { .pol { transition: none } }
 </style>
+<link rel="stylesheet" href="anim.css">
 <style>html,body{margin:0}</style>
 </head>
 <body>
@@ -188,7 +189,8 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
   <p class="note"><a href="open-loads.html" style="color:var(--gold);font-weight:700">See my loads available today →</a></p>
   <section class="closer">
     <img src="ai-overlook.webp" alt="Dana from behind, watching the sunset over a line of trucks">
-    <footer>Every one of these is a driver who answered my call. Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
+    <div class="roadstrip" aria-hidden="true"><img class="rig" src="truck.svg" alt=""></div>
+  <footer>Every one of these is a driver who answered my call. Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
   </section>
 </div>
 
@@ -229,5 +231,6 @@ document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click
 }));
 </script>
 
+<script src="anim.js"></script>
 </body>
 </html>
