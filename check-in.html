@@ -192,7 +192,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
 
 <script>
 document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click', async () => {
-  const url = 'https://callahan2026.github.io/dana-loads/';
+  const url = 'https://loads.callahantrans.com/';
   const data = { title: "Dana's Loads · Callahan Transportation", text: 'Need a load? Check out Dana at Callahan Transportation:', url };
   try { if (navigator.share) { await navigator.share(data); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
   try { await navigator.clipboard.writeText(url); b.textContent = 'Link copied!'; setTimeout(() => b.textContent = 'Share with a driver', 2500); }
