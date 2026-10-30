@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-title" content="Callahan Transportation">
 <title>Loads Available · Callahan Transportation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <style>
 .sharebar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 14px 16px; text-align: center }
 .sharebar p { margin: 0; color: var(--muted); font-size: 15px }
@@ -87,6 +87,7 @@ dd { margin: 0; min-width: 0 }
 footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 25%, transparent); padding-top: 18px }
 </style>
 <link rel="stylesheet" href="anim.css">
+<link rel="stylesheet" href="modern.css">
 </head>
 <body>
 
@@ -109,12 +110,6 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
     <h1>Loads available</h1>
     <span class="updated" id="updated"></span>
   </header>
-  <div class="highway" aria-hidden="true">
-    <div class="sun"></div><div class="hills"></div><div class="road"></div>
-    <img class="rig back" src="truck.svg" alt="">
-    <img class="rig" src="truck.svg" alt="">
-    <span class="tag">Loads ready to roll</span>
-  </div>
   <p class="note">Got a truck for one of these? Call my direct line or send me an email. First come, first served, so call to confirm it’s still open.</p>
   <div class="call">
     <a href="tel:+18169940095">Direct: 816-994-0095</a>
@@ -135,7 +130,6 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
   <p class="note"><a href="check-in.html" style="color:var(--gold);font-weight:700">Already booked with me? Check in: loaded, delivered &amp; paperwork →</a></p>
   <p class="note"><a href="index.html" style="color:var(--gold);font-weight:700">About Callahan Transportation and your broker, Dana →</a></p>
   <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
-  <div class="roadstrip" aria-hidden="true"><img class="rig" src="truck.svg" alt=""></div>
   <footer>Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
 </div>
 

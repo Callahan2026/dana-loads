@@ -11,7 +11,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Callahan Transportation">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <style>
 .sharebar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; background: var(--panel); border: 1px dashed color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 12px; padding: 14px 16px; text-align: center }
 .sharebar p { margin: 0; color: var(--muted); font-size: 15px }
@@ -155,6 +155,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 @media (prefers-reduced-motion: reduce) { .pol { transition: none } }
 </style>
 <link rel="stylesheet" href="anim.css">
+<link rel="stylesheet" href="modern.css">
 <style>html,body{margin:0}</style>
 </head>
 <body>
@@ -173,19 +174,21 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
       </div>
     </details>
   </nav>
-  <header class="hero hero-co">
-    <div class="logo-card"><img src="callahan-logo.png" alt="Callahan Transportation, Inc. logo: a semi truck on a green road"></div>
-    <div class="intro">
+  <header class="hero-photo">
+    <div class="bg" style="background-image:url('culvert-4.webp')" role="img" aria-label="Oversize culvert pipe strapped to a stepdeck trailer"></div>
+    <div class="in">
+      <div class="logo-chip"><img src="callahan-logo.png" alt="Callahan Transportation, Inc."></div>
       <div class="company">Freight brokerage · Kansas City, MO</div>
-      <h1>Callahan Transportation</h1>
-      <p class="lede">Callahan Transportation keeps freight moving across the Midwest and beyond: vans, reefers, flatbeds, stepdecks, oversize and hot shots. We’re a Kansas City brokerage where real people answer the phone, treat carriers right and stay on every load until it’s delivered.</p>
+      <h1>Freight that moves.<br>People who answer.</h1>
+      <p class="lede">Callahan Transportation moves vans, reefers, flatbeds, stepdecks, oversize and hot shots across the Midwest and beyond, with a Kansas City team that stays on every load until it’s delivered.</p>
+      <div class="cta"><a class="primary" href="open-loads.html">See available loads</a><a class="ghost" href="check-in.html">Driver check-in</a></div>
     </div>
   </header>
-  <div class="highway" aria-hidden="true">
-    <div class="sun"></div><div class="hills"></div><div class="road"></div>
-    <img class="rig back" src="truck.svg" alt="">
-    <img class="rig" src="truck.svg" alt="">
-    <span class="tag">Keeping freight moving</span>
+  <div class="stats" aria-label="Callahan at a glance">
+    <div><b>Every trailer</b><span>Van · Reefer · Flatbed · Stepdeck</span></div>
+    <div><b>Oversize &amp; hot shot</b><span>Specialized loads welcome</span></div>
+    <div><b>Kansas City, MO</b><span>Midwest lanes and beyond</span></div>
+    <div><b>MC# 225579</b><span>DOT# 2214746</span></div>
   </div>
   <section class="cal" aria-labelledby="cal-title">
     <h2 class="wall-title" id="cal-title">About Callahan</h2>
@@ -220,7 +223,6 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
     </a>
   </section>
   <div class="sharebar"><p>Know a driver who needs a load? Send them my way ♥</p><button type="button" class="sharebtn" data-share>Share with a driver</button></div>
-  <div class="roadstrip" aria-hidden="true"><img class="rig" src="truck.svg" alt=""></div>
   <section class="closer">
     <footer>Every one of these is a driver who answered my call. Thank you for keeping freight moving. — Callahan Transportation · Dana Mazor, freight broker</footer>
   </section>
