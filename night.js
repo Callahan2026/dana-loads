@@ -27,7 +27,7 @@
     var dt = Math.min(0.05, (t - last) / 1000 || 0.016); last = t;
     // sky
     var g = ctx.createLinearGradient(0, 0, 0, H);
-    g.addColorStop(0, '#0b0b07'); g.addColorStop(0.30, '#16180f'); g.addColorStop(0.37, '#24361f'); g.addColorStop(0.38, '#0b0b07'); g.addColorStop(1, '#060604');
+    g.addColorStop(0, '#2E3226'); g.addColorStop(0.30, '#3A4231'); g.addColorStop(0.37, '#4F6A45'); g.addColorStop(0.38, '#1A1C14'); g.addColorStop(1, '#0E0F0A');
     ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
     // horizon glow (city)
     var hg = ctx.createRadialGradient(vx, vy, 0, vx, vy, W * 0.55);
