@@ -83,6 +83,8 @@ dd { margin: 0; min-width: 0 }
 .alert-btn { font-weight: 700; font-size: 14px; text-decoration: none; color: var(--ground); background: var(--gold); border-radius: 999px; padding: 7px 14px }
 .alert-stop { color: var(--muted); font-size: 14px }
 .alert-btn:focus-visible, .alert-stop:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
+.card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px }
+.loadno { font-weight: 800; font-size: 14px; letter-spacing: .02em; color: var(--ink); background: var(--panel-2, #1B242A); border: 1px solid var(--line, rgba(190,235,230,.1)); border-radius: 8px; padding: 4px 10px }
 .empty { color: var(--muted); font-family: var(--hand); font-size: 32px }
 footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(in srgb, var(--gold) 25%, transparent); padding-top: 18px }
 </style>
@@ -117,7 +119,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
     <a class="alt" href="tel:+18169429307">Office: 816-942-9307</a>
     <a class="alt" href="mailto:dmazor@callahantrans.com">dmazor@callahantrans.com</a>
   </div>
-  <p class="note approve">Tap <strong>Request to book</strong> and your request goes straight to my inbox. I’ll email you back to <strong>approve or deny</strong> it, usually fast!</p>
+  <p class="note approve">Tap <strong>Request to book</strong> and your request goes straight to my inbox with the load number. I’ll email you back to <strong>approve or deny</strong> it, usually fast!</p>
   <div class="list" id="list"></div>
   <section class="alerts" aria-labelledby="alerts-title">
     <h2 class="alerts-title" id="alerts-title">Want new-load alerts?</h2>
@@ -149,12 +151,12 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
   const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   d.loads.forEach(l => {
     const a = document.createElement('article'); a.className = 'load';
-    a.innerHTML = '<span class="chip">' + esc(l.tag) + '</span>' +
+    a.innerHTML = '<div class="card-top"><span class="chip">' + esc(l.tag) + '</span>' + (l.load ? '<span class="loadno">Load #' + esc(l.load) + '</span>' : '') + '</div>' +
       '<div class="lane"><span class="city">' + esc(l.from) + '</span><span class="arrow">TO</span><span class="city">' + esc(l.to) + '</span></div>' +
       '<dl><dt>Pickup</dt><dd>' + esc(l.when) + '</dd><dt>Trailer</dt><dd>' + esc(l.equip) + '</dd><dt>Freight</dt><dd>' + esc(l.freight) + '</dd><dt>Weight</dt><dd>' + esc(l.weight) + '</dd><dt>Notes</dt><dd>' + esc(l.notes) + '</dd></dl>';
     const lane = l.from + ' to ' + l.to;
-    const subj = 'BOOK REQUEST - ' + lane + ' (' + l.when + ')';
-    const body = 'Hi Dana,\n\nI\'d like to book this load:\n' + lane + '\nPickup: ' + l.when + '\nFreight: ' + l.freight + ', ' + l.weight + '\n\nCompany name:\nMC#:\nDriver name & cell:\nTruck/trailer type:\nWhere I\'m empty & when:\n\nThanks!';
+    const subj = 'BOOK REQUEST - ' + (l.load ? 'Load #' + l.load + ' - ' : '') + lane + ' (' + l.when + ')';
+    const body = 'Hi Dana,\n\nI\'d like to book this load:\n' + (l.load ? 'Load #' + l.load + '\n' : '') + lane + '\nPickup: ' + l.when + '\nFreight: ' + l.freight + ', ' + l.weight + '\n\nCompany name:\nMC#:\nDriver name & cell:\nTruck/trailer type:\nWhere I\'m empty & when:\n\nThanks!';
     const act = document.createElement('div'); act.className = 'book';
     const m = document.createElement('a'); m.className = 'book-btn';
     m.href = 'mailto:dmazor@callahantrans.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
