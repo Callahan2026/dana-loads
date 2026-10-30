@@ -79,3 +79,42 @@ h1, .wall-title, .alerts-title, .step, .lk-1 { font-family: "Fraunces", Georgia,
 @keyframes haloglow { 0%, 100% { opacity: .92; transform: scale(1) } 50% { opacity: 1; transform: scale(1.04) } }
 @media (max-width: 480px) { .emblem { width: 122px !important } .lk-1 { font-size: 25px !important } }
 @media (prefers-reduced-motion: reduce) { .em-tile, .em-tile img { animation: none !important } }
+
+/* v5 edgy: neon cream truck, no halo. Drives in from the dark, flickers on, headlights flare. */
+.em-tile { background: none !important; animation: none !important; inset: 0 !important }
+.em-tile img { width: 100% !important;
+  filter: drop-shadow(0 0 2px rgba(245,243,236,.9)) drop-shadow(0 0 10px rgba(245,243,236,.35)) drop-shadow(0 0 26px rgba(61,151,61,.45)) !important;
+  animation: drivein 1.6s cubic-bezier(.2,.8,.2,1) both, neonon 1.6s steps(1) both, truckbob 2.4s ease-in-out 1.6s infinite !important }
+.hl { animation: flash 4s ease-in-out 1.4s infinite !important; width: 26% !important; margin: -13% 0 0 -13% !important }
+.hl.l { left: 34.5% !important } .hl.r { left: 65.5% !important } .hl { top: 52% !important }
+.em-beam { top: 88% !important; background: radial-gradient(50% 60% at 50% 0%, rgba(245,243,236,.28), rgba(61,151,61,.16) 45%, transparent 75%) !important }
+.emblem::before { content: ""; position: absolute; left: -40%; right: -40%; top: 30%; height: 50%; pointer-events: none; z-index: -1;
+  background: repeating-linear-gradient(90deg, transparent 0 18px, rgba(245,243,236,.10) 18px 20px, transparent 20px 46px, rgba(61,151,61,.18) 46px 48px);
+  -webkit-mask: linear-gradient(90deg, transparent, #000 25%, transparent 42%, transparent 58%, #000 75%, transparent); mask: linear-gradient(90deg, transparent, #000 25%, transparent 42%, transparent 58%, #000 75%, transparent);
+  animation: streak .6s linear infinite; opacity: .8 }
+@keyframes drivein { 0% { transform: translateY(-14%) scale(.35); filter: blur(6px) brightness(.2) } 70% { transform: translateY(3%) scale(1.06) } 100% { transform: translateY(2%) scale(1) } }
+@keyframes neonon { 0% { opacity: 0 } 40% { opacity: 1 } 46% { opacity: .2 } 52% { opacity: 1 } 58% { opacity: .4 } 64%, 100% { opacity: 1 } }
+@keyframes streak { to { background-position: 48px 0 } }
+@media (prefers-reduced-motion: reduce) { .em-tile img, .emblem::before { animation: none !important } }
+
+/* v6 pop: bold green disc behind the truck; stacks and mirrors break out over its edge */
+.em-tile::before { content: ""; position: absolute; left: 50%; top: 54%; width: 74%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%; z-index: 0;
+  background: radial-gradient(circle at 50% 38%, #5DB85D 0%, #3D973D 42%, #1E4F1E 100%);
+  box-shadow: 0 0 0 3px #17170F, 0 0 0 5px rgba(245,243,236,.85), 0 0 40px rgba(61,151,61,.6), inset 0 -20px 40px rgba(0,0,0,.35);
+  animation: discin 1.2s cubic-bezier(.2,.8,.2,1) both }
+.em-tile::after { content: ""; position: absolute; left: 50%; top: 54%; width: 74%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%; z-index: 0;
+  background: conic-gradient(from 0deg, transparent 0 80%, rgba(245,243,236,.55) 88%, transparent 96%); -webkit-mask: radial-gradient(circle, transparent 66%, #000 67% 70%, transparent 71%); mask: radial-gradient(circle, transparent 66%, #000 67% 70%, transparent 71%);
+  animation: spin 3.5s linear infinite }
+.em-tile img { z-index: 1 }
+.em-tile img { filter: drop-shadow(0 0 1px #17170F) drop-shadow(0 3px 0 #17170F) drop-shadow(0 0 10px rgba(245,243,236,.45)) drop-shadow(0 14px 18px rgba(0,0,0,.6)) !important }
+.hl { z-index: 2 }
+@keyframes discin { from { transform: translate(-50%, -50%) scale(0) } to { transform: translate(-50%, -50%) scale(1) } }
+@media (prefers-reduced-motion: reduce) { .em-tile::before, .em-tile::after { animation: none } }
+/* v7: calmer disc */
+.em-tile::before, .em-tile::after { width: 66% !important; top: 50% !important }
+.em-tile::before { background: radial-gradient(circle at 50% 35%, #5E8A5E 0%, #3F6B3F 45%, #1D331D 100%) !important;
+  box-shadow: 0 0 0 3px #17170F, 0 0 0 4px rgba(214,212,198,.45), 0 0 26px rgba(61,151,61,.28), inset 0 -18px 34px rgba(0,0,0,.4) !important }
+.em-tile::after { opacity: .5 }
+.em-tile img { filter: drop-shadow(0 0 1px #17170F) drop-shadow(0 3px 0 #17170F) drop-shadow(0 0 6px rgba(245,243,236,.22)) drop-shadow(0 14px 18px rgba(0,0,0,.6)) !important }
+.hl { opacity: 0; background: radial-gradient(circle, #fff 0 10%, rgba(255,250,215,.7) 22%, rgba(201,220,195,.25) 45%, transparent 70%) !important }
+.em-beam { opacity: .6 }
