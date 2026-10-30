@@ -186,6 +186,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
     if (keep.includes(i)) { try { localStorage.setItem('dana-checkin-' + i, el[i].value); } catch (e) {} }
     update();
   }));
+  try { const q = new URLSearchParams(location.search).get('load'); if (q) { el.load.value = q.replace(/[^\w# -]/g, '').slice(0, 20); } } catch (e) {}
   update();
 })();
 </script>
