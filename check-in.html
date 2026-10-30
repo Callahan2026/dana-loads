@@ -81,7 +81,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
 </style>
 <link rel="stylesheet" href="anim.css?v=3">
 <link rel="stylesheet" href="modern.css?v=5">
-<link rel="stylesheet" href="brand.css?v=1">
+<link rel="stylesheet" href="brand.css?v=3">
 </head>
 <body>
 
@@ -108,8 +108,8 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
 
   <section class="card" aria-labelledby="s1">
     <h2 class="step" id="s1">1. Your load</h2>
-    <label>Load # or lane (from your rate con)
-      <input id="load" autocomplete="off" placeholder="e.g. Blytheville AR to Pryor OK">
+    <label>Load # (from your rate con)
+      <input id="load" autocomplete="off" inputmode="numeric" placeholder="e.g. 125035">
     </label>
     <div class="row">
       <label>Your name<input id="name" autocomplete="name" placeholder="First & last"></label>
@@ -121,10 +121,13 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
 
   <section class="card" aria-labelledby="s2">
     <h2 class="step" id="s2">2. Keep me posted</h2>
+    <p class="hint">Send these updates and nobody has to call you for a check call.</p>
     <div class="status">
+      <a class="btn btn-wide" id="b-onway" href="#">On my way to pickup<small>Tell me when you're rolling and your ETA</small></a>
       <a class="btn btn-loaded" id="b-loaded" href="#">Loaded<small>Attach BOL + load photos</small></a>
-      <a class="btn btn-delivered" id="b-delivered" href="#">Delivered<small>Attach signed POD</small></a>
-      <a class="btn btn-wide" id="b-paper" href="#">Send other paperwork<small>Lumper receipts, scale tickets, delays</small></a>
+      <a class="btn btn-wide" id="b-daily" href="#">Daily update: where I'm at<small>Rolling on a multi-day load? One tap each morning, no phone call needed</small></a>
+      <a class="btn btn-delivered" id="b-delivered" href="#">Delivered<small>Attach signed BOL / POD · goes to billing</small></a>
+      <a class="btn btn-wide" id="b-paper" href="#">Send other paperwork<small>Lumper receipts, scale tickets · goes to billing</small></a>
     </div>
     <p class="hint" id="need">Fill in your load first and the buttons light up.</p>
   </section>
@@ -132,7 +135,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
   <section class="card" aria-labelledby="s3">
     <h2 class="step" id="s3">How to attach paperwork</h2>
     <ol>
-      <li>Tap <strong>Loaded</strong> or <strong>Delivered</strong>. Your email opens addressed to me.</li>
+      <li>Tap <strong>Loaded</strong> or <strong>Delivered</strong>. Your email opens addressed to me. Delivered and paperwork emails also go to our billing team (ap@callahantrans.com) so you get paid faster.</li>
       <li>Tap the paperclip or photo icon and add pictures of your BOL, POD and load.</li>
       <li>Hit send. That's it!</li>
     </ol>
@@ -153,9 +156,11 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
   try { keep.forEach(k => { const v = localStorage.getItem('dana-checkin-' + k); if (v) el[k].value = v; }); } catch (e) {}
   const now = () => new Date().toLocaleString([], { weekday: 'short', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit' });
   const kinds = {
-    loaded:    { btn: 'b-loaded',    tag: 'LOADED',    ask: 'Attached: BOL and load photos.' },
-    delivered: { btn: 'b-delivered', tag: 'DELIVERED', ask: 'Attached: signed POD.' },
-    paper:     { btn: 'b-paper',     tag: 'PAPERWORK', ask: 'Attached: paperwork for this load.\nNotes:' }
+    onway:     { btn: 'b-onway',     tag: 'ON THE WAY', ask: 'Rolling to pickup.\nCurrent location:\nETA to pickup:' },
+    loaded:    { btn: 'b-loaded',    tag: 'LOADED',    ask: 'Attached: BOL and load photos.\nETA to delivery:' },
+    daily:     { btn: 'b-daily',     tag: 'IN TRANSIT', ask: 'Current location (city, state):\nETA to delivery:\nAny issues:' },
+    delivered: { btn: 'b-delivered', tag: 'DELIVERED', ask: 'Attached: signed BOL / POD.', ap: true },
+    paper:     { btn: 'b-paper',     tag: 'PAPERWORK', ask: 'Attached: paperwork for this load.\nNotes:', ap: true }
   };
   function update() {
     const ok = el.load.value.trim().length > 0;
@@ -169,11 +174,12 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
     document.getElementById(k.btn).addEventListener('click', ev => {
       const load = el.load.value.trim();
       if (!load) { ev.preventDefault(); el.load.focus(); return; }
-      const subj = k.tag + ' - ' + load;
-      const body = k.tag + ' - ' + load + '\nTime: ' + now() +
+      const ref = /^\d+$/.test(load.replace(/^#/, '')) ? 'Load #' + load.replace(/^#/, '') : load;
+      const subj = k.tag + ' - ' + ref;
+      const body = k.tag + ' - ' + ref + '\nTime: ' + now() +
         '\nDriver: ' + el.name.value.trim() + '\nCell: ' + el.cell.value.trim() + '\nCompany/MC#: ' + el.mc.value.trim() +
         '\n\n' + k.ask + '\n';
-      ev.currentTarget.href = 'mailto:dmazor@callahantrans.com?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+      ev.currentTarget.href = 'mailto:dmazor@callahantrans.com?' + (k.ap ? 'cc=ap@callahantrans.com&' : '') + 'subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
     });
   });
   ids.forEach(i => el[i].addEventListener('input', () => {
