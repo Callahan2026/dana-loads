@@ -27,7 +27,12 @@
 .sitenav { position: relative; align-items: center; flex-wrap: nowrap }
 .sitenav .brand { min-width: 0 }
 @media (max-width: 420px) { .sitenav .brand .b1 { font-size: 12px; letter-spacing: .1em } .sitenav .brand .b2 { font-size: 24px } }
-.menu { position: relative }
+.sitenav .brand { flex-direction: row; align-items: center; gap: 10px }
+.sitenav .brand .mark { width: 58px; height: auto; background: var(--paper, #F3E6D1); border-radius: 10px; padding: 5px 6px; box-shadow: 0 0 22px color-mix(in srgb, #E8A54B 35%, transparent) }
+.sitenav .btxt { display: flex; flex-direction: column; line-height: 1.05; min-width: 0 }
+.menu { position: relative; flex: none }
+.menu summary { white-space: nowrap }
+@media (max-width: 420px) { .sitenav .brand .mark { width: 44px } .sitenav .brand .b1 { font-size: 10.5px; letter-spacing: .06em; white-space: nowrap } .sitenav .brand { gap: 8px } }
 .menu summary { list-style: none; cursor: pointer; font: 700 14px var(--body); color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent); border-radius: 999px; padding: 8px 14px }
 .menu summary::-webkit-details-marker { display: none }
 .menu summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
@@ -142,7 +147,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 .car-btn { font: 700 26px/1 var(--body); width: 44px; height: 44px; border-radius: 999px; border: 0; background: var(--paper-ink); color: var(--paper); cursor: pointer }
 .car-btn[hidden] { display: none }
 .car-count { font: 700 14px var(--body); color: var(--paper-ink); min-width: 48px; text-align: center }
-.logo-card { background: #fff; border-radius: 14px; padding: 18px; box-shadow: 0 18px 40px rgba(0,0,0,.45) }
+.logo-card { background: radial-gradient(120% 90% at 50% 0%, #FBF3E6, var(--paper)); border-radius: 14px; padding: 22px; box-shadow: 0 18px 40px rgba(0,0,0,.45), 0 0 60px color-mix(in srgb, var(--gold) 30%, transparent); transform: rotate(-1.2deg) }
 .logo-card img { display: block; width: 100%; height: auto }
 .meet { display: flex; flex-direction: column; gap: 12px; max-width: 70ch }
 .meet p { margin: 0 }
@@ -155,7 +160,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 
 <div class="wrap">
   <nav class="sitenav" aria-label="Site">
-    <a class="brand" href="index.html"><span class="b1">Callahan Transportation</span><span class="b2">Dana Mazor</span></a>
+    <a class="brand" href="index.html"><img class="mark" src="callahan-mark.png" alt=""><span class="btxt"><span class="b1">Callahan Transportation</span><span class="b2">Dana Mazor</span></span></a>
     <details class="menu">
       <summary>Menu <span aria-hidden="true">☰</span></summary>
       <div class="menu-list">
@@ -168,7 +173,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
     </details>
   </nav>
   <header class="hero hero-co">
-    <div class="logo-card"><img src="callahan-logo.webp" alt="Callahan Transportation, Inc. logo: a semi truck on a green road"></div>
+    <div class="logo-card"><img src="callahan-logo.png" alt="Callahan Transportation, Inc. logo: a semi truck on a green road"></div>
     <div class="intro">
       <div class="company">Freight brokerage · Kansas City, MO</div>
       <h1>Callahan Transportation</h1>
