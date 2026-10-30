@@ -1,11 +1,11 @@
 /* Modern pass: clean type, straight edges, photo-led hero, restrained motion. Loaded last on every page. */
 :root {
-  --ground: #14100D; --panel: #1E1814; --panel-2: #26201A; --line: rgba(255, 236, 214, .10);
-  --gold: #F0A33A; --ink: #F6EFE6; --muted: #B8AA98; --paper: #F6EFE6; --paper-ink: #1A1410; --green: #3E9A42;
+  --ground: #0E1316; --panel: #151C20; --panel-2: #1B242A; --line: rgba(190, 235, 230, .10);
+  --gold: #2EC4B6; --teal: #2EC4B6; --blue: #3B8FE0; --leaf: #5CC97A; --ink: #F6EFE6; --muted: #B8AA98; --paper: #F6EFE6; --paper-ink: #1A1410; --green: #3E9A42;
   --hand: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
-body { background: radial-gradient(80% 40% at 80% -5%, rgba(240,163,58,.16), transparent 70%), var(--ground) !important; background-attachment: scroll !important;
+body { background: radial-gradient(70% 40% at 85% -5%, rgba(59,143,224,.18), transparent 70%), radial-gradient(60% 35% at 0% 0%, rgba(92,201,122,.12), transparent 70%), var(--ground) !important; background-attachment: scroll !important;
   font-family: var(--body); font-size: 16px; line-height: 1.6; letter-spacing: -.005em; -webkit-font-smoothing: antialiased }
 h1, .wall-title, .alerts-title, .step, .lt-title, .city, .cal-big, .story-sign, .pol span, .slide .cap, dialog figcaption, .empty {
   font-family: var(--body) !important; letter-spacing: -.025em }
@@ -22,7 +22,7 @@ h1 { font-weight: 800 !important; font-size: clamp(36px, 7vw, 64px) !important; 
 .sitenav .brand .b1 { color: var(--ink) !important; letter-spacing: .12em !important; font-weight: 700 !important }
 .sitenav .brand .b2 { font-size: 13px !important; font-weight: 500 !important; color: var(--muted) !important; letter-spacing: 0 }
 .menu summary, .sitenav a.nl { border-radius: 8px !important; border-color: var(--line) !important; background: var(--panel) }
-.sitenav a.nl[aria-current="page"] { background: var(--gold) !important; color: #1A1410 !important }
+.sitenav a.nl[aria-current="page"] { background: var(--gold) !important; color: #06201D !important }
 
 /* photo hero (home) */
 .hero-photo { position: relative; border-radius: 18px; overflow: hidden; min-height: 460px; display: flex; flex-direction: row; align-items: flex-end; justify-content: flex-start; isolation: isolate; border: 1px solid var(--line) }
@@ -34,7 +34,7 @@ h1 { font-weight: 800 !important; font-size: clamp(36px, 7vw, 64px) !important; 
 .hero-photo .lede { color: #E8DDCF; font-size: 17px; margin: 0 }
 .cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px }
 .cta a { font-weight: 700; font-size: 15px; text-decoration: none; border-radius: 10px; padding: 12px 18px; transition: transform .2s ease, background .2s ease }
-.cta a.primary { background: var(--gold); color: #1A1410 }
+.cta a.primary { background: linear-gradient(90deg, #2EC4B6, #3B8FE0); color: #fff }
 .cta a.ghost { color: var(--ink); background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); backdrop-filter: blur(6px) }
 .cta a:hover { transform: translateY(-2px) }
 .cta a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
@@ -60,7 +60,7 @@ h1 { font-weight: 800 !important; font-size: clamp(36px, 7vw, 64px) !important; 
 .city { font-size: 24px !important; font-weight: 800 !important }
 .call a, .alert-btn, .book a, .sharebtn, .btn, .car-btn, .cat-tab, .slide .cap small { border-radius: 10px !important }
 .cat-tab { background: var(--panel) !important; border-color: var(--line) !important }
-.cat-tab[aria-selected="true"] { background: var(--gold) !important; color: #1A1410 !important }
+.cat-tab[aria-selected="true"] { background: var(--gold) !important; color: #06201D !important }
 .car { background: var(--panel) !important; border: 1px solid var(--line); box-shadow: none !important }
 .slide img { filter: none !important; border-radius: 10px !important }
 .slide .cap { color: var(--ink) !important; font-size: 18px !important; font-weight: 700 !important }
@@ -115,22 +115,22 @@ footer { border-top-color: var(--line) !important; font-size: 13px }
 .fx .t2, .fx .t5, .fx .t7 { background: linear-gradient(90deg, transparent, #ff4b3a 60%, #ffd0c8); box-shadow: 0 0 14px 3px rgba(255,70,50,.7); animation-name: streakback }
 @keyframes streak { from { transform: translateX(0) } to { transform: translateX(380%) } }
 @keyframes streakback { from { transform: translateX(380%) scaleX(-1) } to { transform: translateX(0) scaleX(-1) } }
-.hero-photo h1 { background: linear-gradient(90deg, #fff 0%, #ffe2b0 45%, #ffb347 100%); -webkit-background-clip: text; background-clip: text; color: transparent !important }
+.hero-photo h1 { background: linear-gradient(90deg, #ffffff 0%, #b8f2e6 40%, #4fd1c5 70%, #5aa9f0 100%); -webkit-background-clip: text; background-clip: text; color: transparent !important }
 @media (prefers-reduced-motion: reduce) { .fx .glow, .fx .road3d, .fx .trail { animation: none } .fx .trail { display: none } }
 
 /* Night highway hero */
-.fx-night { position: absolute; inset: 0; z-index: -2; background: #060505 }
+.fx-night { position: absolute; inset: 0; z-index: -2; background: #03060a }
 .fx-night canvas { display: block }
-.hero-photo { min-height: 520px; border-color: rgba(255,170,80,.25) !important; box-shadow: 0 0 80px rgba(255,120,40,.12) }
-.hero-photo::before { background: linear-gradient(90deg, rgba(5,4,4,.85) 0%, rgba(5,4,4,.55) 45%, rgba(5,4,4,0) 75%), linear-gradient(180deg, rgba(5,4,4,0) 60%, rgba(5,4,4,.7) 100%) !important }
-@media (max-width: 600px) { .hero-photo::before { background: linear-gradient(180deg, rgba(5,4,4,.1) 0%, rgba(5,4,4,.55) 40%, rgba(5,4,4,.92) 100%) !important } .hero-photo { min-height: 600px } }
-.hero-photo .cta a.primary { box-shadow: 0 0 24px rgba(240,163,58,.55) }
+.hero-photo { min-height: 520px; border-color: rgba(46,196,182,.28) !important; box-shadow: 0 0 80px rgba(59,143,224,.15) }
+.hero-photo::before { background: linear-gradient(90deg, rgba(3,6,9,.85) 0%, rgba(3,6,9,.55) 45%, rgba(3,6,9,0) 75%), linear-gradient(180deg, rgba(3,6,9,0) 60%, rgba(3,6,9,.7) 100%) !important }
+@media (max-width: 600px) { .hero-photo::before { background: linear-gradient(180deg, rgba(3,6,9,.1) 0%, rgba(3,6,9,.55) 40%, rgba(3,6,9,.92) 100%) !important } .hero-photo { min-height: 600px } }
+.hero-photo .cta a.primary { box-shadow: 0 0 24px rgba(46,196,182,.55) }
 
 /* Modern Callahan lockup */
 .lockup { display: flex; align-items: center; gap: 16px; align-self: flex-start }
-.lockup img { width: clamp(96px, 16vw, 150px); height: auto; filter: drop-shadow(0 0 18px rgba(240,163,58,.35)) }
-.lk-text { display: flex; flex-direction: column; line-height: 1; padding-left: 16px; border-left: 2px solid; border-image: linear-gradient(180deg, #3E9A42, #F0A33A) 1 }
+.lockup img { width: clamp(96px, 16vw, 150px); height: auto; filter: drop-shadow(0 0 18px rgba(46,196,182,.35)) }
+.lk-text { display: flex; flex-direction: column; line-height: 1; padding-left: 16px; border-left: 2px solid; border-image: linear-gradient(180deg, #5CC97A, #2EC4B6, #3B8FE0) 1 }
 .lk-1 { font-weight: 800; font-size: clamp(26px, 4.6vw, 40px); letter-spacing: .14em; color: #F6EFE6 }
-.lk-2 { margin-top: 6px; font-weight: 600; font-size: clamp(10px, 1.6vw, 13px); letter-spacing: .32em; background: linear-gradient(90deg, #6CCB5F, #F0A33A); -webkit-background-clip: text; background-clip: text; color: transparent }
-.sitenav .brand .mark { background: transparent !important; padding: 0 !important; width: 50px !important; filter: drop-shadow(0 0 10px rgba(240,163,58,.3)) }
+.lk-2 { margin-top: 6px; font-weight: 600; font-size: clamp(10px, 1.6vw, 13px); letter-spacing: .32em; background: linear-gradient(90deg, #5CC97A, #2EC4B6 55%, #5aa9f0); -webkit-background-clip: text; background-clip: text; color: transparent }
+.sitenav .brand .mark { background: transparent !important; padding: 0 !important; width: 50px !important; filter: drop-shadow(0 0 10px rgba(46,196,182,.3)) }
 @media (max-width: 480px) { .lk-2 { letter-spacing: .16em; white-space: nowrap } .lk-1 { letter-spacing: .1em } .lockup { gap: 12px } .lk-text { padding-left: 12px } }
