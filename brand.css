@@ -65,3 +65,17 @@ h1, .wall-title, .alerts-title, .step, .lk-1 { font-family: "Fraunces", Georgia,
 @keyframes wordshine { 0%, 55% { background-position: 100% 0 } 100% { background-position: -50% 0 } }
 @media (max-width: 480px) { .emblem { width: 108px } .lk-1 { font-size: 27px !important; letter-spacing: .04em !important } .lk-2 { font-size: 9px !important; letter-spacing: .14em !important } .em-border { border-radius: 28px } .em-tile { border-radius: 25px } }
 @media (prefers-reduced-motion: reduce) { .emblem { transform: none } .em-border::before, .em-tile, .em-tile img, .hl, .em-sheen, .em-beam, .lk-1 { animation: none } }
+
+/* v4: free-standing truck, no tile. Soft cream glow behind it so the black truck reads on the night sky. */
+.emblem { width: clamp(190px, 32vw, 300px) !important; aspect-ratio: 700 / 470 !important }
+.em-border { display: none !important }
+.em-tile { background: radial-gradient(closest-side, rgba(245,243,236,.95) 0%, rgba(245,243,236,.82) 45%, rgba(214,212,198,.35) 75%, rgba(214,212,198,0) 100%) !important;
+  border-radius: 50% !important; box-shadow: none !important; overflow: visible !important; inset: -12% -8% !important; animation: haloglow 4s ease-in-out infinite !important }
+.em-grid, .em-sheen { display: none !important }
+.em-tile img { width: 84% !important; transform: translateY(2%) !important; filter: drop-shadow(0 14px 12px rgba(0,0,0,.45)) !important; animation: truckbob 2.4s ease-in-out infinite !important }
+.hl { top: 50% !important }
+.hl.l { left: 35.5% !important } .hl.r { left: 64.5% !important }
+.em-beam { top: 84% !important; width: 190% !important; height: 90% !important }
+@keyframes haloglow { 0%, 100% { opacity: .92; transform: scale(1) } 50% { opacity: 1; transform: scale(1.04) } }
+@media (max-width: 480px) { .emblem { width: 122px !important } .lk-1 { font-size: 25px !important } }
+@media (prefers-reduced-motion: reduce) { .em-tile, .em-tile img { animation: none !important } }
