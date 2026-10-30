@@ -125,3 +125,12 @@ footer { border-top-color: var(--line) !important; font-size: 13px }
 .hero-photo::before { background: linear-gradient(90deg, rgba(5,4,4,.85) 0%, rgba(5,4,4,.55) 45%, rgba(5,4,4,0) 75%), linear-gradient(180deg, rgba(5,4,4,0) 60%, rgba(5,4,4,.7) 100%) !important }
 @media (max-width: 600px) { .hero-photo::before { background: linear-gradient(180deg, rgba(5,4,4,.1) 0%, rgba(5,4,4,.55) 40%, rgba(5,4,4,.92) 100%) !important } .hero-photo { min-height: 600px } }
 .hero-photo .cta a.primary { box-shadow: 0 0 24px rgba(240,163,58,.55) }
+
+/* Modern Callahan lockup */
+.lockup { display: flex; align-items: center; gap: 16px; align-self: flex-start }
+.lockup img { width: clamp(96px, 16vw, 150px); height: auto; filter: drop-shadow(0 0 18px rgba(240,163,58,.35)) }
+.lk-text { display: flex; flex-direction: column; line-height: 1; padding-left: 16px; border-left: 2px solid; border-image: linear-gradient(180deg, #3E9A42, #F0A33A) 1 }
+.lk-1 { font-weight: 800; font-size: clamp(26px, 4.6vw, 40px); letter-spacing: .14em; color: #F6EFE6 }
+.lk-2 { margin-top: 6px; font-weight: 600; font-size: clamp(10px, 1.6vw, 13px); letter-spacing: .32em; background: linear-gradient(90deg, #6CCB5F, #F0A33A); -webkit-background-clip: text; background-clip: text; color: transparent }
+.sitenav .brand .mark { background: transparent !important; padding: 0 !important; width: 50px !important; filter: drop-shadow(0 0 10px rgba(240,163,58,.3)) }
+@media (max-width: 480px) { .lk-2 { letter-spacing: .16em; white-space: nowrap } .lk-1 { letter-spacing: .1em } .lockup { gap: 12px } .lk-text { padding-left: 12px } }
