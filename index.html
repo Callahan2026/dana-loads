@@ -156,7 +156,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
 </style>
 <link rel="stylesheet" href="anim.css?v=3">
 <link rel="stylesheet" href="modern.css?v=5">
-<link rel="stylesheet" href="brand.css?v=1">
+<link rel="stylesheet" href="brand.css?v=2">
 <style>html,body{margin:0}</style>
 </head>
 <body>
@@ -179,7 +179,7 @@ dialog button { font: 700 14px var(--body); background: var(--paper-ink); color:
   <header class="hero-photo">
     <div class="fx-night" aria-hidden="true"></div>
     <div class="in">
-      <div class="lockup" role="img" aria-label="Callahan Transportation, Inc."><div class="badge"><span class="ring"></span><span class="disc"><img src="callahan-mark-orig.png?v=4" alt=""></span><span class="lane"></span></div><div class="lk-text"><span class="lk-1">CALLAHAN</span><span class="lk-2">TRANSPORTATION, INC.</span></div></div>
+      <div class="lockup" role="img" aria-label="Callahan Transportation, Inc."><div class="emblem" id="emblem"><span class="em-border"></span><span class="em-tile"><span class="em-grid"></span><img src="callahan-mark-orig.png?v=4" alt=""><span class="hl l"></span><span class="hl r"></span><span class="em-sheen"></span></span><span class="em-beam"></span></div><div class="lk-text"><span class="lk-1">CALLAHAN</span><span class="lk-2">TRANSPORTATION, INC.</span></div></div>
       <div class="company">Kansas City, Missouri · Serving 48 states, Canada &amp; Mexico</div>
       <h1>We’re with you<br><em>for the long haul.</em></h1>
       <p class="lede">Since 1990, Callahan Transportation has matched freight with the right truck from a network of 10,000+ contracted carriers: flatbed, stepdeck, van, reefer, oversize and hot shot. Real people in Kansas City stay on every load until it’s delivered.</p>
@@ -270,5 +270,11 @@ document.querySelectorAll('[data-share]').forEach(b => b.addEventListener('click
 
 <script src="anim.js?v=3"></script>
 <script src="night.js?v=4"></script>
+<script>
+(function(){var e=document.getElementById("emblem");if(!e||matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+function tilt(x,y){e.style.setProperty("--rx",(-y*10).toFixed(2)+"deg");e.style.setProperty("--ry",(x*14).toFixed(2)+"deg")}
+addEventListener("pointermove",function(ev){var r=e.getBoundingClientRect();tilt(Math.max(-1,Math.min(1,(ev.clientX-r.left-r.width/2)/400)),Math.max(-1,Math.min(1,(ev.clientY-r.top-r.height/2)/400)))});
+var t=0;(function idle(){t+=.012;if(!matchMedia("(hover:hover)").matches)tilt(Math.sin(t)*.6,Math.cos(t*.8)*.3);requestAnimationFrame(idle)})();})();
+</script>
 </body>
 </html>
