@@ -282,7 +282,10 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
   }
   async function refresh() {
     const t = Date.now();
-    try { const r = await fetch('covered.json?t=' + t, {cache: 'no-store'}); if (r.ok) covered = ((await r.json()).covered || []).map(String); } catch (e) {}
+    let c1 = null, c2 = null;
+    try { const r = await fetch('covered.json?t=' + t, {cache: 'no-store'}); if (r.ok) c1 = ((await r.json()).covered || []).map(String); } catch (e) {}
+    try { const r = await fetch('https://api.github.com/repos/Callahan2026/dana-loads/contents/covered?ref=main&t=' + t, {cache: 'no-store'}); if (r.ok) c2 = (await r.json()).map(f => f.name.replace(/\.[a-z]+$/i, '')).filter(n => /^\d+$/.test(n)); } catch (e) {}
+    if (c1 || c2) covered = (c1 || []).concat(c2 || covered.filter(n => !(c1 || []).includes(n)));
     try {
       const r = await fetch('open-loads.html?t=' + t, {cache: 'no-store'});
       if (r.ok) { const doc = new DOMParser().parseFromString(await r.text(), 'text/html'); const el = doc.getElementById('data'); if (el) d = JSON.parse(el.textContent); }

@@ -36,11 +36,10 @@
 <body>
 <div class="wrap">
   <h1>Board control</h1>
-  <p class="sub">Dana only. Tap <b>Covered</b> when a load goes to a truck and it comes off the public board within about a minute.</p>
+  <p class="sub">Dana only. Tap <b>Covered</b> when a load goes to a truck. GitHub opens; tap the green <b>Commit changes</b> button. The load comes off the public board within about a minute.</p>
   <div class="status" id="status">Loading…</div>
 
-  <section id="setup" class="card" hidden>
-    <b>One-time setup on this phone</b>
+  <details id="setup" class="card" hidden><summary><b>Optional: one-tap mode (skip the GitHub step)</b></summary>
     <ol class="small">
       <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → new fine-grained token</a> (signed in as Callahan2026).</li>
       <li>Name it <i>Board control</i>, expiration 1 year.</li>
@@ -51,7 +50,7 @@
     <input id="tok" type="password" placeholder="Paste token (github_pat_…)" autocomplete="off">
     <p><button class="cover" id="save">Save</button></p>
     <p class="small">The key stays only in this phone's browser. Nobody else can change the board without it.</p>
-  </section>
+  </details>
 
   <div id="list"></div>
 
@@ -67,7 +66,7 @@
   const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const store = { get() { try { return localStorage.getItem('gh_tok') || '' } catch (e) { return '' } },
                   set(v) { try { v ? localStorage.setItem('gh_tok', v) : localStorage.removeItem('gh_tok') } catch (e) {} } };
-  let token = store.get(), loads = [], covered = [], sha = null, busy = false;
+  let token = store.get(), loads = [], covered = [], folder = [], sha = null, busy = false;
   const say = (t, cls) => { const s = $('status'); s.textContent = t; s.className = 'status ' + (cls || ''); };
   const hdr = () => ({ Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' });
   const b64 = str => btoa(unescape(encodeURIComponent(str)));
@@ -90,21 +89,34 @@
       const r = await fetch(FILE + '?t=' + Date.now(), {cache: 'no-store'});
       covered = r.ok ? ((await r.json()).covered || []).map(String) : [];
     }
+    try {
+      const r = await fetch('https://api.github.com/repos/' + REPO + '/contents/covered?ref=main&t=' + Date.now(), {cache: 'no-store'});
+      folder = r.ok ? (await r.json()).map(f => f.name.replace(/\.[a-z]+$/i, '')).filter(n => /^\d+$/.test(n)) : [];
+    } catch (e) {}
   }
   function render() {
     $('setup').hidden = !!token;
     const L = $('list'); L.innerHTML = '';
     if (!loads.length) { L.innerHTML = '<div class="card small">No loads on the board right now.</div>'; }
     loads.forEach(l => {
-      const no = String(l.load), off = covered.includes(no);
+      const no = String(l.load), off = covered.includes(no) || folder.includes(no);
       const c = document.createElement('div'); c.className = 'card row' + (off ? ' off' : '');
       c.innerHTML = '<div><div class="no">#' + esc(no) + '</div><div class="lane">' + esc(l.from) + ' → ' + esc(l.to) + ' · ' + esc(l.when) + '</div></div>';
       const b = document.createElement('button'); b.className = off ? 'back' : 'cover'; b.textContent = off ? 'Put back' : 'Covered';
-      b.disabled = !token; b.onclick = () => change(no, !off);
+      b.onclick = () => token ? change(no, !off) : viaGitHub(no, !off);
       c.appendChild(b); L.appendChild(c);
     });
-    $('manualBtn').disabled = !token;
   }
+  function viaGitHub(no, cover) {
+    const base = 'https://github.com/' + REPO;
+    const url = cover
+      ? base + '/new/main/covered?filename=' + encodeURIComponent(no) + '&value=' + encodeURIComponent('Covered ' + new Date().toLocaleString('en-US', {timeZone: 'America/Chicago'}))
+      : base + '/delete/main/covered/' + encodeURIComponent(no);
+    if (!cover && !folder.includes(no)) { say('#' + no + ' was taken down with the old key method. Put it back from the GitHub page for covered.json.', 'err'); return; }
+    say('GitHub opened. Tap the green "Commit changes" button (twice if it asks again). Then come back here.', 'ok');
+    window.open(url, '_blank', 'noopener');
+  }
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) init(); });
   async function change(no, cover, tries) {
     if (busy) return; busy = true; say((cover ? 'Taking #' : 'Putting back #') + no + '…');
     try {
@@ -127,12 +139,12 @@
     busy = false;
   }
   $('save').onclick = async () => { token = $('tok').value.trim(); if (!token) return; store.set(token); $('tok').value = ''; await init(); };
-  $('manualBtn').onclick = () => { const v = $('manual').value.trim(); if (v) { change(v, true); $('manual').value = ''; } };
+  $('manualBtn').onclick = () => { const v = $('manual').value.trim().replace(/\D/g, ''); if (v) { token ? change(v, true) : viaGitHub(v, true); $('manual').value = ''; } };
   $('forget').onclick = e => { e.preventDefault(); token = ''; store.set(''); render(); say('Key removed from this phone.'); };
   async function init() {
     try {
       const upd = await loadBoard(); await loadCovered(); render();
-      say(token ? 'Ready. Board last synced with LOADPlus: ' + (upd || '—') : 'View only. Do the one-time setup to use the buttons.', token ? 'ok' : '');
+      say('Ready. Board last synced with LOADPlus: ' + (upd || '—'), 'ok');
     } catch (e) {
       if (e.message === 'key') { token = ''; store.set(''); render(); say('Your key was refused. Make a new one (setup below).', 'err'); }
       else { render(); say('Couldn\'t load the board. Check signal and refresh.', 'err'); }
