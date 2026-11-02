@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 2 \u00b7 3:05 PM",
- "updated_iso": "2026-11-02T15:05:00-06:00",
+ "updated": "Mon, Nov 2 \u00b7 3:25 PM",
+ "updated_iso": "2026-11-02T15:25:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -20,6 +20,13 @@
    "first": "Cait",
    "phone": "816-291-8337",
    "email": "csuper@callahantrans.com"
+  },
+  "dispatch": {
+   "name": "Callahan dispatch",
+   "first": "Dispatch",
+   "chip": "Dispatch",
+   "phone": "816-942-9307",
+   "email": "team@callahantrans.com"
   }
  },
  "loads": [
@@ -37,6 +44,22 @@
    "rate": 700,
    "rpm": 4.24,
    "notes": "165 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125014",
+   "broker": "cait",
+   "date": "2026-11-02",
+   "when": "Mon 11/2",
+   "from": "Shiner, TX",
+   "to": "Checotah, OK",
+   "equip": "Flatbed 48'",
+   "freight": "1\" rod",
+   "weight": "46,000 lb",
+   "miles": 487,
+   "rate": 1400,
+   "rpm": 2.87,
+   "notes": "487 miles",
    "tag": "Today"
   },
   {
@@ -69,6 +92,70 @@
    "rate": 850,
    "rpm": 3.95,
    "notes": "215 miles \u00b7 tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "124817",
+   "broker": "dana",
+   "date": "2026-11-02",
+   "when": "Mon 11/2",
+   "from": "Kansas City, MO",
+   "to": "Sand Springs, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Railroad ties",
+   "weight": "Call for weight",
+   "miles": 277,
+   "rate": 900,
+   "rpm": 3.25,
+   "notes": "277 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "124818",
+   "broker": "dana",
+   "date": "2026-11-02",
+   "when": "Mon 11/2",
+   "from": "Kansas City, MO",
+   "to": "Sand Springs, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Railroad ties",
+   "weight": "Call for weight",
+   "miles": 277,
+   "rate": 900,
+   "rpm": 3.25,
+   "notes": "277 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "124820",
+   "broker": "dana",
+   "date": "2026-11-02",
+   "when": "Mon 11/2",
+   "from": "Kansas City, MO",
+   "to": "Chadron, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Railroad ties",
+   "weight": "Call for weight",
+   "miles": 610,
+   "rate": 2100,
+   "rpm": 3.44,
+   "notes": "610 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125050",
+   "broker": "dana",
+   "date": "2026-11-02",
+   "when": "Mon 11/2",
+   "from": "Wister, OK",
+   "to": "Springfield, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Stone",
+   "weight": "Call for weight",
+   "miles": 232,
+   "rate": 800,
+   "rpm": 3.45,
+   "notes": "232 miles",
    "tag": "Today"
   },
   {
