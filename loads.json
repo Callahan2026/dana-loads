@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 2 \u00b7 3:25 PM",
- "updated_iso": "2026-11-02T15:25:00-06:00",
+ "updated": "Mon, Nov 2 · 3:43 PM",
+ "updated_iso": "2026-11-02T15:43:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,22 +31,6 @@
  },
  "loads": [
   {
-   "load": "125044",
-   "broker": "cait",
-   "date": "2026-11-02",
-   "when": "Mon 11/2",
-   "from": "St Louis, MO",
-   "to": "Camdenton, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 165,
-   "rate": 700,
-   "rpm": 4.24,
-   "notes": "165 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125014",
    "broker": "cait",
    "date": "2026-11-02",
@@ -63,35 +47,19 @@
    "tag": "Today"
   },
   {
-   "load": "125023",
-   "broker": "dana",
+   "load": "125044",
+   "broker": "cait",
    "date": "2026-11-02",
    "when": "Mon 11/2",
-   "from": "Halstead, KS",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 53'",
-   "freight": "Steel frames",
-   "weight": "15,000 lb",
-   "miles": 194,
-   "rate": 900,
-   "rpm": 4.64,
-   "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125049",
-   "broker": "dana",
-   "date": "2026-11-02",
-   "when": "Mon 11/2",
-   "from": "Adel, IA",
-   "to": "Kansas City, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Brick",
+   "from": "St Louis, MO",
+   "to": "Camdenton, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Stone",
    "weight": "Call for weight",
-   "miles": 215,
-   "rate": 850,
-   "rpm": 3.95,
-   "notes": "215 miles \u00b7 tarped",
+   "miles": 165,
+   "rate": 700,
+   "rpm": 4.24,
+   "notes": "165 miles",
    "tag": "Today"
   },
   {
@@ -143,6 +111,38 @@
    "tag": "Today"
   },
   {
+   "load": "125023",
+   "broker": "dana",
+   "date": "2026-11-02",
+   "when": "Mon 11/2",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 53'",
+   "freight": "Steel frames",
+   "weight": "15,000 lb",
+   "miles": 194,
+   "rate": 900,
+   "rpm": 4.64,
+   "notes": "194 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125049",
+   "broker": "dana",
+   "date": "2026-11-02",
+   "when": "Mon 11/2",
+   "from": "Adel, IA",
+   "to": "Kansas City, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Brick",
+   "weight": "Call for weight",
+   "miles": 215,
+   "rate": 850,
+   "rpm": 3.95,
+   "notes": "215 miles · tarped",
+   "tag": "Today"
+  },
+  {
    "load": "125050",
    "broker": "dana",
    "date": "2026-11-02",
@@ -185,9 +185,9 @@
    "freight": "Steel",
    "weight": "47,500 lb",
    "miles": 520,
-   "rate": 850,
-   "rpm": 1.63,
-   "notes": "520 miles \u00b7 tarped",
+   "rate": 2000,
+   "rpm": 3.85,
+   "notes": "520 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -203,7 +203,7 @@
    "miles": 40,
    "rate": 350,
    "rpm": 8.75,
-   "notes": "40 miles \u00b7 same-day delivery",
+   "notes": "40 miles · same-day delivery",
    "tag": "Local"
   },
   {
@@ -219,7 +219,7 @@
    "miles": 38,
    "rate": 350,
    "rpm": 9.21,
-   "notes": "38 miles \u00b7 same-day delivery",
+   "notes": "38 miles · same-day delivery",
    "tag": "Local"
   },
   {
@@ -228,30 +228,14 @@
    "date": "2026-11-03",
    "when": "Tue 11/3",
    "from": "Shawnee, KS",
-   "to": "Ozark, MO",
+   "to": "Republic, MO",
    "equip": "Flatbed 48'",
    "freight": "Paving stones",
    "weight": "42,804 lb",
    "miles": 245,
    "rate": 900,
    "rpm": 3.67,
-   "notes": "245 miles \u00b7 2 drops: Republic & Ozark, MO",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125079",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Shawnee, KS",
-   "to": "Rolla, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Paving stones",
-   "weight": "46,727 lb",
-   "miles": 255,
-   "rate": 900,
-   "rpm": 3.53,
-   "notes": "255 miles \u00b7 2 drops: Lebanon & Rolla, MO",
+   "notes": "245 miles",
    "tag": "Flatbed"
   },
   {
@@ -267,7 +251,7 @@
    "miles": 42,
    "rate": 350,
    "rpm": 8.33,
-   "notes": "42 miles \u00b7 same-day delivery",
+   "notes": "42 miles · same-day delivery",
    "tag": "Local"
   },
   {
@@ -299,7 +283,7 @@
    "miles": 640,
    "rate": 2700,
    "rpm": 4.22,
-   "notes": "640 miles \u00b7 tarped",
+   "notes": "640 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -313,9 +297,9 @@
    "freight": "Steel",
    "weight": "47,500 lb",
    "miles": 520,
-   "rate": 850,
-   "rpm": 1.63,
-   "notes": "520 miles \u00b7 tarped",
+   "rate": 2000,
+   "rpm": 3.85,
+   "notes": "520 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -363,8 +347,24 @@
    "miles": 560,
    "rate": 2200,
    "rpm": 3.93,
-   "notes": "560 miles \u00b7 tarped",
+   "notes": "560 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125088",
+   "broker": "dana",
+   "date": "2026-11-04",
+   "when": "Wed 11/4",
+   "from": "Pleasant Hill, MO",
+   "to": "Edwardsville, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 47,
+   "rate": 350,
+   "rpm": 7.45,
+   "notes": "47 miles · same-day delivery",
+   "tag": "Local"
   },
   {
    "load": "125042",
@@ -399,6 +399,22 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125087",
+   "broker": "dana",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
+   "from": "Pleasant Hill, MO",
+   "to": "Kansas City, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 39,
+   "rate": 350,
+   "rpm": 8.97,
+   "notes": "39 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
    "load": "125013",
    "broker": "dana",
    "date": "2026-11-11",
@@ -411,7 +427,7 @@
    "miles": 440,
    "rate": 2050,
    "rpm": 4.66,
-   "notes": "440 miles \u00b7 tarped \u00b7 fully tarped \u00b7 full PPE",
+   "notes": "440 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -427,7 +443,7 @@
    "miles": 1532,
    "rate": 7000,
    "rpm": 4.57,
-   "notes": "1,532 miles",
+   "notes": "1532 miles",
    "tag": "Flatbed"
   },
   {
