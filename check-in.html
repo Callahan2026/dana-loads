@@ -69,6 +69,10 @@ input:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px }
 .btn small { font-weight: 400; font-size: 13px; opacity: .85 }
 .btn-loaded { background: var(--gold); color: var(--ground) }
 .btn-delivered { background: var(--green); color: var(--ground) }
+.btn-late { background: var(--rust); color: var(--ink) }
+.locrow { display: flex; flex-wrap: wrap; gap: 10px; align-items: center }
+.locbtn { font: 700 15px var(--body); background: transparent; color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 999px; padding: 10px 16px; cursor: pointer }
+.locbtn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
 .btn-wide { grid-column: 1 / -1; background: transparent; color: var(--ink); border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent) }
 .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px }
 .btn[aria-disabled="true"] { opacity: .45; pointer-events: none }
@@ -103,7 +107,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
     <div class="company">Callahan Transportation · Dana Mazor, broker</div>
     <h1>Driver check-in</h1>
   </header>
-  <p class="lede">Booked a load with me? Keep me posted right here. Tap a button and your email opens ready to send, so just snap your paperwork, attach it, and hit send. Thank you for keeping me in the loop! — Dana</p>
+  <p class="lede">Booked a load with me? Keep me posted right here: loaded, rolling, running late or delivered. Tap a button and your email opens ready to send, so just snap your paperwork, attach it, and hit send. Thank you for keeping me in the loop! — Dana</p>
 
   <section class="card" aria-labelledby="s1">
     <h2 class="step" id="s1">1. Your load</h2>
@@ -129,6 +133,22 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
       <a class="btn btn-wide" id="b-paper" href="#">Send other paperwork<small>Lumper receipts, scale tickets · goes to billing</small></a>
     </div>
     <p class="hint" id="need">Fill in your load first and the buttons light up.</p>
+  </section>
+
+  <section class="card" aria-labelledby="s3u">
+    <h2 class="step" id="s3u">3. On the road</h2>
+    <p class="hint">Something changed? Let me know right away so I can update your shipper and receiver before they call.</p>
+    <div class="status">
+      <a class="btn btn-wide" id="b-arr-pu" href="#">Arrived at pickup<small>Checked in at the shipper · starts the clock</small></a>
+      <a class="btn btn-wide" id="b-arr-del" href="#">Arrived at delivery<small>Checked in at the receiver · starts the clock</small></a>
+      <a class="btn btn-wide" id="b-wait" href="#">Still waiting<small>Not loaded / unloaded yet · detention</small></a>
+      <a class="btn btn-late" id="b-late" href="#">Running late<small>New ETA and why</small></a>
+      <a class="btn btn-late" id="b-problem" href="#">Problem / breakdown<small>Truck, weather, load shift, anything</small></a>
+    </div>
+    <div class="locrow">
+      <button type="button" class="locbtn" id="b-loc">Add my location</button>
+      <span class="hint" id="locmsg" aria-live="polite">Optional: adds a map link to your update.</span>
+    </div>
   </section>
 
   <section class="card" aria-labelledby="s3">
@@ -159,8 +179,24 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
     loaded:    { btn: 'b-loaded',    tag: 'LOADED',    ask: 'Attached: BOL and load photos.\nETA to delivery:' },
     daily:     { btn: 'b-daily',     tag: 'IN TRANSIT', ask: 'Current location (city, state):\nETA to delivery:\nAny issues:' },
     delivered: { btn: 'b-delivered', tag: 'DELIVERED', ask: 'Attached: signed BOL / POD.', ap: true },
-    paper:     { btn: 'b-paper',     tag: 'PAPERWORK', ask: 'Attached: paperwork for this load.\nNotes:', ap: true }
+    paper:     { btn: 'b-paper',     tag: 'PAPERWORK', ask: 'Attached: paperwork for this load.\nNotes:', ap: true },
+    arrpu:     { btn: 'b-arr-pu',    tag: 'ARRIVED AT PICKUP',   ask: 'Checked in at the shipper.\nAppointment time (if any):' },
+    arrdel:    { btn: 'b-arr-del',   tag: 'ARRIVED AT DELIVERY', ask: 'Checked in at the receiver.\nAppointment time (if any):' },
+    wait:      { btn: 'b-wait',      tag: 'STILL WAITING',       ask: 'At: pickup / delivery (circle one)\nArrived at (time):\nWhat they told me:' },
+    late:      { btn: 'b-late',      tag: 'RUNNING LATE',        ask: 'Current location (city, state):\nNew ETA:\nReason:' },
+    problem:   { btn: 'b-problem',   tag: 'PROBLEM',             ask: 'What happened:\nCurrent location (city, state):\nIs the load OK? \nWhen can you roll again:' }
   };
+  let loc = '';
+  const locBtn = document.getElementById('b-loc'), locMsg = document.getElementById('locmsg');
+  locBtn.addEventListener('click', () => {
+    if (!navigator.geolocation) { locMsg.textContent = 'Location isn’t available on this phone. Type your city in the email instead.'; return; }
+    locMsg.textContent = 'Finding you…';
+    navigator.geolocation.getCurrentPosition(p => {
+      loc = 'https://maps.google.com/?q=' + p.coords.latitude.toFixed(5) + ',' + p.coords.longitude.toFixed(5);
+      locMsg.textContent = 'Location added ✓ It goes with your next update.';
+      locBtn.textContent = 'Update my location';
+    }, () => { locMsg.textContent = 'Couldn’t get your location. Type your city in the email instead.'; }, { enableHighAccuracy: true, timeout: 15000 });
+  });
   function update() {
     const ok = el.load.value.trim().length > 0;
     Object.values(kinds).forEach(k => {
@@ -177,6 +213,7 @@ footer { color: var(--muted); font-size: 14px; border-top: 1px solid color-mix(i
       const subj = k.tag + ' - ' + ref;
       const body = k.tag + ' - ' + ref + '\nTime: ' + now() +
         '\nDriver: ' + el.name.value.trim() + '\nCell: ' + el.cell.value.trim() + '\nCompany/MC#: ' + el.mc.value.trim() +
+        (loc ? '\nMy location: ' + loc : '') +
         '\n\n' + k.ask + '\n';
       ev.currentTarget.href = 'mailto:dmazor@callahantrans.com?' + (k.ap ? 'cc=ap@callahantrans.com&' : '') + 'subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
     });
