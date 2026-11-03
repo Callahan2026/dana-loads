@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 3 · 9:43 AM",
- "updated_iso": "2026-11-03T09:43:39-06:00",
+ "updated": "Tue, Nov 3 · 10:43 AM",
+ "updated_iso": "2026-11-03T10:43:19-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -111,22 +111,6 @@
    "tag": "Today"
   },
   {
-   "load": "125057",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Portage, IN",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Steel",
-   "weight": "47,500 lb",
-   "miles": 520,
-   "rate": 2000,
-   "rpm": 3.85,
-   "notes": "520 miles · tarped",
-   "tag": "Today"
-  },
-  {
    "load": "125089",
    "broker": "dana",
    "date": "2026-11-03",
@@ -147,7 +131,7 @@
    "broker": "dana",
    "date": "2026-11-03",
    "when": "Tue 11/3",
-   "from": "McCurtain, OK",
+   "from": "Mccurtain, OK",
    "to": "Belton, MO",
    "equip": "Flatbed / stepdeck",
    "freight": "Stone",
@@ -163,7 +147,7 @@
    "broker": "dana",
    "date": "2026-11-03",
    "when": "Tue 11/3",
-   "from": "McCurtain, OK",
+   "from": "Mccurtain, OK",
    "to": "Chesterfield, MO",
    "equip": "Flatbed / stepdeck",
    "freight": "Stone",
@@ -172,38 +156,6 @@
    "rate": 1300,
    "rpm": 2.93,
    "notes": "444 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125095",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "La Cygne, KS",
-   "to": "Pittsburg, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Abrasive material",
-   "weight": "46,500 lb",
-   "miles": 70,
-   "rate": 650,
-   "rpm": 9.29,
-   "notes": "70 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125096",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Shady Point, OK",
-   "to": "Belton, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 303,
-   "rate": 1050,
-   "rpm": 3.47,
-   "notes": "303 miles",
    "tag": "Today"
   },
   {
@@ -217,8 +169,8 @@
    "freight": "1\" rod",
    "weight": "46,000 lb",
    "miles": 150,
-   "rate": 1400,
-   "rpm": 9.33,
+   "rate": 650,
+   "rpm": 4.33,
    "notes": "150 miles",
    "tag": "Today"
   },
@@ -349,6 +301,22 @@
    "rpm": 4.66,
    "notes": "440 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125098",
+   "broker": "dana",
+   "date": "2026-11-11",
+   "when": "Wed 11/11",
+   "from": "Shawnee, KS",
+   "to": "Springfield, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Paving stones",
+   "weight": "46,407 lb",
+   "miles": 189,
+   "rate": 800,
+   "rpm": 4.23,
+   "notes": "189 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125077",
