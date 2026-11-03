@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 3 · 12:45 PM",
- "updated_iso": "2026-11-03T12:45:18-06:00",
+ "updated": "Tue, Nov 3 · 1:46 PM",
+ "updated_iso": "2026-11-03T13:46:38-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,38 +30,6 @@
   }
  },
  "loads": [
-  {
-   "load": "125014",
-   "broker": "cait",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Carthage, TX",
-   "to": "Honey Grove, TX",
-   "equip": "Flatbed 48'",
-   "freight": "7/8\" rod",
-   "weight": "46,000 lb",
-   "miles": 150,
-   "rate": 650,
-   "rpm": 4.33,
-   "notes": "150 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125044",
-   "broker": "cait",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "St Louis, MO",
-   "to": "Camdenton, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 165,
-   "rate": 700,
-   "rpm": 4.24,
-   "notes": "165 miles",
-   "tag": "Today"
-  },
   {
    "load": "125023",
    "broker": "dana",
@@ -159,6 +127,54 @@
    "tag": "Today"
   },
   {
+   "load": "125102",
+   "broker": "dana",
+   "date": "2026-11-03",
+   "when": "Tue 11/3",
+   "from": "Rockford, IL",
+   "to": "New Century, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "5 skidded coils",
+   "weight": "47,000 lb",
+   "miles": 508,
+   "rate": 1700,
+   "rpm": 3.35,
+   "notes": "508 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125014",
+   "broker": "cait",
+   "date": "2026-11-03",
+   "when": "Tue 11/3",
+   "from": "Carthage, TX",
+   "to": "Honey Grove, TX",
+   "equip": "Flatbed 48'",
+   "freight": "7/8\" rod",
+   "weight": "46,000 lb",
+   "miles": 150,
+   "rate": 650,
+   "rpm": 4.33,
+   "notes": "150 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125044",
+   "broker": "cait",
+   "date": "2026-11-03",
+   "when": "Tue 11/3",
+   "from": "St Louis, MO",
+   "to": "Camdenton, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Stone",
+   "weight": "Call for weight",
+   "miles": 165,
+   "rate": 700,
+   "rpm": 4.24,
+   "notes": "165 miles",
+   "tag": "Today"
+  },
+  {
    "load": "124820",
    "broker": "dana",
    "date": "2026-11-04",
@@ -253,6 +269,22 @@
    "rpm": 3.09,
    "notes": "760 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125100",
+   "broker": "dana",
+   "date": "2026-11-04",
+   "when": "Wed 11/4",
+   "from": "Bridgeton, MO",
+   "to": "Council Bluffs, IA",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Tarped steel",
+   "weight": "26,433 lb",
+   "miles": 572,
+   "rate": 2100,
+   "rpm": 3.67,
+   "notes": "572 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125042",
