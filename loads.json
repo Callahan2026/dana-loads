@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 3 · 10:43 AM",
- "updated_iso": "2026-11-03T10:43:19-06:00",
+ "updated": "Tue, Nov 3 · 11:43 AM",
+ "updated_iso": "2026-11-03T11:43:57-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,22 +30,6 @@
   }
  },
  "loads": [
-  {
-   "load": "124820",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Kansas City, MO",
-   "to": "Hermitage, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 610,
-   "rate": 2100,
-   "rpm": 3.44,
-   "notes": "610 miles",
-   "tag": "Today"
-  },
   {
    "load": "125023",
    "broker": "dana",
@@ -143,22 +127,6 @@
    "tag": "Today"
   },
   {
-   "load": "125093",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Mccurtain, OK",
-   "to": "Chesterfield, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 444,
-   "rate": 1300,
-   "rpm": 2.93,
-   "notes": "444 miles · tarped",
-   "tag": "Today"
-  },
-  {
    "load": "125014",
    "broker": "cait",
    "date": "2026-11-03",
@@ -166,7 +134,7 @@
    "from": "Carthage, TX",
    "to": "Honey Grove, TX",
    "equip": "Flatbed 48'",
-   "freight": "1\" rod",
+   "freight": "7/8\" rod",
    "weight": "46,000 lb",
    "miles": 150,
    "rate": 650,
@@ -189,6 +157,22 @@
    "rpm": 4.24,
    "notes": "165 miles",
    "tag": "Today"
+  },
+  {
+   "load": "124820",
+   "broker": "dana",
+   "date": "2026-11-04",
+   "when": "Wed 11/4",
+   "from": "Kansas City, MO",
+   "to": "Hermitage, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Railroad ties",
+   "weight": "Call for weight",
+   "miles": 610,
+   "rate": 2100,
+   "rpm": 3.44,
+   "notes": "610 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125056",
@@ -255,6 +239,22 @@
    "tag": "Tarped"
   },
   {
+   "load": "125099",
+   "broker": "dana",
+   "date": "2026-11-04",
+   "when": "Wed 11/4",
+   "from": "Kansas City, KS",
+   "to": "Jennings, LA",
+   "equip": "Flatbed 53'",
+   "freight": "Beams 50'",
+   "weight": "45,000 lb",
+   "miles": 760,
+   "rate": 2350,
+   "rpm": 3.09,
+   "notes": "760 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125042",
    "broker": "dana",
    "date": "2026-11-05",
@@ -281,8 +281,8 @@
    "freight": "Sheets",
    "weight": "44,000 lb",
    "miles": 390,
-   "rate": 2200,
-   "rpm": 5.64,
+   "rate": 2050,
+   "rpm": 5.26,
    "notes": "390 miles · tarped",
    "tag": "Tarped"
   },
@@ -301,22 +301,6 @@
    "rpm": 4.66,
    "notes": "440 miles · tarped",
    "tag": "Tarped"
-  },
-  {
-   "load": "125098",
-   "broker": "dana",
-   "date": "2026-11-11",
-   "when": "Wed 11/11",
-   "from": "Shawnee, KS",
-   "to": "Springfield, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Paving stones",
-   "weight": "46,407 lb",
-   "miles": 189,
-   "rate": 800,
-   "rpm": 4.23,
-   "notes": "189 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125077",
