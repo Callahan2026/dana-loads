@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 3 · 2:44 PM",
- "updated_iso": "2026-11-03T14:44:30-06:00",
+ "updated": "Tue, Nov 3 · 3:43 PM",
+ "updated_iso": "2026-11-03T15:43:58-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,22 +31,6 @@
  },
  "loads": [
   {
-   "load": "125023",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Halstead, KS",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 53'",
-   "freight": "Several frames",
-   "weight": "15,000 lb",
-   "miles": 194,
-   "rate": 900,
-   "rpm": 4.64,
-   "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125024",
    "broker": "dana",
    "date": "2026-11-03",
@@ -60,22 +44,6 @@
    "rate": 900,
    "rpm": 4.64,
    "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125050",
-   "broker": "dana",
-   "date": "2026-11-03",
-   "when": "Tue 11/3",
-   "from": "Wister, OK",
-   "to": "Springfield, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 232,
-   "rate": 800,
-   "rpm": 3.45,
-   "notes": "232 miles",
    "tag": "Today"
   },
   {
@@ -143,38 +111,6 @@
    "tag": "Today"
   },
   {
-   "load": "124820",
-   "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "Kansas City, MO",
-   "to": "Hermitage, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 610,
-   "rate": 2100,
-   "rpm": 3.44,
-   "notes": "610 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125049",
-   "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "Kansas City, KS",
-   "to": "Sheffield, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Steel",
-   "weight": "10,770 lb",
-   "miles": 215,
-   "rate": 850,
-   "rpm": 3.95,
-   "notes": "215 miles · tarped",
-   "tag": "Tarped"
-  },
-  {
    "load": "125056",
    "broker": "dana",
    "date": "2026-11-04",
@@ -204,22 +140,6 @@
    "rate": 1300,
    "rpm": 6.95,
    "notes": "187 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125066",
-   "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "West Des Moines, IA",
-   "to": "Wichita, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Block",
-   "weight": "42,555 lb",
-   "miles": 377,
-   "rate": 1300,
-   "rpm": 3.45,
-   "notes": "377 miles",
    "tag": "Flatbed"
   },
   {
@@ -278,7 +198,7 @@
    "from": "Norfolk, NE",
    "to": "Garland, TX",
    "equip": "Flatbed / stepdeck",
-   "freight": "Steel - 250 pcs",
+   "freight": "Steel sheets",
    "weight": "38,373 lb",
    "miles": 508,
    "rate": 1700,
@@ -303,19 +223,35 @@
    "tag": "Power only"
   },
   {
-   "load": "125090",
+   "load": "124820",
    "broker": "dana",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "Blytheville, AR",
-   "to": "Tulsa, OK",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
+   "from": "Kansas City, MO",
+   "to": "Hermitage, MO",
    "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "44,000 lb",
-   "miles": 390,
-   "rate": 2050,
-   "rpm": 5.26,
-   "notes": "390 miles · tarped",
+   "freight": "Railroad ties",
+   "weight": "Call for weight",
+   "miles": 610,
+   "rate": 2100,
+   "rpm": 3.44,
+   "notes": "610 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125023",
+   "broker": "dana",
+   "date": "2026-11-10",
+   "when": "Tue 11/10",
+   "from": "Blytheville, AR",
+   "to": "Brookfield, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Skidded coils & 2 coils",
+   "weight": "Call for weight",
+   "miles": 430,
+   "rate": 2150,
+   "rpm": 5.0,
+   "notes": "430 miles · tarped",
    "tag": "Tarped"
   },
   {
