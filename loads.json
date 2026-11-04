@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 11:43 AM",
- "updated_iso": "2026-11-04T11:43:31-06:00",
+ "updated": "Wed, Nov 4 · 12:43 PM",
+ "updated_iso": "2026-11-04T12:43:44-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,6 +30,22 @@
   }
  },
  "loads": [
+  {
+   "load": "125044",
+   "broker": "cait",
+   "date": "2026-11-04",
+   "when": "Wed 11/4",
+   "from": "St Louis, MO",
+   "to": "Camdenton, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Stone",
+   "weight": "Call for weight",
+   "miles": 165,
+   "rate": 700,
+   "rpm": 4.24,
+   "notes": "165 miles",
+   "tag": "Today"
+  },
   {
    "load": "125056",
    "broker": "dana",
@@ -79,38 +95,6 @@
    "tag": "Today"
   },
   {
-   "load": "125102",
-   "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "Norfolk, NE",
-   "to": "Garland, TX",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Steel sheets",
-   "weight": "38,373 lb",
-   "miles": 508,
-   "rate": 1700,
-   "rpm": 3.35,
-   "notes": "508 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125044",
-   "broker": "cait",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "St Louis, MO",
-   "to": "Camdenton, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 165,
-   "rate": 700,
-   "rpm": 4.24,
-   "notes": "165 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125105",
    "broker": "dana",
    "date": "2026-11-05",
@@ -157,6 +141,22 @@
    "rpm": 3.44,
    "notes": "610 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125102",
+   "broker": "dana",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
+   "from": "Osceola, AR",
+   "to": "Jackson, TN",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel",
+   "weight": "43,204 lb",
+   "miles": 115,
+   "rate": 800,
+   "rpm": 6.96,
+   "notes": "115 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125108",
