@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 9:43 AM",
- "updated_iso": "2026-11-04T09:43:59-06:00",
+ "updated": "Wed, Nov 4 · 10:43 AM",
+ "updated_iso": "2026-11-04T10:43:43-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -116,14 +116,14 @@
    "date": "2026-11-04",
    "when": "Wed 11/4",
    "from": "Bridgeton, MO",
-   "to": "Grand Island, NE",
+   "to": "Council Bluffs, IA",
    "equip": "Flatbed / stepdeck",
    "freight": "Tarped steel",
    "weight": "26,433 lb",
    "miles": 572,
    "rate": 2100,
    "rpm": 3.67,
-   "notes": "572 miles · tarped · 2 drops: Council Bluffs, IA & Grand Island, NE",
+   "notes": "572 miles · tarped",
    "tag": "Today"
   },
   {
@@ -141,22 +141,6 @@
    "rpm": 3.35,
    "notes": "508 miles · tarped",
    "tag": "Today"
-  },
-  {
-   "load": "125099",
-   "broker": "dana",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "Kansas City, KS",
-   "to": "Jennings, LA",
-   "equip": "Flatbed 53'",
-   "freight": "Beams 60'",
-   "weight": "45,000 lb",
-   "miles": 760,
-   "rate": 2350,
-   "rpm": 3.09,
-   "notes": "760 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125105",
@@ -207,20 +191,20 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125113",
+   "load": "125114",
    "broker": "dana",
    "date": "2026-11-05",
    "when": "Thu 11/5",
-   "from": "Shakopee, MN",
-   "to": "West Des Moines, IA",
+   "from": "Osceola, AR",
+   "to": "Kansas City, MO",
    "equip": "Flatbed / stepdeck",
-   "freight": "Bricks",
-   "weight": "Call for weight",
-   "miles": 249,
-   "rate": 800,
-   "rpm": 3.21,
-   "notes": "249 miles",
-   "tag": "Flatbed"
+   "freight": "(1) coil",
+   "weight": "36,930 lb",
+   "miles": 474,
+   "rate": 2100,
+   "rpm": 4.43,
+   "notes": "474 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "124820",
@@ -269,22 +253,6 @@
    "rpm": 8.97,
    "notes": "39 miles · same-day delivery",
    "tag": "Local"
-  },
-  {
-   "load": "125110",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Pleasant Hill, MO",
-   "to": "Newton, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 195,
-   "rate": 800,
-   "rpm": 4.1,
-   "notes": "195 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125111",
