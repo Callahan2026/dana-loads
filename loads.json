@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 10:43 AM",
- "updated_iso": "2026-11-04T10:43:43-06:00",
+ "updated": "Wed, Nov 4 · 11:43 AM",
+ "updated_iso": "2026-11-04T11:43:31-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,38 +30,6 @@
   }
  },
  "loads": [
-  {
-   "load": "125014",
-   "broker": "cait",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "Carthage, TX",
-   "to": "Honey Grove, TX",
-   "equip": "Flatbed 48'",
-   "freight": "7/8\" rod",
-   "weight": "46,000 lb",
-   "miles": 150,
-   "rate": 650,
-   "rpm": 4.33,
-   "notes": "150 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125044",
-   "broker": "cait",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "St Louis, MO",
-   "to": "Camdenton, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 165,
-   "rate": 700,
-   "rpm": 4.24,
-   "notes": "165 miles",
-   "tag": "Today"
-  },
   {
    "load": "125056",
    "broker": "dana",
@@ -111,22 +79,6 @@
    "tag": "Today"
   },
   {
-   "load": "125100",
-   "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "Bridgeton, MO",
-   "to": "Council Bluffs, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Tarped steel",
-   "weight": "26,433 lb",
-   "miles": 572,
-   "rate": 2100,
-   "rpm": 3.67,
-   "notes": "572 miles · tarped",
-   "tag": "Today"
-  },
-  {
    "load": "125102",
    "broker": "dana",
    "date": "2026-11-04",
@@ -140,6 +92,22 @@
    "rate": 1700,
    "rpm": 3.35,
    "notes": "508 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125044",
+   "broker": "cait",
+   "date": "2026-11-04",
+   "when": "Wed 11/4",
+   "from": "St Louis, MO",
+   "to": "Camdenton, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Stone",
+   "weight": "Call for weight",
+   "miles": 165,
+   "rate": 700,
+   "rpm": 4.24,
+   "notes": "165 miles",
    "tag": "Today"
   },
   {
@@ -173,38 +141,6 @@
    "rpm": 8.97,
    "notes": "39 miles · same-day delivery",
    "tag": "Local"
-  },
-  {
-   "load": "125112",
-   "broker": "dana",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "Kanopolis, KS",
-   "to": "Topeka, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Bagged salt",
-   "weight": "Call for weight",
-   "miles": 350,
-   "rate": 700,
-   "rpm": 2.0,
-   "notes": "350 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125114",
-   "broker": "dana",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "Osceola, AR",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "(1) coil",
-   "weight": "36,930 lb",
-   "miles": 474,
-   "rate": 2100,
-   "rpm": 4.43,
-   "notes": "474 miles · tarped",
-   "tag": "Tarped"
   },
   {
    "load": "124820",
