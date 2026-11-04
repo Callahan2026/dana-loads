@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 1:43 PM",
- "updated_iso": "2026-11-04T13:43:13-06:00",
+ "updated": "Wed, Nov 4 · 2:44 PM",
+ "updated_iso": "2026-11-04T14:44:06-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,38 +31,6 @@
  },
  "loads": [
   {
-   "load": "125056",
-   "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "Blytheville, AR",
-   "to": "Livonia, MI",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Skidded coils",
-   "weight": "47,000 lb",
-   "miles": 640,
-   "rate": 2700,
-   "rpm": 4.22,
-   "notes": "640 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125086",
-   "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
-   "from": "Blytheville, AR",
-   "to": "Grove City, OH",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "Call for weight",
-   "miles": 560,
-   "rate": 2200,
-   "rpm": 3.93,
-   "notes": "560 miles · tarped",
-   "tag": "Today"
-  },
-  {
    "load": "125092",
    "broker": "dana",
    "date": "2026-11-04",
@@ -79,6 +47,22 @@
    "tag": "Today"
   },
   {
+   "load": "125044",
+   "broker": "dana",
+   "date": "2026-11-05",
+   "when": "Thu 11/5",
+   "from": "Shawnee, KS",
+   "to": "Farmington, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks/blocks",
+   "weight": "46,227 lb",
+   "miles": 401,
+   "rate": 1450,
+   "rpm": 3.62,
+   "notes": "401 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "124820",
    "broker": "dana",
    "date": "2026-11-06",
@@ -93,22 +77,6 @@
    "rpm": 3.44,
    "notes": "610 miles",
    "tag": "Flatbed"
-  },
-  {
-   "load": "125102",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Osceola, AR",
-   "to": "Jackson, TN",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Steel",
-   "weight": "43,204 lb",
-   "miles": 115,
-   "rate": 800,
-   "rpm": 6.96,
-   "notes": "115 miles · tarped",
-   "tag": "Tarped"
   },
   {
    "load": "125108",
@@ -143,19 +111,35 @@
    "tag": "Local"
   },
   {
-   "load": "125044",
+   "load": "125116",
    "broker": "dana",
-   "date": "2026-11-09",
-   "when": "Mon 11/9",
-   "from": "Shawnee, KS",
-   "to": "Farmington, MO",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
+   "from": "Jackson, MS",
+   "to": "Kansas City, KS",
    "equip": "Flatbed / stepdeck",
-   "freight": "Bricks/blocks",
-   "weight": "46,227 lb",
-   "miles": 401,
-   "rate": 1450,
-   "rpm": 3.62,
-   "notes": "401 miles",
+   "freight": "5 racks acrylic galvalume",
+   "weight": "45,188 lb",
+   "miles": 0,
+   "rate": 2800,
+   "rpm": null,
+   "notes": "tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125117",
+   "broker": "dana",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
+   "from": "Pleasant Hill, MO",
+   "to": "Nevada, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 69,
+   "rate": 350,
+   "rpm": 5.07,
+   "notes": "69 miles",
    "tag": "Flatbed"
   },
   {
