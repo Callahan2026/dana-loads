@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 3:43 PM",
- "updated_iso": "2026-11-04T15:43:20-06:00",
+ "updated": "Wed, Nov 4 · 4:43 PM",
+ "updated_iso": "2026-11-04T16:43:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -45,6 +45,22 @@
    "rpm": 3.33,
    "notes": "315 miles · tarped",
    "tag": "Today"
+  },
+  {
+   "load": "125119",
+   "broker": "cait",
+   "date": "2026-11-05",
+   "when": "Thu 11/5",
+   "from": "Erick, OK",
+   "to": "El Reno, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Sucker rod",
+   "weight": "46,500 lb",
+   "miles": 125,
+   "rate": 700,
+   "rpm": 5.6,
+   "notes": "125 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "124820",
