@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 2:44 PM",
- "updated_iso": "2026-11-04T14:44:06-06:00",
+ "updated": "Wed, Nov 4 · 3:43 PM",
+ "updated_iso": "2026-11-04T15:43:20-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -45,22 +45,6 @@
    "rpm": 3.33,
    "notes": "315 miles · tarped",
    "tag": "Today"
-  },
-  {
-   "load": "125044",
-   "broker": "dana",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "Shawnee, KS",
-   "to": "Farmington, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Bricks/blocks",
-   "weight": "46,227 lb",
-   "miles": 401,
-   "rate": 1450,
-   "rpm": 3.62,
-   "notes": "401 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "124820",
@@ -137,8 +121,8 @@
    "freight": "Lumber",
    "weight": "Call for weight",
    "miles": 69,
-   "rate": 350,
-   "rpm": 5.07,
+   "rate": 500,
+   "rpm": 7.25,
    "notes": "69 miles",
    "tag": "Flatbed"
   },
