@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 4:43 PM",
- "updated_iso": "2026-11-04T16:43:00-06:00",
+ "updated": "Wed, Nov 4 · 5:44 PM",
+ "updated_iso": "2026-11-04T17:44:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -47,19 +47,19 @@
    "tag": "Today"
   },
   {
-   "load": "125119",
-   "broker": "cait",
+   "load": "125120",
+   "broker": "pam",
    "date": "2026-11-05",
    "when": "Thu 11/5",
-   "from": "Erick, OK",
-   "to": "El Reno, OK",
-   "equip": "Flatbed 48'",
-   "freight": "Sucker rod",
-   "weight": "46,500 lb",
-   "miles": 125,
-   "rate": 700,
-   "rpm": 5.6,
-   "notes": "125 miles",
+   "from": "Des Moines, IA",
+   "to": "Le Sueur, MN",
+   "equip": "Reefer 53'",
+   "freight": "3-plts animal medcine",
+   "weight": "3,700 lb",
+   "miles": 230,
+   "rate": 900,
+   "rpm": 3.91,
+   "notes": "230 miles",
    "tag": "Flatbed"
   },
   {
