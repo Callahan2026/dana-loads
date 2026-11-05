@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 8:44 AM",
- "updated_iso": "2026-11-05T08:44:00-06:00",
+ "updated": "Thu, Nov 5 · 9:44 AM",
+ "updated_iso": "2026-11-05T09:44:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,6 +31,22 @@
  },
  "loads": [
   {
+   "load": "125119",
+   "broker": "cait",
+   "date": "2026-11-05",
+   "when": "Thu 11/5",
+   "from": "El Reno, OK",
+   "to": "Erick, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe",
+   "weight": "46,500 lb",
+   "miles": 124,
+   "rate": 650,
+   "rpm": 5.24,
+   "notes": "124 miles",
+   "tag": "Today"
+  },
+  {
    "load": "125092",
    "broker": "dana",
    "date": "2026-11-05",
@@ -47,19 +63,35 @@
    "tag": "Today"
   },
   {
-   "load": "125119",
-   "broker": "cait",
+   "load": "125125",
+   "broker": "dana",
    "date": "2026-11-05",
    "when": "Thu 11/5",
-   "from": "El Reno, OK",
-   "to": "Erick, OK",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe",
-   "weight": "46,500 lb",
-   "miles": 124,
-   "rate": 650,
-   "rpm": 5.24,
-   "notes": "124 miles",
+   "from": "Shakopee, MN",
+   "to": "West Des Moines, IA",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks",
+   "weight": "Call for weight",
+   "miles": 249,
+   "rate": 800,
+   "rpm": 3.21,
+   "notes": "249 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125126",
+   "broker": "dana",
+   "date": "2026-11-05",
+   "when": "Thu 11/5",
+   "from": "Adel, IA",
+   "to": "Blue Springs, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks on plts",
+   "weight": "Call for weight",
+   "miles": 215,
+   "rate": 850,
+   "rpm": 3.95,
+   "notes": "215 miles · tarped",
    "tag": "Today"
   },
   {
@@ -111,22 +143,6 @@
    "tag": "Local"
   },
   {
-   "load": "125116",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Jackson, MS",
-   "to": "Kansas City, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "5 racks acrylic galvalume",
-   "weight": "45,188 lb",
-   "miles": 662,
-   "rate": 3000,
-   "rpm": 4.53,
-   "notes": "662 miles · tarped",
-   "tag": "Tarped"
-  },
-  {
    "load": "125117",
    "broker": "dana",
    "date": "2026-11-06",
@@ -141,22 +157,6 @@
    "rpm": 7.25,
    "notes": "69 miles",
    "tag": "Flatbed"
-  },
-  {
-   "load": "125123",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Blytheville, AR",
-   "to": "Napoleon, OH",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "45,000 lb",
-   "miles": 0,
-   "rate": 2300,
-   "rpm": null,
-   "notes": "tarped",
-   "tag": "Tarped"
   },
   {
    "load": "125111",
@@ -205,22 +205,6 @@
    "rpm": 4.66,
    "notes": "440 miles · tarped",
    "tag": "Tarped"
-  },
-  {
-   "load": "125077",
-   "broker": "pam",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Charleston, IL",
-   "to": "Great Falls, MT",
-   "equip": "Flatbed 48'",
-   "freight": "Lumber",
-   "weight": "44,000 lb",
-   "miles": 1532,
-   "rate": 7000,
-   "rpm": 4.57,
-   "notes": "1532 miles",
-   "tag": "Flatbed"
   }
  ]
 }
