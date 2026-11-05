@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 9:44 AM",
- "updated_iso": "2026-11-05T09:44:00-06:00",
+ "updated": "Thu, Nov 5 · 10:44 AM",
+ "updated_iso": "2026-11-05T10:44:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,22 +30,6 @@
   }
  },
  "loads": [
-  {
-   "load": "125119",
-   "broker": "cait",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "El Reno, OK",
-   "to": "Erick, OK",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe",
-   "weight": "46,500 lb",
-   "miles": 124,
-   "rate": 650,
-   "rpm": 5.24,
-   "notes": "124 miles",
-   "tag": "Today"
-  },
   {
    "load": "125092",
    "broker": "dana",
@@ -79,19 +63,19 @@
    "tag": "Today"
   },
   {
-   "load": "125126",
-   "broker": "dana",
+   "load": "125119",
+   "broker": "cait",
    "date": "2026-11-05",
    "when": "Thu 11/5",
-   "from": "Adel, IA",
-   "to": "Blue Springs, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Bricks on plts",
-   "weight": "Call for weight",
-   "miles": 215,
-   "rate": 850,
-   "rpm": 3.95,
-   "notes": "215 miles · tarped",
+   "from": "El Reno, OK",
+   "to": "Erick, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe",
+   "weight": "46,500 lb",
+   "miles": 124,
+   "rate": 650,
+   "rpm": 5.24,
+   "notes": "124 miles",
    "tag": "Today"
   },
   {
@@ -108,54 +92,6 @@
    "rate": 2100,
    "rpm": 3.44,
    "notes": "610 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125108",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Pleasant Hill, MO",
-   "to": "Kansas City, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 39,
-   "rate": 350,
-   "rpm": 8.97,
-   "notes": "39 miles · same-day delivery",
-   "tag": "Local"
-  },
-  {
-   "load": "125109",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Pleasant Hill, MO",
-   "to": "Kansas City, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 39,
-   "rate": 350,
-   "rpm": 8.97,
-   "notes": "39 miles · same-day delivery",
-   "tag": "Local"
-  },
-  {
-   "load": "125117",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Pleasant Hill, MO",
-   "to": "Nevada, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 69,
-   "rate": 500,
-   "rpm": 7.25,
-   "notes": "69 miles",
    "tag": "Flatbed"
   },
   {
@@ -188,6 +124,38 @@
    "rate": 2050,
    "rpm": null,
    "notes": "tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125128",
+   "broker": "dana",
+   "date": "2026-11-09",
+   "when": "Mon 11/9",
+   "from": "Blytheville, AR",
+   "to": "Tulsa, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Sheets",
+   "weight": "46,000 lb",
+   "miles": 390,
+   "rate": 2050,
+   "rpm": 5.26,
+   "notes": "390 miles · tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125129",
+   "broker": "dana",
+   "date": "2026-11-09",
+   "when": "Mon 11/9",
+   "from": "La Cygne, KS",
+   "to": "Wynnewood, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Abrasive material",
+   "weight": "Call for weight",
+   "miles": 367,
+   "rate": 1200,
+   "rpm": 3.27,
+   "notes": "367 miles · tarped",
    "tag": "Tarped"
   },
   {
