@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 11:44 AM",
- "updated_iso": "2026-11-05T11:44:00-06:00",
+ "updated": "Thu, Nov 5 · 12:43 PM",
+ "updated_iso": "2026-11-05T12:43:27-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -63,19 +63,19 @@
    "tag": "Today"
   },
   {
-   "load": "125130",
+   "load": "125139",
    "broker": "dana",
    "date": "2026-11-05",
    "when": "Thu 11/5",
-   "from": "La Cygne, KS",
-   "to": "Coffeen, IL",
+   "from": "Shakopee, MN",
+   "to": "West Des Moines, IA",
    "equip": "Flatbed / stepdeck",
-   "freight": "Abrasive material",
-   "weight": "44,000 lb",
-   "miles": 360,
-   "rate": 1100,
-   "rpm": 3.06,
-   "notes": "360 miles · tarped",
+   "freight": "Bricks",
+   "weight": "Call for weight",
+   "miles": 249,
+   "rate": 800,
+   "rpm": 3.21,
+   "notes": "249 miles",
    "tag": "Today"
   },
   {
@@ -127,6 +127,22 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125138",
+   "broker": "dana",
+   "date": "2026-11-07",
+   "when": "Sat 11/7",
+   "from": "Pleasant Hill, MO",
+   "to": "Shawnee, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 40,
+   "rate": 350,
+   "rpm": 8.75,
+   "notes": "40 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
    "load": "125111",
    "broker": "dana",
    "date": "2026-11-09",
@@ -155,7 +171,7 @@
    "miles": 0,
    "rate": 2050,
    "rpm": null,
-   "notes": "0 miles · tarped",
+   "notes": "0 miles · tarped · same-day delivery",
    "tag": "Tarped"
   },
   {
@@ -175,58 +191,10 @@
    "tag": "Tarped"
   },
   {
-   "load": "125134",
-   "broker": "dana",
-   "date": "2026-11-09",
-   "when": "Mon 11/9",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks/blocks - 16plts",
-   "weight": "45,600 lb",
-   "miles": 455,
-   "rate": 1325,
-   "rpm": 2.91,
-   "notes": "455 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125135",
-   "broker": "dana",
-   "date": "2026-11-09",
-   "when": "Mon 11/9",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks/blocks - 15plts",
-   "weight": "45,570 lb",
-   "miles": 455,
-   "rate": 1325,
-   "rpm": 2.91,
-   "notes": "455 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125136",
    "broker": "dana",
    "date": "2026-11-09",
    "when": "Mon 11/9",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks/blocks - 15plts",
-   "weight": "45,570 lb",
-   "miles": 455,
-   "rate": 1325,
-   "rpm": 2.91,
-   "notes": "455 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125133",
-   "broker": "dana",
-   "date": "2026-11-10",
-   "when": "Tue 11/10",
    "from": "Shakopee, MN",
    "to": "Shawnee, KS",
    "equip": "Flatbed 48'",
@@ -246,7 +214,7 @@
    "from": "Blytheville, AR",
    "to": "Dallas, TX",
    "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
+   "freight": "Steel sheets",
    "weight": "39,000 lb",
    "miles": 440,
    "rate": 2050,
