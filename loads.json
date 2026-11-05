@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 8:33 AM",
- "updated_iso": "2026-11-05T08:33:49-06:00",
+ "updated": "Thu, Nov 5 · 8:44 AM",
+ "updated_iso": "2026-11-05T08:44:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -44,22 +44,6 @@
    "rate": 1050,
    "rpm": 3.33,
    "notes": "315 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125124",
-   "broker": "dana",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "Osceola, AR",
-   "to": "Winona, MS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Steel",
-   "weight": "45,000 lb",
-   "miles": 175,
-   "rate": 1100,
-   "rpm": 6.29,
-   "notes": "175 miles · tarped",
    "tag": "Today"
   },
   {
