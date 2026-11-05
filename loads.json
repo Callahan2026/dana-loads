@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 4 · 5:44 PM",
- "updated_iso": "2026-11-04T17:44:00-06:00",
+ "updated": "Thu, Nov 5 · 8:33 AM",
+ "updated_iso": "2026-11-05T08:33:49-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -33,8 +33,8 @@
   {
    "load": "125092",
    "broker": "dana",
-   "date": "2026-11-04",
-   "when": "Wed 11/4",
+   "date": "2026-11-05",
+   "when": "Thu 11/5",
    "from": "Mccurtain, OK",
    "to": "Belton, MO",
    "equip": "Flatbed / stepdeck",
@@ -47,20 +47,36 @@
    "tag": "Today"
   },
   {
-   "load": "125120",
-   "broker": "pam",
+   "load": "125124",
+   "broker": "dana",
    "date": "2026-11-05",
    "when": "Thu 11/5",
-   "from": "Des Moines, IA",
-   "to": "Le Sueur, MN",
-   "equip": "Reefer 53'",
-   "freight": "3-plts animal medcine",
-   "weight": "3,700 lb",
-   "miles": 230,
-   "rate": 900,
-   "rpm": 3.91,
-   "notes": "230 miles",
-   "tag": "Flatbed"
+   "from": "Osceola, AR",
+   "to": "Winona, MS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel",
+   "weight": "45,000 lb",
+   "miles": 175,
+   "rate": 1100,
+   "rpm": 6.29,
+   "notes": "175 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125119",
+   "broker": "cait",
+   "date": "2026-11-05",
+   "when": "Thu 11/5",
+   "from": "El Reno, OK",
+   "to": "Erick, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe",
+   "weight": "46,500 lb",
+   "miles": 124,
+   "rate": 650,
+   "rpm": 5.24,
+   "notes": "124 miles",
+   "tag": "Today"
   },
   {
    "load": "124820",
@@ -120,10 +136,10 @@
    "equip": "Flatbed / stepdeck",
    "freight": "5 racks acrylic galvalume",
    "weight": "45,188 lb",
-   "miles": 0,
-   "rate": 2800,
-   "rpm": null,
-   "notes": "tarped",
+   "miles": 662,
+   "rate": 3000,
+   "rpm": 4.53,
+   "notes": "662 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -143,6 +159,22 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125123",
+   "broker": "dana",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
+   "from": "Blytheville, AR",
+   "to": "Napoleon, OH",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Sheets",
+   "weight": "45,000 lb",
+   "miles": 0,
+   "rate": 2300,
+   "rpm": null,
+   "notes": "tarped",
+   "tag": "Tarped"
+  },
+  {
    "load": "125111",
    "broker": "dana",
    "date": "2026-11-09",
@@ -156,6 +188,22 @@
    "rate": 2050,
    "rpm": 5.26,
    "notes": "390 miles · tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125122",
+   "broker": "dana",
+   "date": "2026-11-09",
+   "when": "Mon 11/9",
+   "from": "Blytheville, AR",
+   "to": "Pryor, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Sheets",
+   "weight": "Call for weight",
+   "miles": 0,
+   "rate": 2050,
+   "rpm": null,
+   "notes": "tarped",
    "tag": "Tarped"
   },
   {
