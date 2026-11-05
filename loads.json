@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 12:43 PM",
- "updated_iso": "2026-11-05T12:43:27-06:00",
+ "updated": "Thu, Nov 5 · 1:43 PM",
+ "updated_iso": "2026-11-05T13:43:10-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -93,22 +93,6 @@
    "rpm": 5.24,
    "notes": "124 miles",
    "tag": "Today"
-  },
-  {
-   "load": "124820",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Kansas City, MO",
-   "to": "Hermitage, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 610,
-   "rate": 2100,
-   "rpm": 3.44,
-   "notes": "610 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125131",
