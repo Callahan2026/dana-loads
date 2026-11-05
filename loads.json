@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 2:43 PM",
- "updated_iso": "2026-11-05T14:43:06-06:00",
+ "updated": "Thu, Nov 5 · 3:43 PM",
+ "updated_iso": "2026-11-05T15:43:23-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -97,8 +97,8 @@
   {
    "load": "125138",
    "broker": "dana",
-   "date": "2026-11-07",
-   "when": "Sat 11/7",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
    "from": "Pleasant Hill, MO",
    "to": "Shawnee, KS",
    "equip": "Flatbed / stepdeck",
@@ -184,10 +184,10 @@
    "equip": "Flatbed / stepdeck",
    "freight": "Steel sheets",
    "weight": "39,000 lb",
-   "miles": 440,
+   "miles": 503,
    "rate": 2050,
-   "rpm": 4.66,
-   "notes": "440 miles · tarped",
+   "rpm": 4.08,
+   "notes": "503 miles · tarped",
    "tag": "Tarped"
   }
  ]
