@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 3:43 PM",
- "updated_iso": "2026-11-05T15:43:23-06:00",
+ "updated": "Thu, Nov 5 · 5:31 PM",
+ "updated_iso": "2026-11-05T17:31:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -93,54 +93,6 @@
    "rpm": 2.91,
    "notes": "455 miles",
    "tag": "Flatbed"
-  },
-  {
-   "load": "125138",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Pleasant Hill, MO",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 40,
-   "rate": 350,
-   "rpm": 8.75,
-   "notes": "40 miles · same-day delivery",
-   "tag": "Local"
-  },
-  {
-   "load": "125111",
-   "broker": "dana",
-   "date": "2026-11-09",
-   "when": "Mon 11/9",
-   "from": "Blytheville, AR",
-   "to": "Tulsa, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "41,000 lb",
-   "miles": 390,
-   "rate": 2050,
-   "rpm": 5.26,
-   "notes": "390 miles · tarped",
-   "tag": "Tarped"
-  },
-  {
-   "load": "125122",
-   "broker": "dana",
-   "date": "2026-11-09",
-   "when": "Mon 11/9",
-   "from": "Blytheville, AR",
-   "to": "Pryor, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "Call for weight",
-   "miles": 0,
-   "rate": 2050,
-   "rpm": null,
-   "notes": "0 miles · tarped · same-day delivery",
-   "tag": "Tarped"
   },
   {
    "load": "125129",
