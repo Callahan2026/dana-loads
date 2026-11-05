@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 5 · 1:43 PM",
- "updated_iso": "2026-11-05T13:43:10-06:00",
+ "updated": "Thu, Nov 5 · 2:43 PM",
+ "updated_iso": "2026-11-05T14:43:06-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -44,22 +44,6 @@
    "rate": 1050,
    "rpm": 3.33,
    "notes": "315 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125125",
-   "broker": "dana",
-   "date": "2026-11-05",
-   "when": "Thu 11/5",
-   "from": "Shakopee, MN",
-   "to": "West Des Moines, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Bricks",
-   "weight": "Call for weight",
-   "miles": 249,
-   "rate": 800,
-   "rpm": 3.21,
-   "notes": "249 miles",
    "tag": "Today"
   },
   {
