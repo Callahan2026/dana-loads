@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 6 · 8:44 AM",
- "updated_iso": "2026-11-06T08:44:45-06:00",
+ "updated": "Fri, Nov 6 · 9:44 AM",
+ "updated_iso": "2026-11-06T09:44:18-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -43,7 +43,7 @@
    "miles": 315,
    "rate": 1050,
    "rpm": 3.33,
-   "notes": "315 miles · tarped",
+   "notes": "315 miles",
    "tag": "Today"
   },
   {
@@ -79,54 +79,6 @@
    "tag": "Today"
   },
   {
-   "load": "125144",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Halstead, KS",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 53'",
-   "freight": "Several frames",
-   "weight": "8,000 lb",
-   "miles": 194,
-   "rate": 850,
-   "rpm": 4.38,
-   "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125145",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Halstead, KS",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 53'",
-   "freight": "Several frames",
-   "weight": "8,000 lb",
-   "miles": 194,
-   "rate": 850,
-   "rpm": 4.38,
-   "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125146",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Halstead, KS",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 53'",
-   "freight": "Several frames",
-   "weight": "8,000 lb",
-   "miles": 194,
-   "rate": 850,
-   "rpm": 4.38,
-   "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125119",
    "broker": "cait",
    "date": "2026-11-06",
@@ -159,6 +111,38 @@
    "tag": "Tarped"
   },
   {
+   "load": "125143",
+   "broker": "dana",
+   "date": "2026-11-09",
+   "when": "Mon 11/9",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 53'",
+   "freight": "Several frames",
+   "weight": "20,000 lb",
+   "miles": 194,
+   "rate": 850,
+   "rpm": 4.38,
+   "notes": "194 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125144",
+   "broker": "dana",
+   "date": "2026-11-09",
+   "when": "Mon 11/9",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 53'",
+   "freight": "Several frames",
+   "weight": "8,000 lb",
+   "miles": 194,
+   "rate": 850,
+   "rpm": 4.38,
+   "notes": "194 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125142",
    "broker": "pam",
    "date": "2026-11-09",
@@ -172,22 +156,6 @@
    "rate": 750,
    "rpm": 3.41,
    "notes": "220 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125143",
-   "broker": "dana",
-   "date": "2026-11-10",
-   "when": "Tue 11/10",
-   "from": "Halstead, KS",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 53'",
-   "freight": "Several frames",
-   "weight": "20,000 lb",
-   "miles": 194,
-   "rate": 850,
-   "rpm": 4.38,
-   "notes": "194 miles",
    "tag": "Flatbed"
   },
   {
@@ -205,6 +173,38 @@
    "rpm": 4.08,
    "notes": "503 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125145",
+   "broker": "dana",
+   "date": "2026-11-11",
+   "when": "Wed 11/11",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 53'",
+   "freight": "Several frames",
+   "weight": "8,000 lb",
+   "miles": 194,
+   "rate": 850,
+   "rpm": 4.38,
+   "notes": "194 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125146",
+   "broker": "dana",
+   "date": "2026-11-11",
+   "when": "Wed 11/11",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 53'",
+   "freight": "Several frames",
+   "weight": "8,000 lb",
+   "miles": 194,
+   "rate": 850,
+   "rpm": 4.38,
+   "notes": "194 miles",
+   "tag": "Flatbed"
   }
  ]
 }
