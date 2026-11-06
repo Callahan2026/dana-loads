@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 6 · 12:43 PM",
- "updated_iso": "2026-11-06T12:43:17-06:00",
+ "updated": "Fri, Nov 6 · 1:43 PM",
+ "updated_iso": "2026-11-06T13:43:15-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,6 +30,22 @@
   }
  },
  "loads": [
+  {
+   "load": "125119",
+   "broker": "cait",
+   "date": "2026-11-06",
+   "when": "Fri 11/6",
+   "from": "El Reno, OK",
+   "to": "Erick, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe",
+   "weight": "46,500 lb",
+   "miles": 124,
+   "rate": 650,
+   "rpm": 5.24,
+   "notes": "124 miles",
+   "tag": "Today"
+  },
   {
    "load": "125092",
    "broker": "dana",
@@ -63,22 +79,6 @@
    "tag": "Today"
   },
   {
-   "load": "125119",
-   "broker": "cait",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "El Reno, OK",
-   "to": "Erick, OK",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe",
-   "weight": "46,500 lb",
-   "miles": 124,
-   "rate": 650,
-   "rpm": 5.24,
-   "notes": "124 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125129",
    "broker": "dana",
    "date": "2026-11-09",
@@ -108,22 +108,6 @@
    "rate": 850,
    "rpm": 4.38,
    "notes": "194 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125142",
-   "broker": "pam",
-   "date": "2026-11-09",
-   "when": "Mon 11/9",
-   "from": "St Joseph, MO",
-   "to": "Springfield, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Scaffolding",
-   "weight": "39,000 lb",
-   "miles": 220,
-   "rate": 750,
-   "rpm": 3.41,
-   "notes": "220 miles",
    "tag": "Flatbed"
   },
   {
