@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 6 · 2:43 PM",
- "updated_iso": "2026-11-06T14:43:00-06:00",
+ "updated": "Fri, Nov 6 · 3:43 PM",
+ "updated_iso": "2026-11-06T15:43:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -143,6 +143,22 @@
    "tag": "Tarped"
   },
   {
+   "load": "125151",
+   "broker": "dana",
+   "date": "2026-11-10",
+   "when": "Tue 11/10",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 0,
+   "rate": 1140,
+   "rpm": null,
+   "notes": "",
+   "tag": "Oversize"
+  },
+  {
    "load": "125013",
    "broker": "dana",
    "date": "2026-11-11",
@@ -205,6 +221,54 @@
    "rpm": 4.3,
    "notes": "488 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125152",
+   "broker": "dana",
+   "date": "2026-11-11",
+   "when": "Wed 11/11",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 0,
+   "rate": 1140,
+   "rpm": null,
+   "notes": "",
+   "tag": "Oversize"
+  },
+  {
+   "load": "125153",
+   "broker": "dana",
+   "date": "2026-11-12",
+   "when": "Thu 11/12",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 0,
+   "rate": 1140,
+   "rpm": null,
+   "notes": "",
+   "tag": "Oversize"
+  },
+  {
+   "load": "125154",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 0,
+   "rate": 1140,
+   "rpm": null,
+   "notes": "",
+   "tag": "Oversize"
   }
  ]
 }
