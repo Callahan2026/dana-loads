@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 6 · 1:43 PM",
- "updated_iso": "2026-11-06T13:43:15-06:00",
+ "updated": "Fri, Nov 6 · 2:43 PM",
+ "updated_iso": "2026-11-06T14:43:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -111,6 +111,22 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125150",
+   "broker": "dana",
+   "date": "2026-11-09",
+   "when": "Mon 11/9",
+   "from": "Kansas City, MO",
+   "to": "Siloam Springs, AR",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 226,
+   "rate": 800,
+   "rpm": 3.54,
+   "notes": "226 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125148",
    "broker": "dana",
    "date": "2026-11-10",
@@ -151,7 +167,7 @@
    "to": "Kansas City, MO",
    "equip": "Flatbed 53'",
    "freight": "Several frames",
-   "weight": "8,000 lb",
+   "weight": "20,000 lb",
    "miles": 194,
    "rate": 850,
    "rpm": 4.38,
