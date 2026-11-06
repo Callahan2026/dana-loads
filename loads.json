@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 6 · 10:43 AM",
- "updated_iso": "2026-11-06T10:43:26-06:00",
+ "updated": "Fri, Nov 6 · 11:43 AM",
+ "updated_iso": "2026-11-06T11:43:33-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -44,22 +44,6 @@
    "rate": 1050,
    "rpm": 3.33,
    "notes": "315 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125131",
-   "broker": "dana",
-   "date": "2026-11-06",
-   "when": "Fri 11/6",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks/blocks - 23plts",
-   "weight": "46,058 lb",
-   "miles": 455,
-   "rate": 1325,
-   "rpm": 2.91,
-   "notes": "455 miles",
    "tag": "Today"
   },
   {
