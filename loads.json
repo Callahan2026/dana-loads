@@ -1,6 +1,6 @@
 {
-  "updated": "Mon, Nov 9 · 3:43 PM",
-  "updated_iso": "2026-11-09T15:43:46-06:00",
+  "updated": "Mon, Nov 9 · 5:45 PM",
+  "updated_iso": "2026-11-09T17:45:13-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -367,22 +367,6 @@
       "tag": "Tarped"
     },
     {
-      "load": "125173",
-      "broker": "pam",
-      "date": "2026-11-10",
-      "when": "Tue 11/10",
-      "from": "Fairview, PA",
-      "to": "Le Sueur, MN",
-      "equip": "Van / reefer",
-      "freight": "3-plts plastic tubes",
-      "weight": "450 lb",
-      "miles": 876,
-      "rate": 1500,
-      "rpm": 1.71,
-      "notes": "876 miles",
-      "tag": "Flatbed"
-    },
-    {
       "load": "125013",
       "broker": "dana",
       "date": "2026-11-11",
@@ -429,6 +413,38 @@
       "rpm": 4.29,
       "notes": "700 miles · tarped",
       "tag": "Tarped"
+    },
+    {
+      "load": "125205",
+      "broker": "dana",
+      "date": "2026-11-11",
+      "when": "Wed 11/11",
+      "from": "Blytheville, AR",
+      "to": "Tulsa, OK",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Skidded coils",
+      "weight": "42,000 lb",
+      "miles": 390,
+      "rate": 2050,
+      "rpm": 5.26,
+      "notes": "390 miles · tarped",
+      "tag": "Tarped"
+    },
+    {
+      "load": "125206",
+      "broker": "dana",
+      "date": "2026-11-13",
+      "when": "Fri 11/13",
+      "from": "Pleasant Hill, MO",
+      "to": "Wichita, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 204,
+      "rate": 900,
+      "rpm": 4.41,
+      "notes": "204 miles",
+      "tag": "Flatbed"
     }
   ]
 }
