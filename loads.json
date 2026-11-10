@@ -1,6 +1,6 @@
 {
-  "updated": "Tue, Nov 10 · 1:43 PM",
-  "updated_iso": "2026-11-10T13:43:58-06:00",
+  "updated": "Tue, Nov 10 · 2:43 PM",
+  "updated_iso": "2026-11-10T14:43:57-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -271,20 +271,20 @@
       "tag": "Flatbed"
     },
     {
-      "load": "125219",
-      "broker": "cait",
+      "load": "125230",
+      "broker": "dana",
       "date": "2026-11-11",
       "when": "Wed 11/11",
-      "from": "Paducah, KY",
-      "to": "Columbus, NE",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Steel sheets",
-      "weight": "46,500 lb",
-      "miles": 687,
-      "rate": 2700,
-      "rpm": 3.93,
-      "notes": "687 miles",
-      "tag": "Flatbed"
+      "from": "Kansas City, KS",
+      "to": "Winterset, IA",
+      "equip": "Hot shot",
+      "freight": "Steel",
+      "weight": "8,905 lb",
+      "miles": 340,
+      "rate": 1000,
+      "rpm": 2.94,
+      "notes": "340 miles",
+      "tag": "Hot shot"
     },
     {
       "load": "125213",
@@ -377,8 +377,8 @@
       "freight": "Steel 40'",
       "weight": "47,800 lb",
       "miles": 920,
-      "rate": 2350,
-      "rpm": 2.55,
+      "rate": 2550,
+      "rpm": 2.77,
       "notes": "920 miles",
       "tag": "Flatbed"
     },
@@ -388,14 +388,14 @@
       "date": "2026-11-13",
       "when": "Fri 11/13",
       "from": "Kansas City, KS",
-      "to": "Splendora, TX",
-      "equip": "Flatbed 53'",
+      "to": "Amarillo, TX",
+      "equip": "Flatbed 48'",
       "freight": "Steel 48'",
       "weight": "42,738 lb",
-      "miles": 717,
-      "rate": 2350,
-      "rpm": 3.28,
-      "notes": "717 miles",
+      "miles": 985,
+      "rate": 2650,
+      "rpm": 2.69,
+      "notes": "985 miles",
       "tag": "Flatbed"
     },
     {
