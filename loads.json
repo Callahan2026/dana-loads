@@ -1,6 +1,6 @@
 {
-  "updated": "Tue, Nov 10 · 11:46 AM",
-  "updated_iso": "2026-11-10T11:46:17-06:00",
+  "updated": "Tue, Nov 10 · 12:45 PM",
+  "updated_iso": "2026-11-10T12:45:36-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -261,29 +261,45 @@
       "when": "Wed 11/11",
       "from": "North Bend, NE",
       "to": "Plattsburg, MO",
-      "equip": "Flatbed 48'",
+      "equip": "Flatbed / stepdeck",
       "freight": "Salt",
       "weight": "Call for weight",
       "miles": 230,
-      "rate": 1100,
-      "rpm": 4.78,
+      "rate": 800,
+      "rpm": 3.48,
       "notes": "230 miles",
       "tag": "Flatbed"
     },
     {
-      "load": "125217",
-      "broker": "pam",
+      "load": "125220",
+      "broker": "dana",
       "date": "2026-11-11",
       "when": "Wed 11/11",
-      "from": "Kansas City, KS",
-      "to": "Call for destination",
-      "equip": "Flatbed 53'",
-      "freight": "Steel beam",
+      "from": "North Bend, NE",
+      "to": "Des Moines, IA",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Salt",
       "weight": "Call for weight",
-      "miles": 0,
-      "rate": 700,
-      "rpm": null,
-      "notes": "",
+      "miles": 200,
+      "rate": 800,
+      "rpm": 4.0,
+      "notes": "200 miles",
+      "tag": "Flatbed"
+    },
+    {
+      "load": "125222",
+      "broker": "dana",
+      "date": "2026-11-11",
+      "when": "Wed 11/11",
+      "from": "Pleasant Hill, MO",
+      "to": "Sioux Falls, SD",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 393,
+      "rate": 1500,
+      "rpm": 3.82,
+      "notes": "393 miles",
       "tag": "Flatbed"
     },
     {
@@ -301,6 +317,22 @@
       "rpm": 3.95,
       "notes": "760 miles · tarped",
       "tag": "Tarped"
+    },
+    {
+      "load": "125221",
+      "broker": "dana",
+      "date": "2026-11-12",
+      "when": "Thu 11/12",
+      "from": "Kanopolis, KS",
+      "to": "Kansas City, KS",
+      "equip": "Van 53'",
+      "freight": "Bagged salt",
+      "weight": "42,800 lb",
+      "miles": 210,
+      "rate": 800,
+      "rpm": 3.81,
+      "notes": "210 miles",
+      "tag": "Van"
     },
     {
       "load": "125210",
@@ -349,6 +381,22 @@
       "rpm": 3.93,
       "notes": "687 miles",
       "tag": "Flatbed"
+    },
+    {
+      "load": "125217",
+      "broker": "pam",
+      "date": "2026-11-25",
+      "when": "Wed 11/25",
+      "from": "Kansas City, KS",
+      "to": "Grandview, MO",
+      "equip": "Flatbed 53'",
+      "freight": "Steel beam",
+      "weight": "10,838 lb",
+      "miles": 32,
+      "rate": 700,
+      "rpm": 21.88,
+      "notes": "32 miles · same-day delivery",
+      "tag": "Local"
     }
   ]
 }
