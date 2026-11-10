@@ -1,6 +1,6 @@
 {
-  "updated": "Tue, Nov 10 · 9:44 AM",
-  "updated_iso": "2026-11-10T09:44:09-06:00",
+  "updated": "Tue, Nov 10 · 10:43 AM",
+  "updated_iso": "2026-11-10T10:43:32-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -239,22 +239,6 @@
       "tag": "Today"
     },
     {
-      "load": "125178",
-      "broker": "dana",
-      "date": "2026-11-10",
-      "when": "Tue 11/10",
-      "from": "North Bend, NE",
-      "to": "Wichita, KS",
-      "equip": "Flatbed 48'",
-      "freight": "Salt",
-      "weight": "Call for weight",
-      "miles": 310,
-      "rate": 1100,
-      "rpm": 3.55,
-      "notes": "310 miles",
-      "tag": "Today"
-    },
-    {
       "load": "125179",
       "broker": "dana",
       "date": "2026-11-10",
@@ -351,22 +335,6 @@
       "tag": "Today"
     },
     {
-      "load": "125013",
-      "broker": "dana",
-      "date": "2026-11-11",
-      "when": "Wed 11/11",
-      "from": "Blytheville, AR",
-      "to": "Dallas, TX",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Steel sheets",
-      "weight": "39,000 lb",
-      "miles": 503,
-      "rate": 2050,
-      "rpm": 4.08,
-      "notes": "503 miles · tarped",
-      "tag": "Tarped"
-    },
-    {
       "load": "125156",
       "broker": "dana",
       "date": "2026-11-11",
@@ -399,22 +367,6 @@
       "tag": "Tarped"
     },
     {
-      "load": "125208",
-      "broker": "dana",
-      "date": "2026-11-11",
-      "when": "Wed 11/11",
-      "from": "Blytheville, AR",
-      "to": "Wheeling, WV",
-      "equip": "Flatbed / stepdeck",
-      "freight": "3 coils",
-      "weight": "43,000 lb",
-      "miles": 699,
-      "rate": 3000,
-      "rpm": 4.29,
-      "notes": "699 miles · tarped",
-      "tag": "Tarped"
-    },
-    {
       "load": "125212",
       "broker": "dana",
       "date": "2026-11-11",
@@ -431,6 +383,22 @@
       "tag": "Flatbed"
     },
     {
+      "load": "125214",
+      "broker": "dana",
+      "date": "2026-11-11",
+      "when": "Wed 11/11",
+      "from": "North Bend, NE",
+      "to": "Plattsburg, MO",
+      "equip": "Flatbed 48'",
+      "freight": "Salt",
+      "weight": "Call for weight",
+      "miles": 230,
+      "rate": 1100,
+      "rpm": 4.78,
+      "notes": "230 miles",
+      "tag": "Flatbed"
+    },
+    {
       "load": "125209",
       "broker": "dana",
       "date": "2026-11-12",
@@ -441,9 +409,25 @@
       "freight": "Sheets",
       "weight": "45,000 lb",
       "miles": 340,
-      "rate": 2000,
-      "rpm": 5.88,
+      "rate": 1925,
+      "rpm": 5.66,
       "notes": "340 miles · tarped",
+      "tag": "Tarped"
+    },
+    {
+      "load": "125213",
+      "broker": "dana",
+      "date": "2026-11-12",
+      "when": "Thu 11/12",
+      "from": "Blytheville, AR",
+      "to": "Reidsville, NC",
+      "equip": "Flatbed / stepdeck",
+      "freight": "9 coils",
+      "weight": "44,000 lb",
+      "miles": 760,
+      "rate": 3000,
+      "rpm": 3.95,
+      "notes": "760 miles · tarped",
       "tag": "Tarped"
     },
     {
