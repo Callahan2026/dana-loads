@@ -1,6 +1,6 @@
 {
-  "updated": "Tue, Nov 10 · 2:43 PM",
-  "updated_iso": "2026-11-10T14:43:57-06:00",
+  "updated": "Tue, Nov 10 · 3:43 PM",
+  "updated_iso": "2026-11-10T15:43:32-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -239,22 +239,6 @@
       "tag": "Today"
     },
     {
-      "load": "125212",
-      "broker": "dana",
-      "date": "2026-11-11",
-      "when": "Wed 11/11",
-      "from": "Shakopee, MN",
-      "to": "Shawnee, KS",
-      "equip": "Flatbed 48'",
-      "freight": "Bricks",
-      "weight": "45,122 lb",
-      "miles": 455,
-      "rate": 1325,
-      "rpm": 2.91,
-      "notes": "455 miles",
-      "tag": "Flatbed"
-    },
-    {
       "load": "125220",
       "broker": "dana",
       "date": "2026-11-11",
@@ -269,22 +253,6 @@
       "rpm": 4.0,
       "notes": "200 miles",
       "tag": "Flatbed"
-    },
-    {
-      "load": "125230",
-      "broker": "dana",
-      "date": "2026-11-11",
-      "when": "Wed 11/11",
-      "from": "Kansas City, KS",
-      "to": "Winterset, IA",
-      "equip": "Hot shot",
-      "freight": "Steel",
-      "weight": "8,905 lb",
-      "miles": 340,
-      "rate": 1000,
-      "rpm": 2.94,
-      "notes": "340 miles",
-      "tag": "Hot shot"
     },
     {
       "load": "125213",
@@ -317,6 +285,22 @@
       "rpm": 3.81,
       "notes": "210 miles",
       "tag": "Van"
+    },
+    {
+      "load": "125231",
+      "broker": "dana",
+      "date": "2026-11-12",
+      "when": "Thu 11/12",
+      "from": "Blytheville, AR",
+      "to": "Topeka, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Skidded coils & sheets",
+      "weight": "44,000 lb",
+      "miles": 500,
+      "rate": 2050,
+      "rpm": 4.1,
+      "notes": "500 miles · tarped",
+      "tag": "Tarped"
     },
     {
       "load": "125228",
@@ -429,38 +413,6 @@
       "rpm": 3.97,
       "notes": "730 miles",
       "tag": "Flatbed"
-    },
-    {
-      "load": "125214",
-      "broker": "dana",
-      "date": "2026-11-16",
-      "when": "Mon 11/16",
-      "from": "North Bend, NE",
-      "to": "Plattsburg, MO",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Salt",
-      "weight": "Call for weight",
-      "miles": 216,
-      "rate": 800,
-      "rpm": 3.7,
-      "notes": "216 miles",
-      "tag": "Flatbed"
-    },
-    {
-      "load": "125217",
-      "broker": "pam",
-      "date": "2026-11-25",
-      "when": "Wed 11/25",
-      "from": "Kansas City, KS",
-      "to": "Grandview, MO",
-      "equip": "Flatbed 53'",
-      "freight": "Steel beam",
-      "weight": "10,838 lb",
-      "miles": 32,
-      "rate": 700,
-      "rpm": 21.88,
-      "notes": "32 miles · same-day delivery",
-      "tag": "Local"
     }
   ]
 }
