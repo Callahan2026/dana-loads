@@ -1,6 +1,6 @@
 {
-  "updated": "Tue, Nov 10 · 8:41 AM",
-  "updated_iso": "2026-11-10T08:41:55-06:00",
+  "updated": "Tue, Nov 10 · 9:44 AM",
+  "updated_iso": "2026-11-10T09:44:09-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -383,22 +383,6 @@
       "tag": "Tarped"
     },
     {
-      "load": "125184",
-      "broker": "dana",
-      "date": "2026-11-11",
-      "when": "Wed 11/11",
-      "from": "Shawnee, KS",
-      "to": "Branson, MO",
-      "equip": "Flatbed 48'",
-      "freight": "Paving stones",
-      "weight": "46,252 lb",
-      "miles": 215,
-      "rate": 800,
-      "rpm": 3.72,
-      "notes": "215 miles",
-      "tag": "Flatbed"
-    },
-    {
       "load": "125205",
       "broker": "dana",
       "date": "2026-11-11",
@@ -431,6 +415,22 @@
       "tag": "Tarped"
     },
     {
+      "load": "125212",
+      "broker": "dana",
+      "date": "2026-11-11",
+      "when": "Wed 11/11",
+      "from": "Shakopee, MN",
+      "to": "Shawnee, KS",
+      "equip": "Flatbed 48'",
+      "freight": "Diamond pro 4in cap - 11plts",
+      "weight": "45,122 lb",
+      "miles": 455,
+      "rate": 1325,
+      "rpm": 2.91,
+      "notes": "455 miles",
+      "tag": "Flatbed"
+    },
+    {
       "load": "125209",
       "broker": "dana",
       "date": "2026-11-12",
@@ -445,6 +445,38 @@
       "rpm": 5.88,
       "notes": "340 miles · tarped",
       "tag": "Tarped"
+    },
+    {
+      "load": "125210",
+      "broker": "dana",
+      "date": "2026-11-13",
+      "when": "Fri 11/13",
+      "from": "Pleasant Hill, MO",
+      "to": "Windsor, MO",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 54,
+      "rate": 450,
+      "rpm": 8.33,
+      "notes": "54 miles · same-day delivery",
+      "tag": "Flatbed"
+    },
+    {
+      "load": "125211",
+      "broker": "dana",
+      "date": "2026-11-13",
+      "when": "Fri 11/13",
+      "from": "Pleasant Hill, MO",
+      "to": "Windsor, MO",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 54,
+      "rate": 450,
+      "rpm": 8.33,
+      "notes": "54 miles · same-day delivery",
+      "tag": "Flatbed"
     }
   ]
 }
