@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 11 · 9:43 AM",
- "updated_iso": "2026-11-11T09:43:30-06:00",
+ "updated": "Wed, Nov 11 · 10:43 AM",
+ "updated_iso": "2026-11-11T10:43:08-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -207,19 +207,35 @@
    "tag": "Today"
   },
   {
-   "load": "125235",
-   "broker": "pam",
+   "load": "125238",
+   "broker": "dana",
    "date": "2026-11-11",
    "when": "Wed 11/11",
-   "from": "Le Sueur, MN",
-   "to": "Liberty, MO",
-   "equip": "Reefer 53'",
-   "freight": "Animal medcine",
-   "weight": "9,000 lb",
-   "miles": 405,
-   "rate": 1950,
-   "rpm": 4.81,
-   "notes": "405 miles",
+   "from": "Adel, IA",
+   "to": "Lee's Summit, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "9984 pcs cherry creek b/s bricks",
+   "weight": "Call for weight",
+   "miles": 216,
+   "rate": 850,
+   "rpm": 3.94,
+   "notes": "216 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125219",
+   "broker": "cait",
+   "date": "2026-11-11",
+   "when": "Wed 11/11",
+   "from": "Paducah, KY",
+   "to": "Columbus, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel sheets",
+   "weight": "46,500 lb",
+   "miles": 687,
+   "rate": 2700,
+   "rpm": 3.93,
+   "notes": "687 miles",
    "tag": "Today"
   },
   {
@@ -239,22 +255,6 @@
    "tag": "Tarped"
   },
   {
-   "load": "125221",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Kanopolis, KS",
-   "to": "Kansas City, KS",
-   "equip": "Van 53'",
-   "freight": "Bagged salt",
-   "weight": "42,800 lb",
-   "miles": 210,
-   "rate": 800,
-   "rpm": 3.81,
-   "notes": "210 miles",
-   "tag": "Van"
-  },
-  {
    "load": "125233",
    "broker": "dana",
    "date": "2026-11-12",
@@ -271,6 +271,22 @@
    "tag": "Tarped"
   },
   {
+   "load": "125236",
+   "broker": "dana",
+   "date": "2026-11-12",
+   "when": "Thu 11/12",
+   "from": "Shawnee, KS",
+   "to": "Columbia, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks",
+   "weight": "41,823 lb",
+   "miles": 0,
+   "rate": 900,
+   "rpm": null,
+   "notes": "",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125228",
    "broker": "cait",
    "date": "2026-11-12",
@@ -284,22 +300,6 @@
    "rate": 2700,
    "rpm": 3.93,
    "notes": "687 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125211",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Pleasant Hill, MO",
-   "to": "Windsor, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 54,
-   "rate": 450,
-   "rpm": 8.33,
-   "notes": "54 miles · same-day delivery",
    "tag": "Flatbed"
   },
   {
