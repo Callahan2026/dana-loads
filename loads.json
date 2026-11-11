@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 11 · 12:43 PM",
- "updated_iso": "2026-11-11T12:43:31-06:00",
+ "updated": "Wed, Nov 11 · 1:43 PM",
+ "updated_iso": "2026-11-11T13:43:10-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -32,22 +32,6 @@
  "loads": [
   {
    "load": "125165",
-   "broker": "dana",
-   "date": "2026-11-11",
-   "when": "Wed 11/11",
-   "from": "Kansas City, KS",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 277,
-   "rate": 900,
-   "rpm": 3.25,
-   "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125166",
    "broker": "dana",
    "date": "2026-11-11",
    "when": "Wed 11/11",
@@ -159,22 +143,6 @@
    "tag": "Today"
   },
   {
-   "load": "125191",
-   "broker": "dana",
-   "date": "2026-11-11",
-   "when": "Wed 11/11",
-   "from": "Shakopee, MN",
-   "to": "West Des Moines, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Bricks",
-   "weight": "Call for weight",
-   "miles": 249,
-   "rate": 800,
-   "rpm": 3.21,
-   "notes": "249 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125192",
    "broker": "dana",
    "date": "2026-11-11",
@@ -220,22 +188,6 @@
    "rate": 1500,
    "rpm": 2.4,
    "notes": "626 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125240",
-   "broker": "dana",
-   "date": "2026-11-11",
-   "when": "Wed 11/11",
-   "from": "West Des Moines, IA",
-   "to": "Blue Springs, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Bricks",
-   "weight": "44,978 lb",
-   "miles": 201,
-   "rate": 700,
-   "rpm": 3.48,
-   "notes": "201 miles",
    "tag": "Today"
   },
   {
