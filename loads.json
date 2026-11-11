@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 11 · 11:46 AM",
- "updated_iso": "2026-11-11T11:46:48-06:00",
+ "updated": "Wed, Nov 11 · 12:43 PM",
+ "updated_iso": "2026-11-11T12:43:31-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -214,12 +214,44 @@
    "from": "Richmond, KY",
    "to": "Olathe, KS",
    "equip": "Hot shot",
-   "freight": "Drilling equipment (2pcs)",
-   "weight": "2,000 lb",
+   "freight": "Drilling equipment & tools",
+   "weight": "14,000 lb",
    "miles": 626,
-   "rate": 1400,
-   "rpm": 2.24,
+   "rate": 1500,
+   "rpm": 2.4,
    "notes": "626 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125240",
+   "broker": "dana",
+   "date": "2026-11-11",
+   "when": "Wed 11/11",
+   "from": "West Des Moines, IA",
+   "to": "Blue Springs, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks",
+   "weight": "44,978 lb",
+   "miles": 201,
+   "rate": 700,
+   "rpm": 3.48,
+   "notes": "201 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125219",
+   "broker": "cait",
+   "date": "2026-11-11",
+   "when": "Wed 11/11",
+   "from": "Paducah, KY",
+   "to": "Columbus, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel sheets",
+   "weight": "46,500 lb",
+   "miles": 687,
+   "rate": 2700,
+   "rpm": 3.93,
+   "notes": "687 miles",
    "tag": "Today"
   },
   {
