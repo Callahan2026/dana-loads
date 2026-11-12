@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 12 · 3:50 PM",
- "updated_iso": "2026-11-12T15:50:27-06:00",
+ "updated": "Thu, Nov 12 · 4:45 PM",
+ "updated_iso": "2026-11-12T16:45:05-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,22 +30,6 @@
   }
  },
  "loads": [
-  {
-   "load": "125167",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Kansas City, KS",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 277,
-   "rate": 900,
-   "rpm": 3.25,
-   "notes": "277 miles",
-   "tag": "Today"
-  },
   {
    "load": "125172",
    "broker": "dana",
@@ -236,6 +220,22 @@
    "rate": 900,
    "rpm": 4.11,
    "notes": "219 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125268",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Riverside, MO",
+   "to": "Fenton, MO",
+   "equip": "Hot shot",
+   "freight": "(2) CD100 open pumps",
+   "weight": "15,000 lb",
+   "miles": 255,
+   "rate": 1200,
+   "rpm": 4.71,
+   "notes": "255 miles",
    "tag": "Flatbed"
   },
   {
