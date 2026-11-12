@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 12 · 10:43 AM",
- "updated_iso": "2026-11-12T10:43:31-06:00",
+ "updated": "Thu, Nov 12 · 12:07 PM",
+ "updated_iso": "2026-11-12T12:07:17-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,39 +31,7 @@
  },
  "loads": [
   {
-   "load": "125165",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Kansas City, KS",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 277,
-   "rate": 900,
-   "rpm": 3.25,
-   "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125167",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Kansas City, KS",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 277,
-   "rate": 900,
-   "rpm": 3.25,
-   "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125170",
    "broker": "dana",
    "date": "2026-11-12",
    "when": "Thu 11/12",
@@ -207,6 +175,38 @@
    "tag": "Today"
   },
   {
+   "load": "125266",
+   "broker": "cait",
+   "date": "2026-11-12",
+   "when": "Thu 11/12",
+   "from": "Gibraltar, MI",
+   "to": "Hastings, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coils",
+   "weight": "36,140 lb",
+   "miles": 881,
+   "rate": 2800,
+   "rpm": 3.18,
+   "notes": "881 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125170",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Kansas City, KS",
+   "to": "Sand Springs, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Railroad ties",
+   "weight": "Call for weight",
+   "miles": 277,
+   "rate": 900,
+   "rpm": 3.25,
+   "notes": "277 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125227",
    "broker": "dana",
    "date": "2026-11-13",
@@ -223,22 +223,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125262",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Pleasant Hill, MO",
-   "to": "Warrensburg, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 36,
-   "rate": 350,
-   "rpm": 9.72,
-   "notes": "36 miles · same-day delivery",
-   "tag": "Local"
-  },
-  {
    "load": "125263",
    "broker": "dana",
    "date": "2026-11-13",
@@ -252,6 +236,38 @@
    "rate": 500,
    "rpm": 5.38,
    "notes": "93 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125264",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Pleasant Hill, MO",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 34,
+   "rate": 350,
+   "rpm": 10.29,
+   "notes": "34 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
+   "load": "125265",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Pleasant Hill, MO",
+   "to": "Bloomfield, IA",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 219,
+   "rate": 900,
+   "rpm": 4.11,
+   "notes": "219 miles",
    "tag": "Flatbed"
   },
   {
@@ -301,6 +317,22 @@
    "rpm": 3.54,
    "notes": "311 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125267",
+   "broker": "cait",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Gibraltar, MI",
+   "to": "Hastings, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coils",
+   "weight": "36,280 lb",
+   "miles": 881,
+   "rate": 2800,
+   "rpm": 3.18,
+   "notes": "881 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125253",
