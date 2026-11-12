@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 12 · 12:47 PM",
- "updated_iso": "2026-11-12T12:47:18-06:00",
+ "updated": "Thu, Nov 12 · 1:44 PM",
+ "updated_iso": "2026-11-12T13:44:46-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -108,22 +108,6 @@
    "rate": 2200,
    "rpm": 4.56,
    "notes": "482 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125249",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Hammond, IN",
-   "to": "Lee's Summit, MO",
-   "equip": "Van 53'",
-   "freight": "Cement/mortar mix",
-   "weight": "39,683 lb",
-   "miles": 518,
-   "rate": 1500,
-   "rpm": 2.9,
-   "notes": "518 miles",
    "tag": "Today"
   },
   {
@@ -261,29 +245,13 @@
    "when": "Fri 11/13",
    "from": "Waverly, NE",
    "to": "Haxtun, CO",
-   "equip": "Stepdeck 53",
+   "equip": "Stepdeck 53'",
    "freight": "Terex th 8420, scissor lift and genie s-40",
    "weight": "35,000 lb",
    "miles": 361,
    "rate": 1900,
    "rpm": 5.26,
    "notes": "361 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125225",
-   "broker": "cait",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Concordia, KS",
-   "to": "Odessa, TX",
-   "equip": "Flatbed 48'",
-   "freight": "Cover plates",
-   "weight": "35,000 lb",
-   "miles": 730,
-   "rate": 4500,
-   "rpm": 6.16,
-   "notes": "730 miles",
    "tag": "Flatbed"
   },
   {
