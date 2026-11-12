@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 12 · 9:43 AM",
- "updated_iso": "2026-11-12T09:43:55-06:00",
+ "updated": "Thu, Nov 12 · 10:43 AM",
+ "updated_iso": "2026-11-12T10:43:31-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -159,22 +159,6 @@
    "tag": "Today"
   },
   {
-   "load": "125239",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Richmond, KY",
-   "to": "Olathe, KS",
-   "equip": "Hot shot",
-   "freight": "Drilling equipment & tools",
-   "weight": "14,000 lb",
-   "miles": 626,
-   "rate": 1500,
-   "rpm": 2.4,
-   "notes": "626 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125249",
    "broker": "dana",
    "date": "2026-11-12",
@@ -239,19 +223,35 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125258",
+   "load": "125262",
    "broker": "dana",
    "date": "2026-11-13",
    "when": "Fri 11/13",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
+   "from": "Pleasant Hill, MO",
+   "to": "Warrensburg, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 36,
+   "rate": 350,
+   "rpm": 9.72,
+   "notes": "36 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
+   "load": "125263",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Pleasant Hill, MO",
+   "to": "Topeka, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 93,
+   "rate": 500,
+   "rpm": 5.38,
+   "notes": "93 miles",
    "tag": "Flatbed"
   },
   {
@@ -281,8 +281,8 @@
    "freight": "Cover plates",
    "weight": "18,900 lb",
    "miles": 730,
-   "rate": 2900,
-   "rpm": 3.97,
+   "rate": 3000,
+   "rpm": 4.11,
    "notes": "730 miles",
    "tag": "Flatbed"
   },
@@ -316,22 +316,6 @@
    "rate": 900,
    "rpm": 4.64,
    "notes": "194 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125260",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
    "tag": "Flatbed"
   },
   {
