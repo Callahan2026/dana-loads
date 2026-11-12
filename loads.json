@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 12 · 4:45 PM",
- "updated_iso": "2026-11-12T16:45:05-06:00",
+ "updated": "Thu, Nov 12 · 5:46 PM",
+ "updated_iso": "2026-11-12T17:46:07-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -44,22 +44,6 @@
    "rate": 900,
    "rpm": 3.25,
    "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125192",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Osceola, AR",
-   "to": "Fort Worth, TX",
-   "equip": "Flatbed / stepdeck",
-   "freight": "1 coil",
-   "weight": "44,750 lb",
-   "miles": 520,
-   "rate": 2200,
-   "rpm": 4.23,
-   "notes": "520 miles",
    "tag": "Today"
   },
   {
@@ -159,6 +143,22 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125192",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Osceola, AR",
+   "to": "Fort Worth, TX",
+   "equip": "Flatbed / stepdeck",
+   "freight": "1 coil",
+   "weight": "44,750 lb",
+   "miles": 520,
+   "rate": 2200,
+   "rpm": 4.23,
+   "notes": "520 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125227",
    "broker": "dana",
    "date": "2026-11-13",
@@ -231,10 +231,10 @@
    "to": "Fenton, MO",
    "equip": "Hot shot",
    "freight": "(2) CD100 open pumps",
-   "weight": "15,000 lb",
+   "weight": "6,000 lb",
    "miles": 255,
-   "rate": 1200,
-   "rpm": 4.71,
+   "rate": 700,
+   "rpm": 2.75,
    "notes": "255 miles",
    "tag": "Flatbed"
   },
