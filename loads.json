@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 12 · 12:07 PM",
- "updated_iso": "2026-11-12T12:07:17-06:00",
+ "updated": "Thu, Nov 12 · 12:47 PM",
+ "updated_iso": "2026-11-12T12:47:18-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -32,22 +32,6 @@
  "loads": [
   {
    "load": "125167",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Kansas City, KS",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 277,
-   "rate": 900,
-   "rpm": 3.25,
-   "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125171",
    "broker": "dana",
    "date": "2026-11-12",
    "when": "Thu 11/12",
@@ -191,7 +175,7 @@
    "tag": "Today"
   },
   {
-   "load": "125170",
+   "load": "125171",
    "broker": "dana",
    "date": "2026-11-13",
    "when": "Fri 11/13",
@@ -293,12 +277,12 @@
    "when": "Fri 11/13",
    "from": "Concordia, KS",
    "to": "Odessa, TX",
-   "equip": "Flatbed 53'",
+   "equip": "Flatbed 48'",
    "freight": "Cover plates",
-   "weight": "18,900 lb",
+   "weight": "35,000 lb",
    "miles": 730,
-   "rate": 3000,
-   "rpm": 4.11,
+   "rate": 4500,
+   "rpm": 6.16,
    "notes": "730 miles",
    "tag": "Flatbed"
   },
