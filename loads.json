@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 12 · 7:44 AM",
- "updated_iso": "2026-11-12T07:44:37-06:00",
+ "updated": "Thu, Nov 12 · 8:43 AM",
+ "updated_iso": "2026-11-12T08:43:51-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -32,38 +32,6 @@
  "loads": [
   {
    "load": "125165",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Kansas City, KS",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 277,
-   "rate": 900,
-   "rpm": 3.25,
-   "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125167",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Kansas City, KS",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 277,
-   "rate": 900,
-   "rpm": 3.25,
-   "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125168",
    "broker": "dana",
    "date": "2026-11-12",
    "when": "Thu 11/12",
@@ -207,22 +175,6 @@
    "tag": "Today"
   },
   {
-   "load": "125247",
-   "broker": "dana",
-   "date": "2026-11-12",
-   "when": "Thu 11/12",
-   "from": "Fort Smith, AR",
-   "to": "Memphis, TN",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 286,
-   "rate": 1000,
-   "rpm": 3.5,
-   "notes": "286 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125249",
    "broker": "dana",
    "date": "2026-11-12",
@@ -236,6 +188,22 @@
    "rate": 1500,
    "rpm": 2.9,
    "notes": "518 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125254",
+   "broker": "dana",
+   "date": "2026-11-12",
+   "when": "Thu 11/12",
+   "from": "Shakopee, MN",
+   "to": "Shawnee, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Bricks",
+   "weight": "45,122 lb",
+   "miles": 455,
+   "rate": 1325,
+   "rpm": 2.91,
+   "notes": "455 miles",
    "tag": "Today"
   },
   {
@@ -332,6 +300,22 @@
    "rate": 1100,
    "rpm": 3.54,
    "notes": "311 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125253",
+   "broker": "dana",
+   "date": "2026-11-17",
+   "when": "Tue 11/17",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 53'",
+   "freight": "Several frames",
+   "weight": "20,000 lb",
+   "miles": 194,
+   "rate": 900,
+   "rpm": 4.64,
+   "notes": "194 miles",
    "tag": "Flatbed"
   },
   {
