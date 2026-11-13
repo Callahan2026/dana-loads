@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 13 · 1:44 PM",
- "updated_iso": "2026-11-13T13:44:05-06:00",
+ "updated": "Fri, Nov 13 · 2:46 PM",
+ "updated_iso": "2026-11-13T14:46:15-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -92,6 +92,22 @@
    "rate": 2800,
    "rpm": 2.84,
    "notes": "985 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125273",
+   "broker": "dana",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Kansas City, KS",
+   "to": "Wichita, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe 50' sticks",
+   "weight": "20,000 lb",
+   "miles": 200,
+   "rate": 1300,
+   "rpm": 6.5,
+   "notes": "200 miles",
    "tag": "Today"
   },
   {
