@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 13 · 3:44 PM",
- "updated_iso": "2026-11-13T15:44:29-06:00",
+ "updated": "Fri, Nov 13 · 5:43 PM",
+ "updated_iso": "2026-11-13T17:43:28-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -223,22 +223,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125243",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Chicago, IL",
-   "to": "Bridgeton, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Tubing",
-   "weight": "30,671 lb",
-   "miles": 311,
-   "rate": 1100,
-   "rpm": 3.54,
-   "notes": "311 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125277",
    "broker": "dana",
    "date": "2026-11-16",
@@ -431,6 +415,38 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125303",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Kansas City, MO",
+   "to": "Springfield, MO",
+   "equip": "Hot shot",
+   "freight": "Siding - 3 plts",
+   "weight": "1,200 lb",
+   "miles": 170,
+   "rate": 600,
+   "rpm": 3.53,
+   "notes": "170 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125306",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 35,
+   "rate": 1140,
+   "rpm": 32.57,
+   "notes": "35 miles · same-day delivery",
+   "tag": "Oversize"
+  },
+  {
    "load": "125266",
    "broker": "cait",
    "date": "2026-11-16",
@@ -479,20 +495,20 @@
    "tag": "Tarped"
   },
   {
-   "load": "125302",
+   "load": "125307",
    "broker": "dana",
    "date": "2026-11-17",
    "when": "Tue 11/17",
-   "from": "Portage, IN",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Steel sheets",
-   "weight": "46,000 lb",
-   "miles": 528,
-   "rate": 2000,
-   "rpm": 3.79,
-   "notes": "528 miles · tarped",
-   "tag": "Tarped"
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 35,
+   "rate": 1140,
+   "rpm": 32.57,
+   "notes": "35 miles · same-day delivery",
+   "tag": "Oversize"
   },
   {
    "load": "125244",
@@ -541,6 +557,54 @@
    "rpm": 4.26,
    "notes": "516 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125308",
+   "broker": "dana",
+   "date": "2026-11-18",
+   "when": "Wed 11/18",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 35,
+   "rate": 1140,
+   "rpm": 32.57,
+   "notes": "35 miles · same-day delivery",
+   "tag": "Oversize"
+  },
+  {
+   "load": "125309",
+   "broker": "dana",
+   "date": "2026-11-19",
+   "when": "Thu 11/19",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 35,
+   "rate": 1140,
+   "rpm": 32.57,
+   "notes": "35 miles · same-day delivery",
+   "tag": "Oversize"
+  },
+  {
+   "load": "125310",
+   "broker": "dana",
+   "date": "2026-11-20",
+   "when": "Fri 11/20",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 35,
+   "rate": 1140,
+   "rpm": 32.57,
+   "notes": "35 miles · same-day delivery",
+   "tag": "Oversize"
   }
  ]
 }
