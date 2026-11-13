@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 13 · 10:18 AM",
- "updated_iso": "2026-11-13T10:18:23-06:00",
+ "updated": "Fri, Nov 13 · 10:50 AM",
+ "updated_iso": "2026-11-13T10:50:10-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -175,38 +175,6 @@
    "tag": "Today"
   },
   {
-   "load": "125266",
-   "broker": "cait",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Gibraltar, MI",
-   "to": "Hastings, NE",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Coils",
-   "weight": "36,140 lb",
-   "miles": 881,
-   "rate": 2800,
-   "rpm": 3.18,
-   "notes": "881 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125267",
-   "broker": "cait",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Gibraltar, MI",
-   "to": "Hastings, NE",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Coils",
-   "weight": "36,280 lb",
-   "miles": 881,
-   "rate": 2900,
-   "rpm": 3.29,
-   "notes": "881 miles · tarped",
-   "tag": "Today"
-  },
-  {
    "load": "125233",
    "broker": "dana",
    "date": "2026-11-16",
@@ -230,7 +198,7 @@
    "from": "Chicago, IL",
    "to": "Bridgeton, MO",
    "equip": "Flatbed 48'",
-   "freight": "Steel bundles",
+   "freight": "Tubing",
    "weight": "30,671 lb",
    "miles": 311,
    "rate": 1100,
@@ -444,6 +412,22 @@
    "rate": 1200,
    "rpm": 4.2,
    "notes": "286 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125266",
+   "broker": "cait",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Gibraltar, MI",
+   "to": "Hastings, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coils",
+   "weight": "36,140 lb",
+   "miles": 881,
+   "rate": 2800,
+   "rpm": 3.18,
+   "notes": "881 miles",
    "tag": "Flatbed"
   },
   {
