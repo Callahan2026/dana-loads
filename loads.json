@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 13 · 11:49 AM",
- "updated_iso": "2026-11-13T11:49:32-06:00",
+ "updated": "Fri, Nov 13 · 12:43 PM",
+ "updated_iso": "2026-11-13T12:43:42-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -441,8 +441,8 @@
    "freight": "Lumber",
    "weight": "Call for weight",
    "miles": 286,
-   "rate": 1200,
-   "rpm": 4.2,
+   "rate": 1000,
+   "rpm": 3.5,
    "notes": "286 miles",
    "tag": "Flatbed"
   },
@@ -477,6 +477,22 @@
    "rpm": 4.64,
    "notes": "194 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125301",
+   "broker": "dana",
+   "date": "2026-11-17",
+   "when": "Tue 11/17",
+   "from": "La Cygne, KS",
+   "to": "Wynnewood, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Abrasive material - 8 bags",
+   "weight": "46,500 lb",
+   "miles": 367,
+   "rate": 1300,
+   "rpm": 3.54,
+   "notes": "367 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125244",
