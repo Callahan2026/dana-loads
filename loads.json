@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 13 · 2:46 PM",
- "updated_iso": "2026-11-13T14:46:15-06:00",
+ "updated": "Fri, Nov 13 · 3:44 PM",
+ "updated_iso": "2026-11-13T15:44:29-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -60,22 +60,6 @@
    "rate": 900,
    "rpm": 3.25,
    "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125204",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Osceola, AR",
-   "to": "Fort Worth, TX",
-   "equip": "Flatbed / stepdeck",
-   "freight": "1 coil",
-   "weight": "44,780 lb",
-   "miles": 520,
-   "rate": 2200,
-   "rpm": 4.23,
-   "notes": "520 miles · tarped",
    "tag": "Today"
   },
   {
@@ -205,6 +189,22 @@
    "rpm": 3.29,
    "notes": "881 miles · tarped",
    "tag": "Today"
+  },
+  {
+   "load": "125272",
+   "broker": "dana",
+   "date": "2026-11-14",
+   "when": "Sat 11/14",
+   "from": "Kansas City, KS",
+   "to": "Wichita, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe 50' sticks",
+   "weight": "20,000 lb",
+   "miles": 200,
+   "rate": 1300,
+   "rpm": 6.5,
+   "notes": "200 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125233",
@@ -431,22 +431,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125300",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Pleasant Hill, MO",
-   "to": "Odebolt, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 286,
-   "rate": 1000,
-   "rpm": 3.5,
-   "notes": "286 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125266",
    "broker": "cait",
    "date": "2026-11-16",
@@ -492,6 +476,22 @@
    "rate": 1300,
    "rpm": 3.54,
    "notes": "367 miles · tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125302",
+   "broker": "dana",
+   "date": "2026-11-17",
+   "when": "Tue 11/17",
+   "from": "Portage, IN",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel sheets",
+   "weight": "46,000 lb",
+   "miles": 528,
+   "rate": 2000,
+   "rpm": 3.79,
+   "notes": "528 miles · tarped",
    "tag": "Tarped"
   },
   {
