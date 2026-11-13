@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 13 · 9:36 AM",
- "updated_iso": "2026-11-13T09:36:41-06:00",
+ "updated": "Fri, Nov 13 · 10:18 AM",
+ "updated_iso": "2026-11-13T10:18:23-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -89,57 +89,9 @@
    "freight": "Steel beams 48'",
    "weight": "42,738 lb",
    "miles": 985,
-   "rate": 2650,
-   "rpm": 2.69,
+   "rate": 2800,
+   "rpm": 2.84,
    "notes": "985 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125292",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125293",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125294",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
    "tag": "Today"
   },
   {
@@ -207,22 +159,6 @@
    "tag": "Today"
   },
   {
-   "load": "125223",
-   "broker": "cait",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Waverly, NE",
-   "to": "Haxtun, CO",
-   "equip": "Stepdeck 53'",
-   "freight": "Terex th 8420, scissor lift and genie s-40",
-   "weight": "35,000 lb",
-   "miles": 361,
-   "rate": 1900,
-   "rpm": 5.26,
-   "notes": "361 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125228",
    "broker": "cait",
    "date": "2026-11-13",
@@ -252,6 +188,22 @@
    "rate": 2800,
    "rpm": 3.18,
    "notes": "881 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125267",
+   "broker": "cait",
+   "date": "2026-11-13",
+   "when": "Fri 11/13",
+   "from": "Gibraltar, MI",
+   "to": "Hastings, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coils",
+   "weight": "36,280 lb",
+   "miles": 881,
+   "rate": 2900,
+   "rpm": 3.29,
+   "notes": "881 miles · tarped",
    "tag": "Today"
   },
   {
@@ -479,20 +431,20 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125267",
-   "broker": "cait",
+   "load": "125300",
+   "broker": "dana",
    "date": "2026-11-16",
    "when": "Mon 11/16",
-   "from": "Gibraltar, MI",
-   "to": "Hastings, NE",
+   "from": "Pleasant Hill, MO",
+   "to": "Odebolt, IA",
    "equip": "Flatbed / stepdeck",
-   "freight": "Coils",
-   "weight": "36,280 lb",
-   "miles": 881,
-   "rate": 2800,
-   "rpm": 3.18,
-   "notes": "881 miles · tarped",
-   "tag": "Tarped"
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 286,
+   "rate": 1200,
+   "rpm": 4.2,
+   "notes": "286 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125253",
@@ -508,22 +460,6 @@
    "rate": 900,
    "rpm": 4.64,
    "notes": "194 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125289",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,566 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
    "tag": "Flatbed"
   },
   {
@@ -573,38 +509,6 @@
    "rpm": 4.26,
    "notes": "516 miles · tarped",
    "tag": "Tarped"
-  },
-  {
-   "load": "125290",
-   "broker": "dana",
-   "date": "2026-11-19",
-   "when": "Thu 11/19",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,566 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125291",
-   "broker": "dana",
-   "date": "2026-11-19",
-   "when": "Thu 11/19",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,566 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Flatbed"
   }
  ]
 }
