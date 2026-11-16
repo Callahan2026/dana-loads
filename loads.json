@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 16 · 1:43 PM",
- "updated_iso": "2026-11-16T13:43:13-06:00",
+ "updated": "Mon, Nov 16 · 2:44 PM",
+ "updated_iso": "2026-11-16T14:44:10-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -41,25 +41,9 @@
    "freight": "Block - 11 plts",
    "weight": "35,043 lb",
    "miles": 194,
-   "rate": 900,
-   "rpm": 4.64,
+   "rate": 700,
+   "rpm": 3.61,
    "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125273",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Kansas City, KS",
-   "to": "Tulsa, OK",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe 50' sticks",
-   "weight": "Call for weight",
-   "miles": 250,
-   "rate": 1000,
-   "rpm": 4.0,
-   "notes": "250 miles",
    "tag": "Today"
   },
   {
@@ -271,19 +255,19 @@
    "tag": "Today"
   },
   {
-   "load": "125253",
+   "load": "125273",
    "broker": "dana",
    "date": "2026-11-17",
    "when": "Tue 11/17",
-   "from": "Halstead, KS",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 53'",
-   "freight": "Several frames",
-   "weight": "20,000 lb",
-   "miles": 194,
-   "rate": 900,
-   "rpm": 4.64,
-   "notes": "194 miles",
+   "from": "Kansas City, MO",
+   "to": "Benton, AR",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "47,980 lb",
+   "miles": 405,
+   "rate": 800,
+   "rpm": 1.98,
+   "notes": "405 miles",
    "tag": "Flatbed"
   },
   {
@@ -383,6 +367,38 @@
    "tag": "Tarped"
   },
   {
+   "load": "125327",
+   "broker": "dana",
+   "date": "2026-11-18",
+   "when": "Wed 11/18",
+   "from": "Portage, IN",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel sheets",
+   "weight": "47,000 lb",
+   "miles": 528,
+   "rate": 2000,
+   "rpm": 3.79,
+   "notes": "528 miles · tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125328",
+   "broker": "dana",
+   "date": "2026-11-19",
+   "when": "Thu 11/19",
+   "from": "Portage, IN",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel sheets",
+   "weight": "46,000 lb",
+   "miles": 528,
+   "rate": 2000,
+   "rpm": 3.79,
+   "notes": "528 miles · tarped",
+   "tag": "Tarped"
+  },
+  {
    "load": "125171",
    "broker": "dana",
    "date": "2026-11-23",
@@ -393,8 +409,8 @@
    "freight": "Block - 15 plts",
    "weight": "41,625 lb",
    "miles": 202,
-   "rate": 900,
-   "rpm": 4.46,
+   "rate": 700,
+   "rpm": 3.47,
    "notes": "202 miles",
    "tag": "Flatbed"
   },
