@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 13 · 5:43 PM",
- "updated_iso": "2026-11-13T17:43:28-06:00",
+ "updated": "Mon, Nov 16 · 8:25 AM",
+ "updated_iso": "2026-11-16T08:25:51-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -33,8 +33,8 @@
   {
    "load": "125171",
    "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
    "from": "Kansas City, KS",
    "to": "Sand Springs, OK",
    "equip": "Flatbed / stepdeck",
@@ -49,8 +49,8 @@
   {
    "load": "125172",
    "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
    "from": "Kansas City, KS",
    "to": "Sand Springs, OK",
    "equip": "Flatbed / stepdeck",
@@ -65,146 +65,18 @@
   {
    "load": "125227",
    "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
    "from": "Kansas City, KS",
    "to": "Amarillo, TX",
-   "equip": "Flatbed 48'",
-   "freight": "Steel beams 48'",
-   "weight": "42,738 lb",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks",
+   "weight": "Call for weight",
    "miles": 985,
    "rate": 2800,
    "rpm": 2.84,
-   "notes": "985 miles",
+   "notes": "985 miles · tarped",
    "tag": "Today"
-  },
-  {
-   "load": "125273",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Kansas City, KS",
-   "to": "Wichita, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe 50' sticks",
-   "weight": "20,000 lb",
-   "miles": 200,
-   "rate": 1300,
-   "rpm": 6.5,
-   "notes": "200 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125295",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125296",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125297",
-   "broker": "dana",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125276",
-   "broker": "pam",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "St Joesph, MO",
-   "to": "Amarillo, TX",
-   "equip": "Reefer 53'",
-   "freight": "1-plt of animal medcine",
-   "weight": "770 lb",
-   "miles": 615,
-   "rate": null,
-   "rpm": null,
-   "notes": "615 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125228",
-   "broker": "cait",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Paducah, KY",
-   "to": "Columbus, NE",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Steel sheets",
-   "weight": "46,500 lb",
-   "miles": 687,
-   "rate": 2700,
-   "rpm": 3.93,
-   "notes": "687 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125267",
-   "broker": "cait",
-   "date": "2026-11-13",
-   "when": "Fri 11/13",
-   "from": "Gibraltar, MI",
-   "to": "Hastings, NE",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Coils",
-   "weight": "36,280 lb",
-   "miles": 881,
-   "rate": 2900,
-   "rpm": 3.29,
-   "notes": "881 miles · tarped",
-   "tag": "Today"
-  },
-  {
-   "load": "125272",
-   "broker": "dana",
-   "date": "2026-11-14",
-   "when": "Sat 11/14",
-   "from": "Kansas City, KS",
-   "to": "Wichita, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe 50' sticks",
-   "weight": "20,000 lb",
-   "miles": 200,
-   "rate": 1300,
-   "rpm": 6.5,
-   "notes": "200 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125233",
@@ -220,7 +92,39 @@
    "rate": 900,
    "rpm": 9.28,
    "notes": "97 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
+  },
+  {
+   "load": "125272",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Kansas City, KS",
+   "to": "Tulsa, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe 50' sticks",
+   "weight": "Call for weight",
+   "miles": 250,
+   "rate": 1300,
+   "rpm": 5.2,
+   "notes": "250 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125273",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Kansas City, KS",
+   "to": "Tulsa, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe 50' sticks",
+   "weight": "Call for weight",
+   "miles": 250,
+   "rate": 1300,
+   "rpm": 5.2,
+   "notes": "250 miles",
+   "tag": "Today"
   },
   {
    "load": "125277",
@@ -236,7 +140,7 @@
    "rate": 900,
    "rpm": 3.15,
    "notes": "286 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125278",
@@ -252,7 +156,7 @@
    "rate": 900,
    "rpm": 3.35,
    "notes": "269 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125279",
@@ -268,7 +172,7 @@
    "rate": 1000,
    "rpm": 2.75,
    "notes": "364 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125280",
@@ -284,7 +188,7 @@
    "rate": 1150,
    "rpm": 2.53,
    "notes": "455 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125281",
@@ -300,23 +204,7 @@
    "rate": 900,
    "rpm": 3.46,
    "notes": "260 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125282",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Guthrie, OK",
-   "to": "Springfield, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 269,
-   "rate": 900,
-   "rpm": 3.35,
-   "notes": "269 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125283",
@@ -332,7 +220,7 @@
    "rate": 1400,
    "rpm": 2.62,
    "notes": "535 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125284",
@@ -348,7 +236,7 @@
    "rate": 600,
    "rpm": 3.87,
    "notes": "155 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125285",
@@ -364,7 +252,7 @@
    "rate": 600,
    "rpm": 3.87,
    "notes": "155 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125286",
@@ -380,7 +268,7 @@
    "rate": 600,
    "rpm": 3.87,
    "notes": "155 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125287",
@@ -396,7 +284,7 @@
    "rate": 600,
    "rpm": 3.87,
    "notes": "155 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
    "load": "125288",
@@ -412,39 +300,135 @@
    "rate": 600,
    "rpm": 3.87,
    "notes": "155 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
   },
   {
-   "load": "125303",
+   "load": "125295",
    "broker": "dana",
    "date": "2026-11-16",
    "when": "Mon 11/16",
-   "from": "Kansas City, MO",
-   "to": "Springfield, MO",
-   "equip": "Hot shot",
-   "freight": "Siding - 3 plts",
-   "weight": "1,200 lb",
-   "miles": 170,
-   "rate": 600,
-   "rpm": 3.53,
-   "notes": "170 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125306",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Kansas City, MO",
-   "to": "Olathe, KS",
+   "from": "Shakopee, MN",
+   "to": "Shawnee, KS",
    "equip": "Flatbed 48'",
-   "freight": "Oversized frames",
-   "weight": "13,969 lb",
-   "miles": 35,
-   "rate": 1140,
-   "rpm": 32.57,
-   "notes": "35 miles · same-day delivery",
-   "tag": "Oversize"
+   "freight": "Bricks",
+   "weight": "45,570 lb",
+   "miles": 445,
+   "rate": 1325,
+   "rpm": 2.98,
+   "notes": "445 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125296",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Shakopee, MN",
+   "to": "Shawnee, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Bricks",
+   "weight": "45,570 lb",
+   "miles": 445,
+   "rate": 1325,
+   "rpm": 2.98,
+   "notes": "445 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125297",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Shakopee, MN",
+   "to": "Shawnee, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Bricks",
+   "weight": "45,570 lb",
+   "miles": 445,
+   "rate": 1325,
+   "rpm": 2.98,
+   "notes": "445 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125311",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Kansas City, KS",
+   "to": "Tulsa, OK",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe 50' sticks",
+   "weight": "Call for weight",
+   "miles": 250,
+   "rate": 1300,
+   "rpm": 5.2,
+   "notes": "250 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125312",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Kansas City, KS",
+   "to": "Wichita, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe 50' sticks",
+   "weight": "20,000 lb",
+   "miles": 200,
+   "rate": 1300,
+   "rpm": 6.5,
+   "notes": "200 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125313",
+   "broker": "dana",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Kansas City, KS",
+   "to": "Wichita, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Pipe 50' sticks",
+   "weight": "20,000 lb",
+   "miles": 200,
+   "rate": 1300,
+   "rpm": 6.5,
+   "notes": "200 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125276",
+   "broker": "pam",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "St Joesph, MO",
+   "to": "Amarillo, TX",
+   "equip": "Reefer 53'",
+   "freight": "1-plt of animal medcine",
+   "weight": "770 lb",
+   "miles": 615,
+   "rate": null,
+   "rpm": null,
+   "notes": "615 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125228",
+   "broker": "cait",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Paducah, KY",
+   "to": "Columbus, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Steel sheets",
+   "weight": "46,500 lb",
+   "miles": 687,
+   "rate": 2700,
+   "rpm": 3.93,
+   "notes": "687 miles",
+   "tag": "Today"
   },
   {
    "load": "125266",
@@ -460,7 +444,55 @@
    "rate": 2800,
    "rpm": 3.18,
    "notes": "881 miles",
-   "tag": "Flatbed"
+   "tag": "Today"
+  },
+  {
+   "load": "125267",
+   "broker": "cait",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Gibraltar, MI",
+   "to": "Hastings, NE",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coils",
+   "weight": "36,280 lb",
+   "miles": 881,
+   "rate": 2900,
+   "rpm": 3.29,
+   "notes": "881 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125314",
+   "broker": "cait",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Concordia, KS",
+   "to": "Rices Landing, PA",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Cover plates - 12 and hardware",
+   "weight": "43,000 lb",
+   "miles": 1029,
+   "rate": 3200,
+   "rpm": 3.11,
+   "notes": "1029 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125315",
+   "broker": "cait",
+   "date": "2026-11-16",
+   "when": "Mon 11/16",
+   "from": "Nocona, TX",
+   "to": "Honey Grove, TX",
+   "equip": "Flatbed 48'",
+   "freight": "Bundled rod",
+   "weight": "46,000 lb",
+   "miles": 115,
+   "rate": 575,
+   "rpm": 5.0,
+   "notes": "115 miles",
+   "tag": "Today"
   },
   {
    "load": "125253",
