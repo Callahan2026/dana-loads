@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 16 · 10:43 AM",
- "updated_iso": "2026-11-16T10:43:29-06:00",
+ "updated": "Mon, Nov 16 · 11:44 AM",
+ "updated_iso": "2026-11-16T11:44:35-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -63,22 +63,6 @@
    "tag": "Today"
   },
   {
-   "load": "125272",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Kansas City, KS",
-   "to": "Tulsa, OK",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe 50' sticks",
-   "weight": "Call for weight",
-   "miles": 250,
-   "rate": 1300,
-   "rpm": 5.2,
-   "notes": "250 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125273",
    "broker": "dana",
    "date": "2026-11-16",
@@ -89,8 +73,8 @@
    "freight": "Pipe 50' sticks",
    "weight": "Call for weight",
    "miles": 250,
-   "rate": 1300,
-   "rpm": 5.2,
+   "rate": 1000,
+   "rpm": 4.0,
    "notes": "250 miles",
    "tag": "Today"
   },
@@ -271,22 +255,6 @@
    "tag": "Today"
   },
   {
-   "load": "125296",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125297",
    "broker": "dana",
    "date": "2026-11-16",
@@ -351,22 +319,6 @@
    "tag": "Today"
   },
   {
-   "load": "125314",
-   "broker": "cait",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Concordia, KS",
-   "to": "Rices Landing, PA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Cover plates - 12 and hardware",
-   "weight": "43,000 lb",
-   "miles": 1029,
-   "rate": 3200,
-   "rpm": 3.11,
-   "notes": "1029 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125315",
    "broker": "cait",
    "date": "2026-11-16",
@@ -413,22 +365,6 @@
    "rpm": 3.54,
    "notes": "367 miles · tarped",
    "tag": "Tarped"
-  },
-  {
-   "load": "125307",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Kansas City, MO",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed 48'",
-   "freight": "Tubing",
-   "weight": "Call for weight",
-   "miles": 10,
-   "rate": 1140,
-   "rpm": 114.0,
-   "notes": "10 miles · same-day delivery",
-   "tag": "Local"
   },
   {
    "load": "125313",
@@ -495,6 +431,22 @@
    "tag": "Tarped"
   },
   {
+   "load": "125307",
+   "broker": "dana",
+   "date": "2026-11-18",
+   "when": "Wed 11/18",
+   "from": "Kansas City, MO",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Tubing",
+   "weight": "Call for weight",
+   "miles": 10,
+   "rate": 1140,
+   "rpm": 114.0,
+   "notes": "10 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
    "load": "125308",
    "broker": "dana",
    "date": "2026-11-18",
@@ -509,6 +461,22 @@
    "rpm": 32.57,
    "notes": "35 miles · same-day delivery",
    "tag": "Oversize"
+  },
+  {
+   "load": "125324",
+   "broker": "dana",
+   "date": "2026-11-18",
+   "when": "Wed 11/18",
+   "from": "Kansas City, MO",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Tubing",
+   "weight": "Call for weight",
+   "miles": 0,
+   "rate": 1140,
+   "rpm": null,
+   "notes": "Local move · same-day delivery",
+   "tag": "Local"
   },
   {
    "load": "125309",
@@ -543,22 +511,6 @@
    "tag": "Oversize"
   },
   {
-   "load": "125321",
-   "broker": "dana",
-   "date": "2026-11-20",
-   "when": "Fri 11/20",
-   "from": "Kansas City, MO",
-   "to": "Olathe, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Oversized frames",
-   "weight": "13,969 lb",
-   "miles": 35,
-   "rate": 1140,
-   "rpm": 32.57,
-   "notes": "35 miles · same-day delivery",
-   "tag": "Oversize"
-  },
-  {
    "load": "125320",
    "broker": "pam",
    "date": "2026-11-23",
@@ -573,6 +525,22 @@
    "rpm": 3.15,
    "notes": "222 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125323",
+   "broker": "pam",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Bellwood, IL",
+   "to": "Wichita, KS",
+   "equip": "Hot shot",
+   "freight": "Steel i-beams",
+   "weight": "10,000 lb",
+   "miles": 710,
+   "rate": 2306,
+   "rpm": 3.25,
+   "notes": "710 miles",
+   "tag": "Hot shot"
   },
   {
    "load": "125316",
