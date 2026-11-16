@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 16 · 8:25 AM",
- "updated_iso": "2026-11-16T08:25:51-06:00",
+ "updated": "Mon, Nov 16 · 8:43 AM",
+ "updated_iso": "2026-11-16T08:43:57-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -376,10 +376,10 @@
    "equip": "Flatbed 48'",
    "freight": "Pipe 50' sticks",
    "weight": "20,000 lb",
-   "miles": 200,
+   "miles": 0,
    "rate": 1300,
-   "rpm": 6.5,
-   "notes": "200 miles",
+   "rpm": null,
+   "notes": "",
    "tag": "Today"
   },
   {
@@ -409,8 +409,8 @@
    "freight": "1-plt of animal medcine",
    "weight": "770 lb",
    "miles": 615,
-   "rate": null,
-   "rpm": null,
+   "rate": 2100,
+   "rpm": 3.41,
    "notes": "615 miles",
    "tag": "Today"
   },
