@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 16 · 9:43 AM",
- "updated_iso": "2026-11-16T09:43:31-06:00",
+ "updated": "Mon, Nov 16 · 10:43 AM",
+ "updated_iso": "2026-11-16T10:43:29-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -60,22 +60,6 @@
    "rate": 900,
    "rpm": 3.25,
    "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125233",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Guthrie, OK",
-   "to": "Sand Springs, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "45,000 lb",
-   "miles": 97,
-   "rate": 900,
-   "rpm": 9.28,
-   "notes": "97 miles",
    "tag": "Today"
   },
   {
@@ -335,22 +319,6 @@
    "tag": "Today"
   },
   {
-   "load": "125319",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Adel, IA",
-   "to": "Kansas City, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Brick",
-   "weight": "Call for weight",
-   "miles": 202,
-   "rate": 1000,
-   "rpm": 4.95,
-   "notes": "202 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125228",
    "broker": "cait",
    "date": "2026-11-16",
@@ -452,15 +420,15 @@
    "date": "2026-11-17",
    "when": "Tue 11/17",
    "from": "Kansas City, MO",
-   "to": "Olathe, KS",
+   "to": "Kansas City, MO",
    "equip": "Flatbed 48'",
-   "freight": "Oversized frames",
-   "weight": "13,969 lb",
-   "miles": 35,
+   "freight": "Tubing",
+   "weight": "Call for weight",
+   "miles": 10,
    "rate": 1140,
-   "rpm": 32.57,
-   "notes": "35 miles · same-day delivery",
-   "tag": "Oversize"
+   "rpm": 114.0,
+   "notes": "10 miles · same-day delivery",
+   "tag": "Local"
   },
   {
    "load": "125313",
@@ -573,6 +541,38 @@
    "rpm": 32.57,
    "notes": "35 miles · same-day delivery",
    "tag": "Oversize"
+  },
+  {
+   "load": "125321",
+   "broker": "dana",
+   "date": "2026-11-20",
+   "when": "Fri 11/20",
+   "from": "Kansas City, MO",
+   "to": "Olathe, KS",
+   "equip": "Flatbed 48'",
+   "freight": "Oversized frames",
+   "weight": "13,969 lb",
+   "miles": 35,
+   "rate": 1140,
+   "rpm": 32.57,
+   "notes": "35 miles · same-day delivery",
+   "tag": "Oversize"
+  },
+  {
+   "load": "125320",
+   "broker": "pam",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Springfield, MO",
+   "to": "Little Rock, AR",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bagged mortar",
+   "weight": "Call for weight",
+   "miles": 222,
+   "rate": 700,
+   "rpm": 3.15,
+   "notes": "222 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125316",
