@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 16 · 8:43 AM",
- "updated_iso": "2026-11-16T08:43:57-06:00",
+ "updated": "Mon, Nov 16 · 9:43 AM",
+ "updated_iso": "2026-11-16T09:43:31-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -60,22 +60,6 @@
    "rate": 900,
    "rpm": 3.25,
    "notes": "277 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125227",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Kansas City, KS",
-   "to": "Amarillo, TX",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Bricks",
-   "weight": "Call for weight",
-   "miles": 985,
-   "rate": 2800,
-   "rpm": 2.84,
-   "notes": "985 miles · tarped",
    "tag": "Today"
   },
   {
@@ -303,22 +287,6 @@
    "tag": "Today"
   },
   {
-   "load": "125295",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Shakopee, MN",
-   "to": "Shawnee, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Bricks",
-   "weight": "45,570 lb",
-   "miles": 445,
-   "rate": 1325,
-   "rpm": 2.98,
-   "notes": "445 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125296",
    "broker": "dana",
    "date": "2026-11-16",
@@ -367,51 +335,19 @@
    "tag": "Today"
   },
   {
-   "load": "125312",
+   "load": "125319",
    "broker": "dana",
    "date": "2026-11-16",
    "when": "Mon 11/16",
-   "from": "Kansas City, KS",
-   "to": "Wichita, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe 50' sticks",
-   "weight": "20,000 lb",
-   "miles": 0,
-   "rate": 1300,
-   "rpm": null,
-   "notes": "",
-   "tag": "Today"
-  },
-  {
-   "load": "125313",
-   "broker": "dana",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Kansas City, KS",
-   "to": "Wichita, KS",
-   "equip": "Flatbed 48'",
-   "freight": "Pipe 50' sticks",
-   "weight": "20,000 lb",
-   "miles": 200,
-   "rate": 1300,
-   "rpm": 6.5,
-   "notes": "200 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125276",
-   "broker": "pam",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "St Joesph, MO",
-   "to": "Amarillo, TX",
-   "equip": "Reefer 53'",
-   "freight": "1-plt of animal medcine",
-   "weight": "770 lb",
-   "miles": 615,
-   "rate": 2100,
-   "rpm": 3.41,
-   "notes": "615 miles",
+   "from": "Adel, IA",
+   "to": "Kansas City, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Brick",
+   "weight": "Call for weight",
+   "miles": 202,
+   "rate": 1000,
+   "rpm": 4.95,
+   "notes": "202 miles",
    "tag": "Today"
   },
   {
@@ -428,22 +364,6 @@
    "rate": 2700,
    "rpm": 3.93,
    "notes": "687 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125266",
-   "broker": "cait",
-   "date": "2026-11-16",
-   "when": "Mon 11/16",
-   "from": "Gibraltar, MI",
-   "to": "Hastings, NE",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Coils",
-   "weight": "36,140 lb",
-   "miles": 881,
-   "rate": 2800,
-   "rpm": 3.18,
-   "notes": "881 miles",
    "tag": "Today"
   },
   {
@@ -543,20 +463,36 @@
    "tag": "Oversize"
   },
   {
-   "load": "125244",
+   "load": "125313",
    "broker": "dana",
-   "date": "2026-11-18",
-   "when": "Wed 11/18",
-   "from": "Blytheville, AR",
-   "to": "Topeka, KS",
+   "date": "2026-11-17",
+   "when": "Tue 11/17",
+   "from": "Osceola, AR",
+   "to": "Portage, IN",
    "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "44,000 lb",
-   "miles": 516,
-   "rate": 2200,
-   "rpm": 4.26,
-   "notes": "516 miles · tarped",
-   "tag": "Tarped"
+   "freight": "1 coil",
+   "weight": "47,240 lb",
+   "miles": 492,
+   "rate": 2250,
+   "rpm": 4.57,
+   "notes": "492 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125317",
+   "broker": "dana",
+   "date": "2026-11-17",
+   "when": "Tue 11/17",
+   "from": "Osceola, AR",
+   "to": "Portage, IN",
+   "equip": "Flatbed / stepdeck",
+   "freight": "1 coil",
+   "weight": "46,140 lb",
+   "miles": 492,
+   "rate": 2250,
+   "rpm": 4.57,
+   "notes": "492 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125245",
@@ -637,6 +573,22 @@
    "rpm": 32.57,
    "notes": "35 miles · same-day delivery",
    "tag": "Oversize"
+  },
+  {
+   "load": "125316",
+   "broker": "pam",
+   "date": "2026-12-01",
+   "when": "Tue 12/1",
+   "from": "Omaha, NE",
+   "to": "Blue Springs, MO",
+   "equip": "Van / reefer",
+   "freight": "Animal medcine/38-plts",
+   "weight": "16,222 lb",
+   "miles": 201,
+   "rate": 800,
+   "rpm": 3.98,
+   "notes": "201 miles",
+   "tag": "Van / reefer"
   }
  ]
 }
