@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 17 · 3:43 PM",
- "updated_iso": "2026-11-17T15:43:48-06:00",
+ "updated": "Tue, Nov 17 · 5:43 PM",
+ "updated_iso": "2026-11-17T17:43:00-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,19 +31,19 @@
  },
  "loads": [
   {
-   "load": "125273",
+   "load": "125277",
    "broker": "dana",
    "date": "2026-11-17",
    "when": "Tue 11/17",
-   "from": "Kansas City, MO",
-   "to": "Benton, AR",
+   "from": "Guthrie, OK",
+   "to": "Lawrence, KS",
    "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "47,980 lb",
-   "miles": 405,
-   "rate": 1200,
-   "rpm": 2.96,
-   "notes": "405 miles",
+   "freight": "Railroad ties",
+   "weight": "Call for weight",
+   "miles": 286,
+   "rate": 900,
+   "rpm": 3.15,
+   "notes": "286 miles",
    "tag": "Today"
   },
   {
@@ -207,22 +207,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125370",
-   "broker": "dana",
-   "date": "2026-11-18",
-   "when": "Wed 11/18",
-   "from": "Shawnee, KS",
-   "to": "Broken Arrow, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Block - 11 plts",
-   "weight": "46,445 lb",
-   "miles": 250,
-   "rate": null,
-   "rpm": null,
-   "notes": "250 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125361",
    "broker": "cait",
    "date": "2026-11-18",
@@ -269,6 +253,22 @@
    "rpm": 4.36,
    "notes": "275 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125379",
+   "broker": "dana",
+   "date": "2026-11-19",
+   "when": "Thu 11/19",
+   "from": "Pleasant Hill, MO",
+   "to": "Kansas City, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 39,
+   "rate": 350,
+   "rpm": 8.97,
+   "notes": "39 miles · same-day delivery",
+   "tag": "Local"
   },
   {
    "load": "125346",
