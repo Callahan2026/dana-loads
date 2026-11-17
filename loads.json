@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 17 · 11:44 AM",
- "updated_iso": "2026-11-17T11:44:15-06:00",
+ "updated": "Tue, Nov 17 · 12:43 PM",
+ "updated_iso": "2026-11-17T12:43:30-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,22 +31,6 @@
  },
  "loads": [
   {
-   "load": "125172",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Shawnee, KS",
-   "to": "Ozark, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Block - 11 plts",
-   "weight": "35,043 lb",
-   "miles": 194,
-   "rate": 700,
-   "rpm": 3.61,
-   "notes": "194 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125273",
    "broker": "dana",
    "date": "2026-11-17",
@@ -63,22 +47,6 @@
    "tag": "Today"
   },
   {
-   "load": "125278",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Guthrie, OK",
-   "to": "Springfield, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 269,
-   "rate": 900,
-   "rpm": 3.35,
-   "notes": "269 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125279",
    "broker": "dana",
    "date": "2026-11-17",
@@ -92,54 +60,6 @@
    "rate": 1000,
    "rpm": 2.75,
    "notes": "364 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125284",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Guthrie, OK",
-   "to": "Pryor, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "45,000 lb",
-   "miles": 155,
-   "rate": 600,
-   "rpm": 3.87,
-   "notes": "155 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125285",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Guthrie, OK",
-   "to": "Pryor, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "45,000 lb",
-   "miles": 155,
-   "rate": 600,
-   "rpm": 3.87,
-   "notes": "155 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125286",
-   "broker": "dana",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Guthrie, OK",
-   "to": "Pryor, OK",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "45,000 lb",
-   "miles": 155,
-   "rate": 600,
-   "rpm": 3.87,
-   "notes": "155 miles",
    "tag": "Today"
   },
   {
@@ -191,22 +111,6 @@
    "tag": "Today"
   },
   {
-   "load": "125360",
-   "broker": "pam",
-   "date": "2026-11-17",
-   "when": "Tue 11/17",
-   "from": "Le Sueur, MN",
-   "to": "Liberty, MO",
-   "equip": "Reefer 53'",
-   "freight": "Animal medcine/24-plts",
-   "weight": "15,000 lb",
-   "miles": 405,
-   "rate": 1700,
-   "rpm": 4.2,
-   "notes": "405 miles",
-   "tag": "Today"
-  },
-  {
    "load": "125364",
    "broker": "pam",
    "date": "2026-11-17",
@@ -239,36 +143,20 @@
    "tag": "Today"
   },
   {
-   "load": "125245",
+   "load": "125286",
    "broker": "dana",
    "date": "2026-11-18",
    "when": "Wed 11/18",
-   "from": "Blytheville, AR",
-   "to": "Topeka, KS",
+   "from": "Guthrie, OK",
+   "to": "Pryor, OK",
    "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "44,000 lb",
-   "miles": 516,
-   "rate": 2200,
-   "rpm": 4.26,
-   "notes": "516 miles · tarped",
-   "tag": "Tarped"
-  },
-  {
-   "load": "125246",
-   "broker": "dana",
-   "date": "2026-11-18",
-   "when": "Wed 11/18",
-   "from": "Blytheville, AR",
-   "to": "Topeka, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "44,000 lb",
-   "miles": 516,
-   "rate": 2200,
-   "rpm": 4.26,
-   "notes": "516 miles · tarped",
-   "tag": "Tarped"
+   "freight": "Railroad ties",
+   "weight": "45,000 lb",
+   "miles": 155,
+   "rate": 600,
+   "rpm": 3.87,
+   "notes": "155 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125333",
@@ -335,22 +223,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125366",
-   "broker": "dana",
-   "date": "2026-11-18",
-   "when": "Wed 11/18",
-   "from": "Tulsa, OK",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Stone",
-   "weight": "Call for weight",
-   "miles": 250,
-   "rate": null,
-   "rpm": null,
-   "notes": "250 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125369",
    "broker": "dana",
    "date": "2026-11-18",
@@ -365,6 +237,22 @@
    "rpm": 3.02,
    "notes": "430 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125246",
+   "broker": "dana",
+   "date": "2026-11-19",
+   "when": "Thu 11/19",
+   "from": "Blytheville, AR",
+   "to": "Topeka, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Sheets",
+   "weight": "44,000 lb",
+   "miles": 516,
+   "rate": 2200,
+   "rpm": 4.26,
+   "notes": "516 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125344",
