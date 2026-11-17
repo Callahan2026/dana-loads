@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 17 · 2:44 PM",
- "updated_iso": "2026-11-17T14:44:11-06:00",
+ "updated": "Tue, Nov 17 · 3:43 PM",
+ "updated_iso": "2026-11-17T15:43:48-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -41,8 +41,8 @@
    "freight": "Lumber",
    "weight": "47,980 lb",
    "miles": 405,
-   "rate": 800,
-   "rpm": 1.98,
+   "rate": 1200,
+   "rpm": 2.96,
    "notes": "405 miles",
    "tag": "Today"
   },
@@ -223,22 +223,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125375",
-   "broker": "dana",
-   "date": "2026-11-18",
-   "when": "Wed 11/18",
-   "from": "Pleasant Hill, MO",
-   "to": "Lawrence, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 69,
-   "rate": 475,
-   "rpm": 6.88,
-   "notes": "69 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125361",
    "broker": "cait",
    "date": "2026-11-18",
@@ -285,22 +269,6 @@
    "rpm": 4.36,
    "notes": "275 miles · tarped",
    "tag": "Tarped"
-  },
-  {
-   "load": "125345",
-   "broker": "dana",
-   "date": "2026-11-20",
-   "when": "Fri 11/20",
-   "from": "North Bend, NE",
-   "to": "Grimes, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Salt",
-   "weight": "Call for weight",
-   "miles": 200,
-   "rate": 800,
-   "rpm": 4.0,
-   "notes": "200 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125346",
@@ -365,6 +333,22 @@
    "rpm": 4.24,
    "notes": "590 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125376",
+   "broker": "dana",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Kanopolis, KS",
+   "to": "Oklahoma City, OK",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bagged salt",
+   "weight": "Call for weight",
+   "miles": 290,
+   "rate": null,
+   "rpm": null,
+   "notes": "290 miles",
+   "tag": "Flatbed"
   }
  ]
 }
