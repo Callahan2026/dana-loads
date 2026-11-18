@@ -1,6 +1,6 @@
 {
-  "updated": "Wed, Nov 18 · 2:43 PM",
-  "updated_iso": "2026-11-18T14:43:16-06:00",
+  "updated": "Wed, Nov 18 · 3:43 PM",
+  "updated_iso": "2026-11-18T15:43:49-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -30,22 +30,6 @@
     }
   },
   "loads": [
-    {
-      "load": "125332",
-      "broker": "cait",
-      "date": "2026-11-18",
-      "when": "Wed 11/18",
-      "from": "Nocona, TX",
-      "to": "Honey Grove, TX",
-      "equip": "Flatbed 48'",
-      "freight": "Bundled rod",
-      "weight": "46,000 lb",
-      "miles": 115,
-      "rate": 575,
-      "rpm": 5.0,
-      "notes": "115 miles",
-      "tag": "Today"
-    },
     {
       "load": "125277",
       "broker": "dana",
@@ -95,20 +79,20 @@
       "tag": "Today"
     },
     {
-      "load": "125344",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "North Bend, NE",
-      "to": "Grimes, IA",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Salt",
-      "weight": "Call for weight",
-      "miles": 200,
-      "rate": 800,
-      "rpm": 4.0,
-      "notes": "200 miles",
-      "tag": "Flatbed"
+      "load": "125332",
+      "broker": "cait",
+      "date": "2026-11-18",
+      "when": "Wed 11/18",
+      "from": "Nocona, TX",
+      "to": "Honey Grove, TX",
+      "equip": "Flatbed 48'",
+      "freight": "Bundled rod",
+      "weight": "46,000 lb",
+      "miles": 115,
+      "rate": 575,
+      "rpm": 5.0,
+      "notes": "115 miles",
+      "tag": "Today"
     },
     {
       "load": "125379",
