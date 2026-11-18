@@ -1,6 +1,6 @@
 {
-  "updated": "Wed, Nov 18 · 11:44 AM",
-  "updated_iso": "2026-11-18T11:44:09-06:00",
+  "updated": "Wed, Nov 18 · 12:43 PM",
+  "updated_iso": "2026-11-18T12:43:08-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -63,22 +63,6 @@
       "tag": "Today"
     },
     {
-      "load": "125391",
-      "broker": "dana",
-      "date": "2026-11-18",
-      "when": "Wed 11/18",
-      "from": "Pleasant Hill, MO",
-      "to": "Hutchinson, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "Call for weight",
-      "miles": 230,
-      "rate": 900,
-      "rpm": 3.91,
-      "notes": "230 miles",
-      "tag": "Today"
-    },
-    {
       "load": "125316",
       "broker": "pam",
       "date": "2026-11-18",
@@ -95,22 +79,6 @@
       "tag": "Today"
     },
     {
-      "load": "125364",
-      "broker": "pam",
-      "date": "2026-11-18",
-      "when": "Wed 11/18",
-      "from": "Plumerville, AR",
-      "to": "Independence, MO",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "46,000 lb",
-      "miles": 347,
-      "rate": 1600,
-      "rpm": 4.61,
-      "notes": "347 miles · tarped",
-      "tag": "Today"
-    },
-    {
       "load": "125332",
       "broker": "cait",
       "date": "2026-11-18",
@@ -124,22 +92,6 @@
       "rate": 575,
       "rpm": 5.0,
       "notes": "115 miles",
-      "tag": "Today"
-    },
-    {
-      "load": "125361",
-      "broker": "cait",
-      "date": "2026-11-18",
-      "when": "Wed 11/18",
-      "from": "St Louis, MO",
-      "to": "Falcon, MO",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Stone",
-      "weight": "Call for weight",
-      "miles": 165,
-      "rate": 800,
-      "rpm": 4.85,
-      "notes": "165 miles",
       "tag": "Today"
     },
     {
@@ -188,22 +140,6 @@
       "rate": 900,
       "rpm": 4.48,
       "notes": "201 miles",
-      "tag": "Flatbed"
-    },
-    {
-      "load": "125382",
-      "broker": "pam",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "San Angelo, TX",
-      "to": "St Joseph, MO",
-      "equip": "Reefer 53'",
-      "freight": "Aniimal medcine",
-      "weight": "9,500 lb",
-      "miles": 763,
-      "rate": 3000,
-      "rpm": 3.93,
-      "notes": "763 miles",
       "tag": "Flatbed"
     },
     {
