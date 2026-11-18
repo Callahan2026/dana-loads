@@ -1,6 +1,6 @@
 {
-  "updated": "Wed, Nov 18 · 9:43 AM",
-  "updated_iso": "2026-11-18T09:43:17-06:00",
+  "updated": "Wed, Nov 18 · 10:43 AM",
+  "updated_iso": "2026-11-18T10:43:19-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -143,22 +143,6 @@
       "tag": "Today"
     },
     {
-      "load": "125291",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "Shakopee, MN",
-      "to": "Shawnee, KS",
-      "equip": "Flatbed 48'",
-      "freight": "Bricks",
-      "weight": "45,566 lb",
-      "miles": 445,
-      "rate": 1325,
-      "rpm": 2.98,
-      "notes": "445 miles",
-      "tag": "Flatbed"
-    },
-    {
       "load": "125344",
       "broker": "dana",
       "date": "2026-11-19",
@@ -175,22 +159,6 @@
       "tag": "Flatbed"
     },
     {
-      "load": "125348",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "Blytheville, AR",
-      "to": "Jackson, MS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Sheets",
-      "weight": "43,000 lb",
-      "miles": 275,
-      "rate": 1200,
-      "rpm": 4.36,
-      "notes": "275 miles · tarped",
-      "tag": "Tarped"
-    },
-    {
       "load": "125379",
       "broker": "dana",
       "date": "2026-11-19",
@@ -205,22 +173,6 @@
       "rpm": 8.97,
       "notes": "39 miles · same-day delivery",
       "tag": "Local"
-    },
-    {
-      "load": "125385",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "Blytheville, AR",
-      "to": "Birmingham, AL",
-      "equip": "Flatbed / stepdeck",
-      "freight": "1 coil",
-      "weight": "45,000 lb",
-      "miles": 310,
-      "rate": 1200,
-      "rpm": 3.87,
-      "notes": "310 miles · tarped",
-      "tag": "Tarped"
     },
     {
       "load": "125346",
@@ -253,22 +205,6 @@
       "rpm": 4.46,
       "notes": "560 miles · tarped",
       "tag": "Tarped"
-    },
-    {
-      "load": "125353",
-      "broker": "dana",
-      "date": "2026-11-20",
-      "when": "Fri 11/20",
-      "from": "Pleasant Hill, MO",
-      "to": "Osceola, IA",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "Call for weight",
-      "miles": 170,
-      "rate": 825,
-      "rpm": 4.85,
-      "notes": "170 miles",
-      "tag": "Flatbed"
     },
     {
       "load": "125349",
