@@ -1,6 +1,6 @@
 {
-  "updated": "Wed, Nov 18 · 10:43 AM",
-  "updated_iso": "2026-11-18T10:43:19-06:00",
+  "updated": "Wed, Nov 18 · 11:44 AM",
+  "updated_iso": "2026-11-18T11:44:09-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -63,19 +63,19 @@
       "tag": "Today"
     },
     {
-      "load": "125297",
+      "load": "125391",
       "broker": "dana",
       "date": "2026-11-18",
       "when": "Wed 11/18",
-      "from": "Shakopee, MN",
-      "to": "Shawnee, KS",
-      "equip": "Flatbed 48'",
-      "freight": "Bricks",
-      "weight": "45,570 lb",
-      "miles": 445,
-      "rate": 1325,
-      "rpm": 2.98,
-      "notes": "445 miles",
+      "from": "Pleasant Hill, MO",
+      "to": "Hutchinson, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 230,
+      "rate": 900,
+      "rpm": 3.91,
+      "notes": "230 miles",
       "tag": "Today"
     },
     {
@@ -175,6 +175,38 @@
       "tag": "Local"
     },
     {
+      "load": "125389",
+      "broker": "dana",
+      "date": "2026-11-19",
+      "when": "Thu 11/19",
+      "from": "Pleasant Hill, MO",
+      "to": "Salina, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 201,
+      "rate": 900,
+      "rpm": 4.48,
+      "notes": "201 miles",
+      "tag": "Flatbed"
+    },
+    {
+      "load": "125382",
+      "broker": "pam",
+      "date": "2026-11-19",
+      "when": "Thu 11/19",
+      "from": "San Angelo, TX",
+      "to": "St Joseph, MO",
+      "equip": "Reefer 53'",
+      "freight": "Aniimal medcine",
+      "weight": "9,500 lb",
+      "miles": 763,
+      "rate": 3000,
+      "rpm": 3.93,
+      "notes": "763 miles",
+      "tag": "Flatbed"
+    },
+    {
       "load": "125346",
       "broker": "dana",
       "date": "2026-11-20",
@@ -207,6 +239,22 @@
       "tag": "Tarped"
     },
     {
+      "load": "125388",
+      "broker": "dana",
+      "date": "2026-11-20",
+      "when": "Fri 11/20",
+      "from": "Pleasant Hill, MO",
+      "to": "Wichita, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 204,
+      "rate": 900,
+      "rpm": 4.41,
+      "notes": "204 miles",
+      "tag": "Flatbed"
+    },
+    {
       "load": "125349",
       "broker": "dana",
       "date": "2026-11-23",
@@ -236,6 +284,22 @@
       "rate": null,
       "rpm": null,
       "notes": "290 miles",
+      "tag": "Flatbed"
+    },
+    {
+      "load": "125390",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "Pleasant Hill, MO",
+      "to": "Versailles, MO",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 97,
+      "rate": 500,
+      "rpm": 5.15,
+      "notes": "97 miles",
       "tag": "Flatbed"
     }
   ]
