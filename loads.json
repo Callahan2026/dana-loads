@@ -1,6 +1,6 @@
 {
-  "updated": "Wed, Nov 18 · 3:43 PM",
-  "updated_iso": "2026-11-18T15:43:49-06:00",
+  "updated": "Wed, Nov 18 · 5:43 PM",
+  "updated_iso": "2026-11-18T17:43:02-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -47,19 +47,35 @@
       "tag": "Today"
     },
     {
-      "load": "125279",
+      "load": "125285",
       "broker": "dana",
       "date": "2026-11-18",
       "when": "Wed 11/18",
       "from": "Guthrie, OK",
-      "to": "Lake Ozark, MO",
+      "to": "Pryor, OK",
       "equip": "Flatbed / stepdeck",
       "freight": "Railroad ties",
+      "weight": "45,000 lb",
+      "miles": 155,
+      "rate": 600,
+      "rpm": 3.87,
+      "notes": "155 miles",
+      "tag": "Today"
+    },
+    {
+      "load": "125372",
+      "broker": "dana",
+      "date": "2026-11-18",
+      "when": "Wed 11/18",
+      "from": "Pleasant Hill, MO",
+      "to": "Kansas City, MO",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
       "weight": "Call for weight",
-      "miles": 364,
-      "rate": 1000,
-      "rpm": 2.75,
-      "notes": "364 miles",
+      "miles": 40,
+      "rate": 350,
+      "rpm": 8.75,
+      "notes": "40 miles · same-day delivery",
       "tag": "Today"
     },
     {
@@ -76,22 +92,6 @@
       "rate": 1600,
       "rpm": 3.2,
       "notes": "500 miles",
-      "tag": "Today"
-    },
-    {
-      "load": "125332",
-      "broker": "cait",
-      "date": "2026-11-18",
-      "when": "Wed 11/18",
-      "from": "Nocona, TX",
-      "to": "Honey Grove, TX",
-      "equip": "Flatbed 48'",
-      "freight": "Bundled rod",
-      "weight": "46,000 lb",
-      "miles": 115,
-      "rate": 575,
-      "rpm": 5.0,
-      "notes": "115 miles",
       "tag": "Today"
     },
     {
@@ -236,6 +236,22 @@
       "rate": 500,
       "rpm": 5.15,
       "notes": "97 miles",
+      "tag": "Flatbed"
+    },
+    {
+      "load": "125332",
+      "broker": "cait",
+      "date": "2026-11-30",
+      "when": "Mon 11/30",
+      "from": "Nocona, TX",
+      "to": "Honey Grove, TX",
+      "equip": "Flatbed 48'",
+      "freight": "Bundled rod",
+      "weight": "46,000 lb",
+      "miles": 115,
+      "rate": 575,
+      "rpm": 5.0,
+      "notes": "115 miles",
       "tag": "Flatbed"
     }
   ]
