@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 19 · 12:43 PM",
- "updated_iso": "2026-11-19T12:43:14-06:00",
+ "updated": "Thu, Nov 19 · 1:43 PM",
+ "updated_iso": "2026-11-19T13:43:21-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -111,22 +111,6 @@
    "tag": "Tarped"
   },
   {
-   "load": "125405",
-   "broker": "dana",
-   "date": "2026-11-20",
-   "when": "Fri 11/20",
-   "from": "Osceola, AR",
-   "to": "Bessemer, AL",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Coil - steel",
-   "weight": "29,789 lb",
-   "miles": 288,
-   "rate": 1100,
-   "rpm": 3.82,
-   "notes": "288 miles · tarped",
-   "tag": "Tarped"
-  },
-  {
    "load": "125406",
    "broker": "dana",
    "date": "2026-11-20",
@@ -189,6 +173,38 @@
    "rpm": 4.26,
    "notes": "516 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125408",
+   "broker": "dana",
+   "date": "2026-11-24",
+   "when": "Tue 11/24",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Several frames",
+   "weight": "20,000 lb",
+   "miles": 194,
+   "rate": 900,
+   "rpm": 4.64,
+   "notes": "194 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125409",
+   "broker": "dana",
+   "date": "2026-11-24",
+   "when": "Tue 11/24",
+   "from": "Halstead, KS",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed 48'",
+   "freight": "Several frames",
+   "weight": "20,000 lb",
+   "miles": 194,
+   "rate": 900,
+   "rpm": 4.64,
+   "notes": "194 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125332",
