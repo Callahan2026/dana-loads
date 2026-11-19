@@ -1,6 +1,6 @@
 {
-  "updated": "Thu, Nov 19 · 9:43 AM",
-  "updated_iso": "2026-11-19T09:43:37-06:00",
+  "updated": "Thu, Nov 19 · 10:43 AM",
+  "updated_iso": "2026-11-19T10:43:12-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -79,6 +79,22 @@
       "tag": "Today"
     },
     {
+      "load": "125402",
+      "broker": "dana",
+      "date": "2026-11-19",
+      "when": "Thu 11/19",
+      "from": "Osceola, AR",
+      "to": "Catoosa, OK",
+      "equip": "Flatbed / stepdeck",
+      "freight": "(1) coil",
+      "weight": "47,470 lb",
+      "miles": 436,
+      "rate": 2000,
+      "rpm": 4.59,
+      "notes": "436 miles",
+      "tag": "Today"
+    },
+    {
       "load": "125316",
       "broker": "pam",
       "date": "2026-11-19",
@@ -93,22 +109,6 @@
       "rpm": 3.2,
       "notes": "500 miles",
       "tag": "Today"
-    },
-    {
-      "load": "125285",
-      "broker": "dana",
-      "date": "2026-11-20",
-      "when": "Fri 11/20",
-      "from": "Guthrie, OK",
-      "to": "Pryor, OK",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Railroad ties",
-      "weight": "45,000 lb",
-      "miles": 155,
-      "rate": 600,
-      "rpm": 3.87,
-      "notes": "155 miles",
-      "tag": "Flatbed"
     },
     {
       "load": "125347",
