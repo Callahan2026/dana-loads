@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 19 · 11:43 AM",
- "updated_iso": "2026-11-19T11:43:40-06:00",
+ "updated": "Thu, Nov 19 · 12:43 PM",
+ "updated_iso": "2026-11-19T12:43:14-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -116,14 +116,30 @@
    "date": "2026-11-20",
    "when": "Fri 11/20",
    "from": "Osceola, AR",
-   "to": "Catoosa, OK",
+   "to": "Bessemer, AL",
    "equip": "Flatbed / stepdeck",
    "freight": "Coil - steel",
    "weight": "29,789 lb",
-   "miles": 434,
-   "rate": null,
-   "rpm": null,
-   "notes": "434 miles · tarped",
+   "miles": 288,
+   "rate": 1100,
+   "rpm": 3.82,
+   "notes": "288 miles · tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125406",
+   "broker": "dana",
+   "date": "2026-11-20",
+   "when": "Fri 11/20",
+   "from": "Osceola, AR",
+   "to": "Bessemer, AL",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coil - steel",
+   "weight": "30,109 lb",
+   "miles": 288,
+   "rate": 1100,
+   "rpm": 3.82,
+   "notes": "288 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -157,6 +173,22 @@
    "rpm": null,
    "notes": "290 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125407",
+   "broker": "dana",
+   "date": "2026-11-24",
+   "when": "Tue 11/24",
+   "from": "Blytheville, AR",
+   "to": "Topeka, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Sheets",
+   "weight": "45,000 lb",
+   "miles": 516,
+   "rate": 2200,
+   "rpm": 4.26,
+   "notes": "516 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125332",
