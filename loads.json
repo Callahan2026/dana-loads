@@ -1,6 +1,6 @@
 {
-  "updated": "Thu, Nov 19 · 8:44 AM",
-  "updated_iso": "2026-11-19T08:44:45-06:00",
+  "updated": "Thu, Nov 19 · 9:43 AM",
+  "updated_iso": "2026-11-19T09:43:37-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -47,22 +47,6 @@
       "tag": "Today"
     },
     {
-      "load": "125346",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "North Bend, NE",
-      "to": "Grimes, IA",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Salt",
-      "weight": "Call for weight",
-      "miles": 200,
-      "rate": 800,
-      "rpm": 4.0,
-      "notes": "200 miles",
-      "tag": "Today"
-    },
-    {
       "load": "125372",
       "broker": "dana",
       "date": "2026-11-19",
@@ -79,22 +63,6 @@
       "tag": "Today"
     },
     {
-      "load": "125379",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "Pleasant Hill, MO",
-      "to": "Kansas City, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "Call for weight",
-      "miles": 39,
-      "rate": 350,
-      "rpm": 8.97,
-      "notes": "39 miles · same-day delivery",
-      "tag": "Today"
-    },
-    {
       "load": "125389",
       "broker": "dana",
       "date": "2026-11-19",
@@ -108,54 +76,6 @@
       "rate": 900,
       "rpm": 4.48,
       "notes": "201 miles",
-      "tag": "Today"
-    },
-    {
-      "load": "125390",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "Pleasant Hill, MO",
-      "to": "Versailles, MO",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "Call for weight",
-      "miles": 97,
-      "rate": 500,
-      "rpm": 5.15,
-      "notes": "97 miles",
-      "tag": "Today"
-    },
-    {
-      "load": "125398",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "West Des Moines, IA",
-      "to": "Kansas City, MO",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Bricks",
-      "weight": "44,948 lb",
-      "miles": 180,
-      "rate": 700,
-      "rpm": 3.89,
-      "notes": "180 miles",
-      "tag": "Today"
-    },
-    {
-      "load": "125399",
-      "broker": "dana",
-      "date": "2026-11-19",
-      "when": "Thu 11/19",
-      "from": "Rock Island, IL",
-      "to": "West Des Moines, IA",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Block - 13 plts",
-      "weight": "40,000 lb",
-      "miles": 184,
-      "rate": 850,
-      "rpm": 4.62,
-      "notes": "184 miles",
       "tag": "Today"
     },
     {
@@ -205,22 +125,6 @@
       "rpm": 4.46,
       "notes": "560 miles · tarped",
       "tag": "Tarped"
-    },
-    {
-      "load": "125388",
-      "broker": "dana",
-      "date": "2026-11-20",
-      "when": "Fri 11/20",
-      "from": "Pleasant Hill, MO",
-      "to": "Wichita, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "Call for weight",
-      "miles": 204,
-      "rate": 900,
-      "rpm": 4.41,
-      "notes": "204 miles",
-      "tag": "Flatbed"
     },
     {
       "load": "125397",
