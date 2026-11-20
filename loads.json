@@ -1,6 +1,6 @@
 {
-  "updated": "Fri, Nov 20 \u00b7 1:42 PM",
-  "updated_iso": "2026-11-20T13:42:55-06:00",
+  "updated": "Fri, Nov 20 \u00b7 2:43 PM",
+  "updated_iso": "2026-11-20T14:43:14-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -30,6 +30,22 @@
     }
   },
   "loads": [
+    {
+      "load": "125432",
+      "broker": "dana",
+      "date": "2026-11-21",
+      "when": "Sat 11/21",
+      "from": "Osceola, AR",
+      "to": "Sauk Village, IL",
+      "equip": "Flatbed",
+      "freight": "Coil",
+      "weight": "36,442 lb",
+      "miles": 487,
+      "rate": 2100,
+      "rpm": 4.31,
+      "notes": "487 miles \u00b7 tarped",
+      "tag": "Tarped"
+    },
     {
       "load": "125376",
       "broker": "dana",
@@ -191,38 +207,6 @@
       "tag": "Tarped"
     },
     {
-      "load": "125455",
-      "broker": "dana",
-      "date": "2026-11-24",
-      "when": "Tue 11/24",
-      "from": "Blytheville, AR",
-      "to": "Wagoner, OK",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Coil - steel",
-      "weight": "47,000 lb",
-      "miles": 393,
-      "rate": 2100,
-      "rpm": 5.34,
-      "notes": "393 miles \u00b7 tarped",
-      "tag": "Tarped"
-    },
-    {
-      "load": "125332",
-      "broker": "cait",
-      "date": "2026-11-30",
-      "when": "Mon 11/30",
-      "from": "Nocona, TX",
-      "to": "Honey Grove, TX",
-      "equip": "Flatbed 48'",
-      "freight": "Bundled rod",
-      "weight": "46,000 lb",
-      "miles": 115,
-      "rate": 575,
-      "rpm": 5.0,
-      "notes": "115 miles",
-      "tag": "Flatbed"
-    },
-    {
       "load": "125451",
       "broker": "dana",
       "date": "2026-11-30",
@@ -253,6 +237,22 @@
       "rpm": 3.98,
       "notes": "503 miles \u00b7 tarped",
       "tag": "Tarped"
+    },
+    {
+      "load": "125332",
+      "broker": "cait",
+      "date": "2026-11-30",
+      "when": "Mon 11/30",
+      "from": "Nocona, TX",
+      "to": "Honey Grove, TX",
+      "equip": "Flatbed 48'",
+      "freight": "Bundled rod",
+      "weight": "46,000 lb",
+      "miles": 115,
+      "rate": 575,
+      "rpm": 5.0,
+      "notes": "115 miles",
+      "tag": "Flatbed"
     }
   ]
 }
