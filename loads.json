@@ -1,6 +1,6 @@
 {
-  "updated": "Fri, Nov 20 \u00b7 2:43 PM",
-  "updated_iso": "2026-11-20T14:43:14-06:00",
+  "updated": "Fri, Nov 20 · 3:43 PM",
+  "updated_iso": "2026-11-20T15:43:42-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -31,22 +31,6 @@
   },
   "loads": [
     {
-      "load": "125432",
-      "broker": "dana",
-      "date": "2026-11-21",
-      "when": "Sat 11/21",
-      "from": "Osceola, AR",
-      "to": "Sauk Village, IL",
-      "equip": "Flatbed",
-      "freight": "Coil",
-      "weight": "36,442 lb",
-      "miles": 487,
-      "rate": 2100,
-      "rpm": 4.31,
-      "notes": "487 miles \u00b7 tarped",
-      "tag": "Tarped"
-    },
-    {
       "load": "125376",
       "broker": "dana",
       "date": "2026-11-23",
@@ -60,22 +44,6 @@
       "rate": 950,
       "rpm": 3.28,
       "notes": "290 miles",
-      "tag": "Flatbed"
-    },
-    {
-      "load": "125438",
-      "broker": "dana",
-      "date": "2026-11-23",
-      "when": "Mon 11/23",
-      "from": "West Des Moines, IA",
-      "to": "Kansas City, MO",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Bricks",
-      "weight": "42,435 lb",
-      "miles": 187,
-      "rate": 700,
-      "rpm": 3.74,
-      "notes": "187 miles",
       "tag": "Flatbed"
     },
     {
@@ -107,7 +75,7 @@
       "miles": 48,
       "rate": 375,
       "rpm": 7.81,
-      "notes": "48 miles \u00b7 same-day delivery",
+      "notes": "48 miles · same-day delivery",
       "tag": "Local"
     },
     {
@@ -139,7 +107,7 @@
       "miles": 44,
       "rate": 375,
       "rpm": 8.52,
-      "notes": "44 miles \u00b7 same-day delivery",
+      "notes": "44 miles · same-day delivery",
       "tag": "Local"
     },
     {
@@ -159,6 +127,22 @@
       "tag": "Flatbed"
     },
     {
+      "load": "125456",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "West Des Moines, IA",
+      "to": "Kansas City, MO",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Bricks",
+      "weight": "41,614 lb",
+      "miles": 183,
+      "rate": 700,
+      "rpm": 3.83,
+      "notes": "183 miles",
+      "tag": "Flatbed"
+    },
+    {
       "load": "125407",
       "broker": "dana",
       "date": "2026-11-24",
@@ -171,7 +155,7 @@
       "miles": 516,
       "rate": 2200,
       "rpm": 4.26,
-      "notes": "516 miles \u00b7 tarped",
+      "notes": "516 miles · tarped",
       "tag": "Tarped"
     },
     {
@@ -191,22 +175,6 @@
       "tag": "Flatbed"
     },
     {
-      "load": "125454",
-      "broker": "dana",
-      "date": "2026-11-24",
-      "when": "Tue 11/24",
-      "from": "Blytheville, AR",
-      "to": "Wichita, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Coil - steel",
-      "weight": "45,000 lb",
-      "miles": 514,
-      "rate": 2100,
-      "rpm": 4.09,
-      "notes": "514 miles \u00b7 tarped",
-      "tag": "Tarped"
-    },
-    {
       "load": "125451",
       "broker": "dana",
       "date": "2026-11-30",
@@ -219,7 +187,7 @@
       "miles": 528,
       "rate": 2000,
       "rpm": 3.79,
-      "notes": "528 miles \u00b7 tarped",
+      "notes": "528 miles · tarped",
       "tag": "Tarped"
     },
     {
@@ -235,7 +203,7 @@
       "miles": 503,
       "rate": 2000,
       "rpm": 3.98,
-      "notes": "503 miles \u00b7 tarped",
+      "notes": "503 miles · tarped",
       "tag": "Tarped"
     },
     {
