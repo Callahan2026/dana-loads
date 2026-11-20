@@ -1,6 +1,6 @@
 {
-  "updated": "Fri, Nov 20 · 3:43 PM",
-  "updated_iso": "2026-11-20T15:43:42-06:00",
+  "updated": "Fri, Nov 20 · 5:46 PM",
+  "updated_iso": "2026-11-20T17:46:00-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -47,38 +47,6 @@
       "tag": "Flatbed"
     },
     {
-      "load": "125446",
-      "broker": "dana",
-      "date": "2026-11-23",
-      "when": "Mon 11/23",
-      "from": "Pleasant Hill, MO",
-      "to": "Wichita, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "Call for weight",
-      "miles": 204,
-      "rate": 900,
-      "rpm": 4.41,
-      "notes": "204 miles",
-      "tag": "Flatbed"
-    },
-    {
-      "load": "125448",
-      "broker": "dana",
-      "date": "2026-11-23",
-      "when": "Mon 11/23",
-      "from": "Harrisonville, MO",
-      "to": "Kansas City, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Bricks",
-      "weight": "49,280 lb",
-      "miles": 48,
-      "rate": 375,
-      "rpm": 7.81,
-      "notes": "48 miles · same-day delivery",
-      "tag": "Local"
-    },
-    {
       "load": "125449",
       "broker": "dana",
       "date": "2026-11-23",
@@ -93,22 +61,6 @@
       "rpm": 5.0,
       "notes": "160 miles",
       "tag": "Flatbed"
-    },
-    {
-      "load": "125450",
-      "broker": "dana",
-      "date": "2026-11-23",
-      "when": "Mon 11/23",
-      "from": "Harrisonville, MO",
-      "to": "Shawnee, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Bricks",
-      "weight": "27,480 lb",
-      "miles": 44,
-      "rate": 375,
-      "rpm": 8.52,
-      "notes": "44 miles · same-day delivery",
-      "tag": "Local"
     },
     {
       "load": "125452",
@@ -143,6 +95,54 @@
       "tag": "Flatbed"
     },
     {
+      "load": "125459",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "Pleasant Hill, MO",
+      "to": "Shawnee, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Lumber",
+      "weight": "Call for weight",
+      "miles": 40,
+      "rate": 350,
+      "rpm": 8.75,
+      "notes": "40 miles · same-day delivery",
+      "tag": "Local"
+    },
+    {
+      "load": "125463",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "Tulsa, OK",
+      "to": "Hinton, OK",
+      "equip": "Flatbed 48'",
+      "freight": "Pumps & accessories",
+      "weight": "10,000 lb",
+      "miles": 161,
+      "rate": 750,
+      "rpm": 4.66,
+      "notes": "161 miles",
+      "tag": "Flatbed"
+    },
+    {
+      "load": "125465",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "Tulsa, OK",
+      "to": "Hinton, OK",
+      "equip": "Flatbed 48'",
+      "freight": "Pumps & accessories",
+      "weight": "10,000 lb",
+      "miles": 161,
+      "rate": 750,
+      "rpm": 4.66,
+      "notes": "161 miles",
+      "tag": "Flatbed"
+    },
+    {
       "load": "125407",
       "broker": "dana",
       "date": "2026-11-24",
@@ -159,20 +159,20 @@
       "tag": "Tarped"
     },
     {
-      "load": "125409",
+      "load": "125464",
       "broker": "dana",
       "date": "2026-11-24",
       "when": "Tue 11/24",
-      "from": "Halstead, KS",
-      "to": "Kansas City, MO",
-      "equip": "Flatbed 48'",
-      "freight": "Several frames",
-      "weight": "20,000 lb",
-      "miles": 194,
-      "rate": 900,
-      "rpm": 4.64,
-      "notes": "194 miles",
-      "tag": "Flatbed"
+      "from": "Chattanooga, TN",
+      "to": "Jonesboro, AR",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Steel",
+      "weight": "45,040 lb",
+      "miles": 381,
+      "rate": 1300,
+      "rpm": 3.41,
+      "notes": "381 miles · tarped",
+      "tag": "Tarped"
     },
     {
       "load": "125451",
