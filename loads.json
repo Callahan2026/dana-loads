@@ -1,6 +1,6 @@
 {
-  "updated": "Fri, Nov 20 · 12:43 PM",
-  "updated_iso": "2026-11-20T12:43:18-06:00",
+  "updated": "Fri, Nov 20 \u00b7 1:42 PM",
+  "updated_iso": "2026-11-20T13:42:55-06:00",
   "brokers": {
     "dana": {
       "name": "Dana Mazor",
@@ -47,22 +47,6 @@
       "tag": "Flatbed"
     },
     {
-      "load": "125435",
-      "broker": "dana",
-      "date": "2026-11-23",
-      "when": "Mon 11/23",
-      "from": "Pleasant Hill, MO",
-      "to": "Wichita, KS",
-      "equip": "Flatbed / stepdeck",
-      "freight": "Lumber",
-      "weight": "Call for weight",
-      "miles": 215,
-      "rate": 900,
-      "rpm": 4.19,
-      "notes": "215 miles",
-      "tag": "Flatbed"
-    },
-    {
       "load": "125438",
       "broker": "dana",
       "date": "2026-11-23",
@@ -95,6 +79,70 @@
       "tag": "Flatbed"
     },
     {
+      "load": "125448",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "Harrisonville, MO",
+      "to": "Kansas City, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Bricks",
+      "weight": "49,280 lb",
+      "miles": 48,
+      "rate": 375,
+      "rpm": 7.81,
+      "notes": "48 miles \u00b7 same-day delivery",
+      "tag": "Local"
+    },
+    {
+      "load": "125449",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "North Bend, NE",
+      "to": "Adel, IA",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Salt",
+      "weight": "Call for weight",
+      "miles": 160,
+      "rate": 800,
+      "rpm": 5.0,
+      "notes": "160 miles",
+      "tag": "Flatbed"
+    },
+    {
+      "load": "125450",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "Harrisonville, MO",
+      "to": "Shawnee, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Bricks",
+      "weight": "27,480 lb",
+      "miles": 44,
+      "rate": 375,
+      "rpm": 8.52,
+      "notes": "44 miles \u00b7 same-day delivery",
+      "tag": "Local"
+    },
+    {
+      "load": "125452",
+      "broker": "dana",
+      "date": "2026-11-23",
+      "when": "Mon 11/23",
+      "from": "Harrisonville, MO",
+      "to": "Lawrence, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Bricks",
+      "weight": "43,050 lb",
+      "miles": 67,
+      "rate": 475,
+      "rpm": 7.09,
+      "notes": "67 miles",
+      "tag": "Flatbed"
+    },
+    {
       "load": "125407",
       "broker": "dana",
       "date": "2026-11-24",
@@ -107,24 +155,8 @@
       "miles": 516,
       "rate": 2200,
       "rpm": 4.26,
-      "notes": "516 miles · tarped",
+      "notes": "516 miles \u00b7 tarped",
       "tag": "Tarped"
-    },
-    {
-      "load": "125408",
-      "broker": "dana",
-      "date": "2026-11-24",
-      "when": "Tue 11/24",
-      "from": "Halstead, KS",
-      "to": "Kansas City, MO",
-      "equip": "Flatbed 48'",
-      "freight": "Several frames",
-      "weight": "20,000 lb",
-      "miles": 194,
-      "rate": 900,
-      "rpm": 4.64,
-      "notes": "194 miles",
-      "tag": "Flatbed"
     },
     {
       "load": "125409",
@@ -143,6 +175,38 @@
       "tag": "Flatbed"
     },
     {
+      "load": "125454",
+      "broker": "dana",
+      "date": "2026-11-24",
+      "when": "Tue 11/24",
+      "from": "Blytheville, AR",
+      "to": "Wichita, KS",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Coil - steel",
+      "weight": "45,000 lb",
+      "miles": 514,
+      "rate": 2100,
+      "rpm": 4.09,
+      "notes": "514 miles \u00b7 tarped",
+      "tag": "Tarped"
+    },
+    {
+      "load": "125455",
+      "broker": "dana",
+      "date": "2026-11-24",
+      "when": "Tue 11/24",
+      "from": "Blytheville, AR",
+      "to": "Wagoner, OK",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Coil - steel",
+      "weight": "47,000 lb",
+      "miles": 393,
+      "rate": 2100,
+      "rpm": 5.34,
+      "notes": "393 miles \u00b7 tarped",
+      "tag": "Tarped"
+    },
+    {
       "load": "125332",
       "broker": "cait",
       "date": "2026-11-30",
@@ -157,6 +221,38 @@
       "rpm": 5.0,
       "notes": "115 miles",
       "tag": "Flatbed"
+    },
+    {
+      "load": "125451",
+      "broker": "dana",
+      "date": "2026-11-30",
+      "when": "Mon 11/30",
+      "from": "Portage, IN",
+      "to": "Kansas City, MO",
+      "equip": "Flatbed",
+      "freight": "Sheets",
+      "weight": "42,000 lb",
+      "miles": 528,
+      "rate": 2000,
+      "rpm": 3.79,
+      "notes": "528 miles \u00b7 tarped",
+      "tag": "Tarped"
+    },
+    {
+      "load": "125453",
+      "broker": "dana",
+      "date": "2026-11-30",
+      "when": "Mon 11/30",
+      "from": "Portage, IN",
+      "to": "St Joseph, MO",
+      "equip": "Flatbed / stepdeck",
+      "freight": "Sheet sheets",
+      "weight": "47,999 lb",
+      "miles": 503,
+      "rate": 2000,
+      "rpm": 3.98,
+      "notes": "503 miles \u00b7 tarped",
+      "tag": "Tarped"
     }
   ]
 }
