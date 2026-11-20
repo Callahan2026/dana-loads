@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 19 · 4:43 PM",
- "updated_iso": "2026-11-19T16:43:23-06:00",
+ "updated": "Thu, Nov 19 · 6:02 PM",
+ "updated_iso": "2026-11-19T18:02:59-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -61,6 +61,22 @@
    "rpm": null,
    "notes": "400 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125432",
+   "broker": "dana",
+   "date": "2026-11-20",
+   "when": "Fri 11/20",
+   "from": "Osceola, AR",
+   "to": "Sauk Village, IL",
+   "equip": "Flatbed / tarp",
+   "freight": "(1) coil",
+   "weight": "36,442 lb",
+   "miles": 487,
+   "rate": 2300,
+   "rpm": 4.72,
+   "notes": "487 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125349",
