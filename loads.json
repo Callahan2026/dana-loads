@@ -1,6 +1,6 @@
 {
- "updated": "Thu, Nov 19 · 6:02 PM",
- "updated_iso": "2026-11-19T18:02:59-06:00",
+ "updated": "Fri, Nov 20 · 8:56 AM",
+ "updated_iso": "2026-11-20T08:56:28-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -31,38 +31,6 @@
  },
  "loads": [
   {
-   "load": "125316",
-   "broker": "pam",
-   "date": "2026-11-19",
-   "when": "Thu 11/19",
-   "from": "St Croix Falls, WI",
-   "to": "Blue Springs, MO",
-   "equip": "Van 53'",
-   "freight": "Horse treats",
-   "weight": "32,000 lb",
-   "miles": 500,
-   "rate": 1600,
-   "rpm": 3.2,
-   "notes": "500 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125277",
-   "broker": "dana",
-   "date": "2026-11-20",
-   "when": "Fri 11/20",
-   "from": "Kansas City, MO",
-   "to": "Tuscola, IL",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber - 12 units",
-   "weight": "48,300 lb",
-   "miles": 400,
-   "rate": null,
-   "rpm": null,
-   "notes": "400 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125432",
    "broker": "dana",
    "date": "2026-11-20",
@@ -76,7 +44,55 @@
    "rate": 2300,
    "rpm": 4.72,
    "notes": "487 miles · tarped",
-   "tag": "Tarped"
+   "tag": "Today"
+  },
+  {
+   "load": "125434",
+   "broker": "dana",
+   "date": "2026-11-20",
+   "when": "Fri 11/20",
+   "from": "Blytheville, AR",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coil - steel",
+   "weight": "47,000 lb",
+   "miles": 451,
+   "rate": 2100,
+   "rpm": 4.66,
+   "notes": "451 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125435",
+   "broker": "dana",
+   "date": "2026-11-20",
+   "when": "Fri 11/20",
+   "from": "Blytheville, AR",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coil - steel",
+   "weight": "47,000 lb",
+   "miles": 451,
+   "rate": 2100,
+   "rpm": 4.66,
+   "notes": "451 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125436",
+   "broker": "dana",
+   "date": "2026-11-20",
+   "when": "Fri 11/20",
+   "from": "Fort Smith, AR",
+   "to": "Wright City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 389,
+   "rate": 1400,
+   "rpm": 3.6,
+   "notes": "389 miles",
+   "tag": "Today"
   },
   {
    "load": "125349",
@@ -105,10 +121,26 @@
    "freight": "Bagged salt",
    "weight": "Call for weight",
    "miles": 290,
-   "rate": null,
-   "rpm": null,
+   "rate": 950,
+   "rpm": 3.28,
    "notes": "290 miles",
    "tag": "Flatbed"
+  },
+  {
+   "load": "125433",
+   "broker": "dana",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Blytheville, AR",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Coil - steel",
+   "weight": "47,000 lb",
+   "miles": 451,
+   "rate": 2100,
+   "rpm": 4.66,
+   "notes": "451 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125407",
