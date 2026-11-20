@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 20 · 8:56 AM",
- "updated_iso": "2026-11-20T08:56:28-06:00",
+ "updated": "Fri, Nov 20 · 9:43 AM",
+ "updated_iso": "2026-11-20T09:43:31-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,22 +30,6 @@
   }
  },
  "loads": [
-  {
-   "load": "125432",
-   "broker": "dana",
-   "date": "2026-11-20",
-   "when": "Fri 11/20",
-   "from": "Osceola, AR",
-   "to": "Sauk Village, IL",
-   "equip": "Flatbed / tarp",
-   "freight": "(1) coil",
-   "weight": "36,442 lb",
-   "miles": 487,
-   "rate": 2300,
-   "rpm": 4.72,
-   "notes": "487 miles · tarped",
-   "tag": "Today"
-  },
   {
    "load": "125434",
    "broker": "dana",
@@ -79,38 +63,6 @@
    "tag": "Today"
   },
   {
-   "load": "125436",
-   "broker": "dana",
-   "date": "2026-11-20",
-   "when": "Fri 11/20",
-   "from": "Fort Smith, AR",
-   "to": "Wright City, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Lumber",
-   "weight": "Call for weight",
-   "miles": 389,
-   "rate": 1400,
-   "rpm": 3.6,
-   "notes": "389 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125349",
-   "broker": "dana",
-   "date": "2026-11-23",
-   "when": "Mon 11/23",
-   "from": "Blytheville, AR",
-   "to": "Houston, TX",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "45,000 lb",
-   "miles": 590,
-   "rate": 2500,
-   "rpm": 4.24,
-   "notes": "590 miles · tarped",
-   "tag": "Tarped"
-  },
-  {
    "load": "125376",
    "broker": "dana",
    "date": "2026-11-23",
@@ -127,6 +79,22 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125432",
+   "broker": "dana",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Osceola, AR",
+   "to": "Sauk Village, IL",
+   "equip": "Flatbed / tarp",
+   "freight": "(1) coil",
+   "weight": "36,442 lb",
+   "miles": 487,
+   "rate": 2300,
+   "rpm": 4.72,
+   "notes": "487 miles · tarped",
+   "tag": "Tarped"
+  },
+  {
    "load": "125433",
    "broker": "dana",
    "date": "2026-11-23",
@@ -141,6 +109,22 @@
    "rpm": 4.66,
    "notes": "451 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125438",
+   "broker": "dana",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "West Des Moines, IA",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks",
+   "weight": "42,435 lb",
+   "miles": 187,
+   "rate": 700,
+   "rpm": 3.74,
+   "notes": "187 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125407",
