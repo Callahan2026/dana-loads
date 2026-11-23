@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 23 · 11:43 AM",
- "updated_iso": "2026-11-23T11:43:00-06:00",
+ "updated": "Mon, Nov 23 · 12:43 PM",
+ "updated_iso": "2026-11-23T12:43:42-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -47,22 +47,6 @@
    "tag": "Today"
   },
   {
-   "load": "125433",
-   "broker": "dana",
-   "date": "2026-11-23",
-   "when": "Mon 11/23",
-   "from": "Osceola, AR",
-   "to": "Middletown, OH",
-   "equip": "Flatbed / stepdeck",
-   "freight": "(1) coil",
-   "weight": "42,510 lb",
-   "miles": 516,
-   "rate": 2300,
-   "rpm": 4.46,
-   "notes": "516 miles · tarped",
-   "tag": "Today"
-  },
-  {
    "load": "125459",
    "broker": "dana",
    "date": "2026-11-23",
@@ -95,19 +79,19 @@
    "tag": "Today"
   },
   {
-   "load": "125475",
+   "load": "125477",
    "broker": "dana",
    "date": "2026-11-23",
    "when": "Mon 11/23",
    "from": "Osceola, AR",
-   "to": "Valley, NE",
+   "to": "Athens, TN",
    "equip": "Flatbed / stepdeck",
    "freight": "(1) coil",
-   "weight": "35,500 lb",
-   "miles": 686,
-   "rate": 3100,
-   "rpm": 4.52,
-   "notes": "686 miles",
+   "weight": "44,282 lb",
+   "miles": 434,
+   "rate": 1900,
+   "rpm": 4.38,
+   "notes": "434 miles · tarped",
    "tag": "Today"
   },
   {
@@ -140,22 +124,6 @@
    "rate": 475,
    "rpm": 6.88,
    "notes": "69 miles",
-   "tag": "Today"
-  },
-  {
-   "load": "125480",
-   "broker": "dana",
-   "date": "2026-11-23",
-   "when": "Mon 11/23",
-   "from": "Blytheville, AR",
-   "to": "Kansas City, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "(1) coil",
-   "weight": "47,000 lb",
-   "miles": 430,
-   "rate": 2100,
-   "rpm": 4.88,
-   "notes": "430 miles · tarped",
    "tag": "Today"
   },
   {
@@ -239,22 +207,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125484",
-   "broker": "dana",
-   "date": "2026-11-24",
-   "when": "Tue 11/24",
-   "from": "Kansas City, KS",
-   "to": "Hollister, MO",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 214,
-   "rate": 800,
-   "rpm": 3.74,
-   "notes": "214 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125485",
    "broker": "dana",
    "date": "2026-11-24",
@@ -269,22 +221,6 @@
    "rpm": 3.86,
    "notes": "233 miles",
    "tag": "Flatbed"
-  },
-  {
-   "load": "125486",
-   "broker": "dana",
-   "date": "2026-11-24",
-   "when": "Tue 11/24",
-   "from": "Kansas City, KS",
-   "to": "Lawrence, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Railroad ties",
-   "weight": "Call for weight",
-   "miles": 37,
-   "rate": 500,
-   "rpm": 13.51,
-   "notes": "37 miles · same-day delivery",
-   "tag": "Local"
   },
   {
    "load": "125487",
@@ -303,19 +239,19 @@
    "tag": "Local"
   },
   {
-   "load": "125332",
-   "broker": "cait",
-   "date": "2026-11-30",
-   "when": "Mon 11/30",
-   "from": "Nocona, TX",
-   "to": "Honey Grove, TX",
-   "equip": "Flatbed 48'",
-   "freight": "Bundled rod",
-   "weight": "46,000 lb",
-   "miles": 115,
-   "rate": 575,
-   "rpm": 5.0,
-   "notes": "115 miles",
+   "load": "125489",
+   "broker": "dana",
+   "date": "2026-11-24",
+   "when": "Tue 11/24",
+   "from": "Lee's Summit, MO",
+   "to": "N Bentonville, AR",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Cement/mortar mix",
+   "weight": "42,851 lb",
+   "miles": 202,
+   "rate": 700,
+   "rpm": 3.47,
+   "notes": "202 miles",
    "tag": "Flatbed"
   },
   {
@@ -349,6 +285,22 @@
    "rpm": 3.98,
    "notes": "503 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125332",
+   "broker": "cait",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "Nocona, TX",
+   "to": "Honey Grove, TX",
+   "equip": "Flatbed 48'",
+   "freight": "Bundled rod",
+   "weight": "46,000 lb",
+   "miles": 115,
+   "rate": 575,
+   "rpm": 5.0,
+   "notes": "115 miles",
+   "tag": "Flatbed"
   }
  ]
 }
