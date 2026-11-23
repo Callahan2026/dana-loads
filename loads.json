@@ -1,6 +1,6 @@
 {
- "updated": "Mon, Nov 23 · 9:43 AM",
- "updated_iso": "2026-11-23T09:43:47-06:00",
+ "updated": "Mon, Nov 23 · 10:43 AM",
+ "updated_iso": "2026-11-23T10:43:59-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -44,6 +44,22 @@
    "rate": 950,
    "rpm": 3.28,
    "notes": "290 miles",
+   "tag": "Today"
+  },
+  {
+   "load": "125433",
+   "broker": "dana",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Osceola, AR",
+   "to": "Middletown, OH",
+   "equip": "Flatbed / stepdeck",
+   "freight": "(1) coil",
+   "weight": "42,510 lb",
+   "miles": 516,
+   "rate": 2300,
+   "rpm": 4.46,
+   "notes": "516 miles · tarped",
    "tag": "Today"
   },
   {
@@ -95,20 +111,36 @@
    "tag": "Today"
   },
   {
-   "load": "125464",
+   "load": "125478",
    "broker": "dana",
-   "date": "2026-11-24",
-   "when": "Tue 11/24",
-   "from": "Chattanooga, TN",
-   "to": "Jonesboro, AR",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Osceola, AR",
+   "to": "Fort Smith, AR",
    "equip": "Flatbed / stepdeck",
-   "freight": "Steel",
-   "weight": "45,040 lb",
-   "miles": 381,
-   "rate": 1300,
-   "rpm": 3.41,
-   "notes": "381 miles · tarped",
-   "tag": "Tarped"
+   "freight": "(2) coils",
+   "weight": "44,798 lb",
+   "miles": 324,
+   "rate": 1400,
+   "rpm": 4.32,
+   "notes": "324 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125479",
+   "broker": "dana",
+   "date": "2026-11-23",
+   "when": "Mon 11/23",
+   "from": "Pleasant Hill, MO",
+   "to": "Lawrence, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 69,
+   "rate": 475,
+   "rpm": 6.88,
+   "notes": "69 miles",
+   "tag": "Today"
   },
   {
    "load": "125468",
@@ -125,22 +157,6 @@
    "rpm": null,
    "notes": "236 miles",
    "tag": "Flatbed"
-  },
-  {
-   "load": "125470",
-   "broker": "dana",
-   "date": "2026-11-24",
-   "when": "Tue 11/24",
-   "from": "Osceola, AR",
-   "to": "Jackson, MS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "(1) coil",
-   "weight": "43,469 lb",
-   "miles": 271,
-   "rate": 1100,
-   "rpm": 4.06,
-   "notes": "271 miles · tarped",
-   "tag": "Tarped"
   },
   {
    "load": "125471",
