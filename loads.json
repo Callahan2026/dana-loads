@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 24 \u00b7 2:43 PM",
- "updated_iso": "2026-11-24T14:43:38-06:00",
+ "updated": "Tue, Nov 24 \u00b7 3:43 PM",
+ "updated_iso": "2026-11-24T15:43:49-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -45,38 +45,6 @@
    "rpm": 4.32,
    "notes": "324 miles \u00b7 tarped",
    "tag": "Today"
-  },
-  {
-   "load": "125533",
-   "broker": "dana",
-   "date": "2026-11-25",
-   "when": "Wed 11/25",
-   "from": "North Bend, NE",
-   "to": "Grimes, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Salt",
-   "weight": "Call for weight",
-   "miles": 176,
-   "rate": 800,
-   "rpm": 4.55,
-   "notes": "176 miles",
-   "tag": "Flatbed"
-  },
-  {
-   "load": "125534",
-   "broker": "dana",
-   "date": "2026-11-25",
-   "when": "Wed 11/25",
-   "from": "North Bend, NE",
-   "to": "Grimes, IA",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Salt",
-   "weight": "Call for weight",
-   "miles": 176,
-   "rate": 800,
-   "rpm": 4.55,
-   "notes": "176 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125451",
@@ -207,22 +175,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125518",
-   "broker": "dana",
-   "date": "2026-11-30",
-   "when": "Mon 11/30",
-   "from": "Osceola, AR",
-   "to": "Houston, TX",
-   "equip": "Flatbed / stepdeck",
-   "freight": "(1) coil",
-   "weight": "45,395 lb",
-   "miles": 611,
-   "rate": 2600,
-   "rpm": 4.26,
-   "notes": "611 miles \u00b7 tarped",
-   "tag": "Tarped"
-  },
-  {
    "load": "125527",
    "broker": "dana",
    "date": "2026-11-30",
@@ -281,8 +233,8 @@
    "freight": "Sheets",
    "weight": "44,000 lb",
    "miles": 945,
-   "rate": 3900,
-   "rpm": 4.13,
+   "rate": 4000,
+   "rpm": 4.23,
    "notes": "945 miles \u00b7 tarped",
    "tag": "Tarped"
   },
