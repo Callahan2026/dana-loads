@@ -1,6 +1,6 @@
 {
- "updated": "Tue, Nov 24 \u00b7 1:43 PM",
- "updated_iso": "2026-11-24T13:43:10-06:00",
+ "updated": "Tue, Nov 24 \u00b7 2:43 PM",
+ "updated_iso": "2026-11-24T14:43:38-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -45,6 +45,38 @@
    "rpm": 4.32,
    "notes": "324 miles \u00b7 tarped",
    "tag": "Today"
+  },
+  {
+   "load": "125533",
+   "broker": "dana",
+   "date": "2026-11-25",
+   "when": "Wed 11/25",
+   "from": "North Bend, NE",
+   "to": "Grimes, IA",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Salt",
+   "weight": "Call for weight",
+   "miles": 176,
+   "rate": 800,
+   "rpm": 4.55,
+   "notes": "176 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125534",
+   "broker": "dana",
+   "date": "2026-11-25",
+   "when": "Wed 11/25",
+   "from": "North Bend, NE",
+   "to": "Grimes, IA",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Salt",
+   "weight": "Call for weight",
+   "miles": 176,
+   "rate": 800,
+   "rpm": 4.55,
+   "notes": "176 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125451",
@@ -223,19 +255,19 @@
    "tag": "Tarped"
   },
   {
-   "load": "125517",
-   "broker": "cait",
-   "date": "2026-12-01",
-   "when": "Tue 12/1",
-   "from": "St Louis, MO",
-   "to": "Eustis, FL",
-   "equip": "Hot shot",
-   "freight": "Palletized stone",
-   "weight": "18,447 lb",
-   "miles": 974,
-   "rate": 2650,
-   "rpm": 2.72,
-   "notes": "974 miles",
+   "load": "125535",
+   "broker": "dana",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "North Bend, NE",
+   "to": "Pleasant Hill, IA",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bagged salt",
+   "weight": "46,000 lb",
+   "miles": 182,
+   "rate": 800,
+   "rpm": 4.4,
+   "notes": "182 miles",
    "tag": "Flatbed"
   },
   {
@@ -253,6 +285,22 @@
    "rpm": 4.13,
    "notes": "945 miles \u00b7 tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125517",
+   "broker": "cait",
+   "date": "2026-12-01",
+   "when": "Tue 12/1",
+   "from": "St Louis, MO",
+   "to": "Eustis, FL",
+   "equip": "Hot shot",
+   "freight": "Palletized stone",
+   "weight": "18,447 lb",
+   "miles": 974,
+   "rate": 2650,
+   "rpm": 2.72,
+   "notes": "974 miles",
+   "tag": "Flatbed"
   }
  ]
 }
