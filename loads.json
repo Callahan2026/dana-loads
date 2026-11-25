@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 25 \u00b7 8:44 AM",
- "updated_iso": "2026-11-25T08:44:13-06:00",
+ "updated": "Wed, Nov 25 \u00b7 9:43 AM",
+ "updated_iso": "2026-11-25T09:43:23-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -30,22 +30,6 @@
   }
  },
  "loads": [
-  {
-   "load": "125466",
-   "broker": "dana",
-   "date": "2026-11-25",
-   "when": "Wed 11/25",
-   "from": "Blytheville, AR",
-   "to": "Topeka, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "45,000 lb",
-   "miles": 516,
-   "rate": 2200,
-   "rpm": 4.26,
-   "notes": "516 miles \u00b7 tarped",
-   "tag": "Today"
-  },
   {
    "load": "125478",
    "broker": "dana",
@@ -92,6 +76,22 @@
    "rate": 2000,
    "rpm": 3.98,
    "notes": "503 miles \u00b7 tarped",
+   "tag": "Tarped"
+  },
+  {
+   "load": "125466",
+   "broker": "dana",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "Blytheville, AR",
+   "to": "Topeka, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Sheets",
+   "weight": "45,000 lb",
+   "miles": 516,
+   "rate": 2200,
+   "rpm": 4.26,
+   "notes": "516 miles \u00b7 tarped",
    "tag": "Tarped"
   },
   {
@@ -223,6 +223,38 @@
    "tag": "Tarped"
   },
   {
+   "load": "125549",
+   "broker": "dana",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "Lee's Summit, MO",
+   "to": "Bentonville, AR",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Cement/mortar mix",
+   "weight": "44,693 lb",
+   "miles": 202,
+   "rate": 700,
+   "rpm": 3.47,
+   "notes": "202 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125550",
+   "broker": "dana",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "Lee's Summit, MO",
+   "to": "Mountain Home, AR",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Cement/mortar mix",
+   "weight": "36,993 lb",
+   "miles": 272,
+   "rate": 750,
+   "rpm": 2.76,
+   "notes": "272 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125519",
    "broker": "dana",
    "date": "2026-12-01",
@@ -268,6 +300,22 @@
    "rate": 800,
    "rpm": 6.11,
    "notes": "131 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125546",
+   "broker": "dana",
+   "date": "2026-12-07",
+   "when": "Mon 12/7",
+   "from": "Shawnee, KS",
+   "to": "Lake St Louis, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Bricks/ blocks",
+   "weight": "45,598 lb",
+   "miles": 264,
+   "rate": 800,
+   "rpm": 3.03,
+   "notes": "264 miles",
    "tag": "Flatbed"
   }
  ]
