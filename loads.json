@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 25 \u00b7 9:43 AM",
- "updated_iso": "2026-11-25T09:43:23-06:00",
+ "updated": "Wed, Nov 25 · 10:44 AM",
+ "updated_iso": "2026-11-25T10:44:05-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -43,8 +43,40 @@
    "miles": 324,
    "rate": 1400,
    "rpm": 4.32,
-   "notes": "324 miles \u00b7 tarped",
+   "notes": "324 miles · tarped",
    "tag": "Today"
+  },
+  {
+   "load": "125560",
+   "broker": "dana",
+   "date": "2026-11-25",
+   "when": "Wed 11/25",
+   "from": "Osceola, AR",
+   "to": "Middletown, OH",
+   "equip": "Flatbed / stepdeck",
+   "freight": "(1) coil",
+   "weight": "36,118 lb",
+   "miles": 516,
+   "rate": 2500,
+   "rpm": 4.84,
+   "notes": "516 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125559",
+   "broker": "dana",
+   "date": "2026-11-29",
+   "when": "Sun 11/29",
+   "from": "Osceola, AR",
+   "to": "Middletown, OH",
+   "equip": "Flatbed / stepdeck",
+   "freight": "(1) coil",
+   "weight": "42,219 lb",
+   "miles": 516,
+   "rate": 2500,
+   "rpm": 4.84,
+   "notes": "516 miles · tarped",
+   "tag": "Tarped"
   },
   {
    "load": "125451",
@@ -59,7 +91,7 @@
    "miles": 528,
    "rate": 2000,
    "rpm": 3.79,
-   "notes": "528 miles \u00b7 tarped",
+   "notes": "528 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -75,23 +107,7 @@
    "miles": 503,
    "rate": 2000,
    "rpm": 3.98,
-   "notes": "503 miles \u00b7 tarped",
-   "tag": "Tarped"
-  },
-  {
-   "load": "125466",
-   "broker": "dana",
-   "date": "2026-11-30",
-   "when": "Mon 11/30",
-   "from": "Blytheville, AR",
-   "to": "Topeka, KS",
-   "equip": "Flatbed / stepdeck",
-   "freight": "Sheets",
-   "weight": "45,000 lb",
-   "miles": 516,
-   "rate": 2200,
-   "rpm": 4.26,
-   "notes": "516 miles \u00b7 tarped",
+   "notes": "503 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -155,7 +171,7 @@
    "miles": 709,
    "rate": 2800,
    "rpm": 3.95,
-   "notes": "709 miles \u00b7 tarped",
+   "notes": "709 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -191,22 +207,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125527",
-   "broker": "dana",
-   "date": "2026-11-30",
-   "when": "Mon 11/30",
-   "from": "Osceola, AR",
-   "to": "Parsons, KS",
-   "equip": "Flatbed",
-   "freight": "Steel sheets",
-   "weight": "45,000 lb",
-   "miles": 403,
-   "rate": 1900,
-   "rpm": 4.71,
-   "notes": "403 miles \u00b7 tarped",
-   "tag": "Tarped"
-  },
-  {
    "load": "125532",
    "broker": "dana",
    "date": "2026-11-30",
@@ -219,7 +219,7 @@
    "miles": 494,
    "rate": 1200,
    "rpm": 2.43,
-   "notes": "494 miles \u00b7 tarped",
+   "notes": "494 miles · tarped",
    "tag": "Tarped"
   },
   {
@@ -239,19 +239,67 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125550",
+   "load": "125551",
    "broker": "dana",
    "date": "2026-11-30",
    "when": "Mon 11/30",
-   "from": "Lee's Summit, MO",
-   "to": "Mountain Home, AR",
+   "from": "Harrisonville, MO",
+   "to": "Kansas City, KS",
    "equip": "Flatbed / stepdeck",
-   "freight": "Cement/mortar mix",
-   "weight": "36,993 lb",
-   "miles": 272,
-   "rate": 750,
-   "rpm": 2.76,
-   "notes": "272 miles",
+   "freight": "Cement mortar mix",
+   "weight": "Call for weight",
+   "miles": 48,
+   "rate": 375,
+   "rpm": 7.81,
+   "notes": "48 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
+   "load": "125552",
+   "broker": "dana",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "Harrisonville, MO",
+   "to": "Kansas City, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Cement mortar mix",
+   "weight": "Call for weight",
+   "miles": 44,
+   "rate": 375,
+   "rpm": 8.52,
+   "notes": "44 miles · same-day delivery",
+   "tag": "Local"
+  },
+  {
+   "load": "125553",
+   "broker": "dana",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "Harrisonville, MO",
+   "to": "Monett, MO",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Cement mortar mix",
+   "weight": "Call for weight",
+   "miles": 149,
+   "rate": 600,
+   "rpm": 4.03,
+   "notes": "149 miles",
+   "tag": "Flatbed"
+  },
+  {
+   "load": "125556",
+   "broker": "dana",
+   "date": "2026-11-30",
+   "when": "Mon 11/30",
+   "from": "Osceola, AR",
+   "to": "Portage, IN",
+   "equip": "Flatbed / stepdeck",
+   "freight": "1 coil",
+   "weight": "47,410 lb",
+   "miles": 492,
+   "rate": 2100,
+   "rpm": 4.27,
+   "notes": "492 miles",
    "tag": "Flatbed"
   },
   {
@@ -267,8 +315,24 @@
    "miles": 945,
    "rate": 4000,
    "rpm": 4.23,
-   "notes": "945 miles \u00b7 tarped",
+   "notes": "945 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125550",
+   "broker": "dana",
+   "date": "2026-12-01",
+   "when": "Tue 12/1",
+   "from": "Lee's Summit, MO",
+   "to": "Mountain Home, AR",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Cement/mortar mix",
+   "weight": "36,993 lb",
+   "miles": 272,
+   "rate": 750,
+   "rpm": 2.76,
+   "notes": "272 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125517",
