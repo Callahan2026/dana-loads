@@ -1,6 +1,6 @@
 {
- "updated": "Fri, Nov 27 · 2:43 PM",
- "updated_iso": "2026-11-27T14:43:31-06:00",
+ "updated": "Fri, Nov 27 · 3:42 PM",
+ "updated_iso": "2026-11-27T15:42:56-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -191,22 +191,6 @@
    "tag": "Flatbed"
   },
   {
-   "load": "125517",
-   "broker": "cait",
-   "date": "2026-12-01",
-   "when": "Tue 12/1",
-   "from": "St Louis, MO",
-   "to": "Eustis, FL",
-   "equip": "Hot shot",
-   "freight": "Palletized stone",
-   "weight": "18,447 lb",
-   "miles": 974,
-   "rate": 2650,
-   "rpm": 2.72,
-   "notes": "974 miles",
-   "tag": "Flatbed"
-  },
-  {
    "load": "125519",
    "broker": "dana",
    "date": "2026-12-01",
@@ -253,6 +237,22 @@
    "rpm": 2.64,
    "notes": "794 miles · tarped",
    "tag": "Tarped"
+  },
+  {
+   "load": "125517",
+   "broker": "cait",
+   "date": "2026-12-01",
+   "when": "Tue 12/1",
+   "from": "St Louis, MO",
+   "to": "Eustis, FL",
+   "equip": "Hot shot",
+   "freight": "Palletized stone",
+   "weight": "18,447 lb",
+   "miles": 974,
+   "rate": 2650,
+   "rpm": 2.72,
+   "notes": "974 miles",
+   "tag": "Flatbed"
   },
   {
    "load": "125542",
