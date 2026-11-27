@@ -1,6 +1,6 @@
 {
- "updated": "Wed, Nov 25 · 5:43 PM",
- "updated_iso": "2026-11-25T17:43:00-06:00",
+ "updated": "Fri, Nov 27 · 9:44 AM",
+ "updated_iso": "2026-11-27T09:44:43-06:00",
  "brokers": {
   "dana": {
    "name": "Dana Mazor",
@@ -33,8 +33,8 @@
   {
    "load": "125478",
    "broker": "dana",
-   "date": "2026-11-25",
-   "when": "Wed 11/25",
+   "date": "2026-11-27",
+   "when": "Fri 11/27",
    "from": "Osceola, AR",
    "to": "Fort Smith, AR",
    "equip": "Flatbed / stepdeck",
@@ -44,6 +44,22 @@
    "rate": 1400,
    "rpm": 4.32,
    "notes": "324 miles · tarped",
+   "tag": "Today"
+  },
+  {
+   "load": "125573",
+   "broker": "dana",
+   "date": "2026-11-27",
+   "when": "Fri 11/27",
+   "from": "Pleasant Hill, MO",
+   "to": "Derby, KS",
+   "equip": "Flatbed / stepdeck",
+   "freight": "Lumber",
+   "weight": "Call for weight",
+   "miles": 210,
+   "rate": 900,
+   "rpm": 4.29,
+   "notes": "210 miles",
    "tag": "Today"
   },
   {
@@ -175,6 +191,22 @@
    "tag": "Flatbed"
   },
   {
+   "load": "125517",
+   "broker": "cait",
+   "date": "2026-12-01",
+   "when": "Tue 12/1",
+   "from": "St Louis, MO",
+   "to": "Eustis, FL",
+   "equip": "Hot shot",
+   "freight": "Palletized stone",
+   "weight": "18,447 lb",
+   "miles": 974,
+   "rate": 2650,
+   "rpm": 2.72,
+   "notes": "974 miles",
+   "tag": "Flatbed"
+  },
+  {
    "load": "125519",
    "broker": "dana",
    "date": "2026-12-01",
@@ -221,22 +253,6 @@
    "rpm": 2.64,
    "notes": "794 miles · tarped",
    "tag": "Tarped"
-  },
-  {
-   "load": "125517",
-   "broker": "cait",
-   "date": "2026-12-01",
-   "when": "Tue 12/1",
-   "from": "St Louis, MO",
-   "to": "Eustis, FL",
-   "equip": "Hot shot",
-   "freight": "Palletized stone",
-   "weight": "18,447 lb",
-   "miles": 974,
-   "rate": 2650,
-   "rpm": 2.72,
-   "notes": "974 miles",
-   "tag": "Flatbed"
   },
   {
    "load": "125542",
